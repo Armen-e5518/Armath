@@ -1,0 +1,50 @@
+{
+    "type": "gallery_items",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+              "hy-am": "xxx"
+    },
+    "items": [
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+                },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ],
+            "videos": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+        },
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+                },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ],
+            "videos": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+            }
+        }
+    ],
+    "gallery_page": {"uuid": "340f0e68-188c-457a-a5f9-daab80100fe4"}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "nairi_resources",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "nairi_robotics_methodology": {"uuid": "xxx"},
+    "nairi_software_packages": {"uuid": "xxx"},
+    "nairi_library": {"uuid": "xxx"},
+    "nairi_educational_videos": {"uuid": "xxx"},
+    "nairi_3D_modeling": {"uuid": "xxx"},
+    "nairi_usefull_sites": { "uuid": "xxx"},
+    "e_learning_page": { "uuid": "3f1c3bfc-ce14-4a31-8e45-63bdb0112a45"}
+}

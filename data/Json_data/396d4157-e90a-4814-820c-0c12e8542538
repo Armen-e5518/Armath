@@ -1,0 +1,187 @@
+{
+    "type": "camp",
+    "timestamp": "xxx",
+    "title": {"en-us":"Armath Technological camp",
+              "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ],
+        "logos": [
+            {"uuid": "3b74635d-0e50-477a-bb63-c73d13f93c49"}
+        ]
+    },
+    "date": {
+        "start": "xxx",
+        "end": "xxx"
+    },
+    "sponsorship_package_url": "xxx",
+    "participation_package_url": "xxx",
+    "camp_agenda": {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "agenda": [
+            {"id": 1,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 2,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 3,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 4,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 5,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 6,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            },
+            {"id": 7,
+             "items": [
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 },
+                 {"start": "xxx",
+                  "end": "xxx",
+                  "text": {"en-us": "xxx",
+                           "hy-am": "xxx"}
+                 }
+             ]
+            }
+        ]
+    },
+    "gallery": {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs" : [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+    },
+    "all_events": {
+        "uuid": "b79f78fb-f8af-4dee-b4d0-59b6dc9951bb"
+    }
+}

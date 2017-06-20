@@ -1,0 +1,39 @@
+{
+    "type": "contest",
+    "timestamp": "xxx",
+    "title": {"en-us": "ArmRobotics/Objects finding and sorting robots contest",
+              "hy-am": "Առմռոբոտիքս/Իրեր գտնող և տեղափոխող ռոբոտների մրցույթ"
+    },
+    "text": {"en-us": "<p>Union of Information Technologies Enterprises announced the \"Objects finding and sorting robots\" contest 2017 in the frames of the robotics development and support \"ArmRobotics\" project. The aim of the contest is the development and the realization of the robotics sphere in Armenia and raise the interest to the robotics.<br>For participation in the \"Object-finding and transporting robots\" contest up to 19 years old young people can apply. The participants must find the objects in the field, get them and move to the storage of the team. 2-3 teams will compete together.<br>Teams, which get the maximum number of the points will present in the next stages, and there will be final stage, during which the winner will be announced the.</p>",
+             "hy-am": "<p>Ինֆորմացիոն տեխնոլոգիաների ձեռնարկությունների միությունը (ԻՏՁՄ) &laquo;ԱրմՌոբոտիքս&raquo; ռոբոտաշինության զարգացման ծրագրի շրջանակում 2017 թվականին հայտարարել է &laquo;Իրեր գտնող և տեղափոխող ռոբոտների&raquo; մրցույթի գրանցումը, որի իրականացումը նպատակ ունի Հայաստանում զարգացնել ռոբոտաշինության ոլորտն ու կիրառությունը, բացահայտել լավագույն մասնագետներին և բարձրացնել ռոբոտաշինության նկատմամբ հետաքրքրությունը:<br>&laquo;Իրեր գտնող և տեղափոխող ռոբոտների&raquo; մրցույթին կարող են դիմել մինչև 19 տարեկան  մասնակիցները:<br>Մրցութային դաշտում պետք է գտնել իրեր, վերցնել դրանք և տեղափոխել տվյալ ռոբոտին հատկացված պահեստային տարածք: Մրցութային ժամանակահատվածում դաշտում միաժամանակ մրցելու են 2-3 թիմերի ռոբոտներ:<br>Սահմանված ժամանակահատվածում  առավելագույն միավորներ հավաքած թիմերը դուրս կգան հաջորդ փուլ, և վերջում տեղի կունենա եզրափակիչ փուլը, որի ժամանակ հաղթող կճանաչվի առավել շատ միավորներ հավաքած թիմը: </p>"
+    },
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "jury": [
+        {"uuid": "66789bc8-3d19-494b-8835-7ac43215c911"},
+        {"uuid": "7f3ff581-18fb-41c9-b388-0446aa525c02"},
+        {"uuid": "87675599-2065-4b7f-8063-d080621dff2a"},
+        {"uuid": "458a3547-ee0c-49ce-9512-2d335004aece"},
+        {"uuid": "ac36f3af-7ffd-475c-bc02-3b322dc4ae25"},
+        {"uuid": "121bf87f-3698-431c-a45d-b4fd6dbe3577"},
+        {"uuid": "420280b7-42ea-4a6e-a3a5-5c7fcc84ebef"},
+        {"uuid": "a3722982-4d2a-4b40-b45a-38736c32177a"},
+        {"uuid": "f9525c08-7992-4ebb-8c8a-7283130b5744"},
+        {"uuid": "efa95803-3258-425e-a1b9-5f9e84753357"}
+    ],
+    "sponsorship_package": {"url": "xxx"},
+    "rules":{"url": "xxx"},
+    "history": [
+        {"uuid": "5ada11f7-2ab6-4987-bdda-527ddc568816"},
+        {"uuid": "xxx"},
+        {"uuid": "xxx"}
+    ],
+    "event": {
+        "uuid": "131797ed-65ac-4414-b662-f43457cfe0a9"
+    }
+}

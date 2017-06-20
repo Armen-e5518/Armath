@@ -1,0 +1,16 @@
+{
+    "type": "jury",
+    "timestamp": "xxx",
+    "name" : {"en-us": "Arman Atoyan",
+              "hy-am": "Արման Աթոյան"},
+    "company_name": {"en-us": "X-TECH",
+                     "hy-am": "X-TECH"},
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"}
+        ]
+    },
+    "contests" : [
+        {"uuid": "f1511ba0-9222-41c8-a99e-0a1405423000"}
+    ]
+}

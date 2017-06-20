@@ -1,0 +1,12 @@
+{ 
+    "type": "latest_news",
+    "timestamp": "xxx",
+    "title": {"en-us": "xxx",
+              "hy-am": "xxx"
+    },
+    "news_items": [
+        {"uuid":"93ecd4d0-daf3-4430-a520-db623a2826c8"},
+        {"uuid":"a14ff309-ccdc-4a42-a303-4144dedf896b"}
+    ],
+    "home_page_content": {"uuid":"c120e3b5-a8d0-4770-842d-13cfad2a960d"}
+}

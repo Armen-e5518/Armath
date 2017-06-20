@@ -1,0 +1,39 @@
+{
+    "type": "contest",
+    "timestamp": "xxx",
+    "title": {"en-us": "ArmRobotics/Minesweepers robots contest",
+              "hy-am": "Առմռոբոտիքս/Ական փնտրող ռոբոտների մրցույթ"
+    },
+    "text": {"en-us": "<p>This contest is traditionally organized in the frames of the Armenian Robotics Development and Support Program/ArmRobotics/. It aims to encourage public interest in robotics, to develop the robotics sector of Armenia and to encourage the production of  the military equipment and use them for the national security. The rules require that the robot, avoiding obstacles, must find mines hidden under grass up to 3cm deep, physically mark their location and send an electronic map. This contest has the military importance and we would like to generate interest on robotics among Armenian youth. This is vital, because solving practical problems, they can replenish Armenia's military-industrial sector.</p>",
+             "hy-am": "<p>Մրցույթն ավանդաբար անցկացվում է &laquo;ԱրմՌոբոտիքս&raquo; ռոբոտաշինության զարգացման ծրագրի շրջանակներում: Այն նպատակ ունի խրախուսել և հանրայնացնել ռոբոտաշինության նկատմամբ հետաքրքրությունը, զարգացնել ռոբոտաշինության ոլորտը Հայաստանում և նպաստել ազգային անվտանգություն ապահովող ռազմական կիրառության սարքերի արտադրությանը: Մրցույթի կանոնները պահանջում են, որպեսզի ռոբոտները, խոչընդոտները շրջանցելով, գտնեն մինչև 3սմ խորության վրա արհեստական խոտածածկի տակ պահված ականները, ֆիզիկապես նշեն դրանց գտնվելու վայրը և ականների դասավորվածությամբ էլեկտրոնային քարտեզը ուղարկեն համակարգչին: Ռազմական կիրառության նշանակություն ունեցող այս մրցույթների օգնությամբ մենք ցանկանում ենք հայ երիտասարդների շրջանում ռոբոտաշինության նկատմամբ հետաքրքրություն առաջացնել: Սա առավել արդիական է, քանի որ պրակտիկ խնդիրներ լուծելով՝ նրանք կարող են համալրել նաև Հայաստանի ռազմաարդյունաբերության ոլորտը:</p>"
+    },
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "jury": [
+        {"uuid": "66789bc8-3d19-494b-8835-7ac43215c911"},
+        {"uuid": "7f3ff581-18fb-41c9-b388-0446aa525c02"},
+        {"uuid": "87675599-2065-4b7f-8063-d080621dff2a"},
+        {"uuid": "458a3547-ee0c-49ce-9512-2d335004aece"},
+        {"uuid": "ac36f3af-7ffd-475c-bc02-3b322dc4ae25"},
+        {"uuid": "121bf87f-3698-431c-a45d-b4fd6dbe3577"},
+        {"uuid": "420280b7-42ea-4a6e-a3a5-5c7fcc84ebef"},
+        {"uuid": "a3722982-4d2a-4b40-b45a-38736c32177a"},
+        {"uuid": "f9525c08-7992-4ebb-8c8a-7283130b5744"},
+        {"uuid": "efa95803-3258-425e-a1b9-5f9e84753357"}
+    ],
+    "sponsorship_package": {"url": "xxx"},
+    "rules":{"url": "xxx"},
+    "history": [
+        {"uuid": "a46ca097-042e-4e69-a895-a90f638d354d"},
+        {"uuid": "efa95803-3258-425e-a1b9-5f9e84753357"},
+        {"uuid": "71c4a09e-f9a8-4046-9983-d5d4b8699db8"}
+    ],
+    "event": {
+        "uuid": "131797ed-65ac-4414-b662-f43457cfe0a9"
+    }
+}

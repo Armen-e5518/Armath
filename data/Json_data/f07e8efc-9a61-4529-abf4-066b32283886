@@ -1,0 +1,26 @@
+{
+    "type": "sponsor",
+    "timestamp": "xxx",
+    "name": {"en-us": "UCOM LLC",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us": "xxx",
+             "hy-am": "2009թ.-ին հայկական հեռահաղորդակցության շուկա մուտք գործելուց ի վեր Ucom ընկերությունը հայ սպառողին տրամադրում է նորագույն տեխնոլոգիաներով համակցված բարձրորակ ծառայություններ"
+    },
+    "official_site_url": "http://www.ucom.am",
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ],
+        "imgs": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "labs": [
+        {"uuid": "6ac46a1c-82fd-465a-b6e9-a8d0273965ee"}
+    ]
+}

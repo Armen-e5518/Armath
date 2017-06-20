@@ -1,0 +1,28 @@
+{ 
+    "type": "footer",
+    "timestamp": "xxx",
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+    ]
+    },
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"},
+    "contact_address": {"uuid": "7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b"},
+    "social_media": {"uuid": "c9d5cce6-0184-4865-bfba-eca09534ded7"},
+    "copyright": {
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"}
+            ]
+        },
+        "date": "2017",
+        "text": {"en-us": "Armath. All Rights Reserved.",
+                 "hy-am": "xxx"
+        },
+        "implementer": {"en-us": "Website implemented by InstigateMobile CJSC and eWorks.",
+                        "hy-am": "xxx"
+        }
+    },
+    "web_site_skeleton": {"uuid": "42ab276a-ece7-4fde-8add-c6994b448b09"}
+}

@@ -1,0 +1,59 @@
+{
+    "type": "contest_history",
+    "timestamp": "xxx",
+    "title": {"en-us":"Minesweepers robots contest/2011",
+              "hy-am": "Ական փնտրող ռոբոտների մրցույթ/2011"
+    },
+    "text": {"en-us":"<p>On 17th of December, 2011 the final stage of the minesweepers robots contest was organized. 5 teams participated in the final stage of the contest: \"Arnet\", \"Mim\", \"Revoteq\", \"Mimehagr\", \"Vozni\". Unfortunately, the teams could not solve the task of the contest, so jury decided to give them the merit prizes. The special prize of the Swiss ABB company was given to \"Vozni\" team, the price was 200 000 AMD.<br>The \"Mim\" team, which was formed by girls, get the prize for \"Courage\" – 100 000 AMD.<br>The rest 3 teams also get the merit awards, 100 000 AMD each team.<br>Compared to the same competition in 2010, we can say that this year, teams had used more sophisticated technical solutions.<br>The organizer of the contest was UITE, general sponsor was VivaCell MTS, the sponsor of the special prize was ABB company, technical sponsor was Artin Varujan company, supporters were Ministry of Defence, Tumo center for creative technologies, Microsoft innovation center.</p>",
+             "hy-am": "<p>2011 թվականի դեկտեմբերի 17-ին տեղի ունեցավ &laquo;Ական փնտրող ռոբոտ&raquo; մրցույթի եզրափակիչ փուլը: Մասնակցում էր 5 թիմ՝ &laquo;Առնետ&raquo;, &laquo;Միմ&raquo;, &laquo;Ռևոտեք&raquo;, &laquo;Մայմհագր&raquo;, &laquo;Ոզնի&raquo;: Ցավոք, որևէ թիմ ամբողջությամբ չկատարեց իր առջև դրված պահանջը, այդ իսկ պատճառով ժյուրին որոշեց սահմանափակվել խրախուսական մրցանակներով:<br>Շվեցարական ԷյԲիԲի (ABB) ընկերության &laquo;Լավագույն ինժեներական լուծում&raquo; հատուկ մրցանակին արժանացավ &laquoՈզնի&raquo; թիմը, որի մրցանակն էր 200.000 դրամ: Աղջիկներից ձևավորված &laquo;Միմ&raquo; թիմը ստացավ &laquo;Խիզախության համար&raquo; մրցանակը՝ արժանանալով 100.000 դրամի:<br> Մյուս 3 թիմերը նույնպես ստացան խրախուսական մրցանակ՝ յուրաքանչյուրը 100.000 դրամ:<br>2010 թվականի նույն մրցույթի համեմատությամբ կարող ենք ասել, որ այս տարի թիմերը կիրառել էին ավելի բարդ տեխնիկական լուծումներ: Մրցույթի կազմակերպիչն էր ԻՏՁՄ-ն, գլխավոր հովանավորն էր ՎիվաՍել-ՄՏՍ ընկերությունը, հատուկ մրցանակի հովանավորը՝ ԷյԲիԲի ընկերությունը, տեխնիկական հովանավորը՝ Արթին Վարուժան ընկերությունը, աջակիցներն էին՝ պաշտպանության նախարարությունը, &laquo;Թումո&raquo; ստեղծարար տեխնոլոգիաների կենտրոնը, Մայքրոսոֆթ ինովացիոն կենտրոնը:</p>"
+    },
+    "date": "2011",
+    "gallery": {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs" : [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+    },
+    "best_games": [
+        {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url" : "xxx",
+            "creator_name": {"en-us":"xxx",
+                             "hy-am": "xxx"
+            }
+        },
+        {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url" : "xxx",
+            "creator_name": {"en-us":"xxx",
+                             "hy-am": "xxx"
+            }
+        }
+    ],
+    "contest": {
+        "uuid": "4389da4c-0ccb-467e-93ea-9a0fd415996e"
+    }
+}

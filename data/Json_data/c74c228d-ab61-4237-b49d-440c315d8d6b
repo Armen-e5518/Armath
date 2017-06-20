@@ -1,0 +1,27 @@
+{ 
+    "type": "partners_page",
+    "timestamp": "xxx",
+    "header": {"uuid" : "9cb53795-fbe8-48b4-b9f8-dd988411d089"},
+    "title": {"en-us": "ARMATH PARTNERS",
+              "hy-am": "xxx"
+    },
+    "text": {"en-us": "Grateful thanks to 120 companies and individuals which have supported Armath.",
+             "hy-am": "xxx"
+    },
+    "partners":[
+        {"uuid": "f07e8efc-9a61-4529-abf4-066b32283886"}
+    ],
+    "join_armath": {
+        "title": {"en-us": "Join Armath",
+                  "hy-am": "xxx"
+        },
+        "link": {"uuid": "624631ec-f8b0-4f56-83a9-82a7ffa204bf"}
+    },
+    "support_armath": {
+        "title": {"en-us": "Support Armath",
+                  "hy-am": "xxx"
+        },
+        "link": {"uuid": "b6dd08a7-8d8b-448d-9bdf-0e40abcce447"}
+    },
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"}
+}

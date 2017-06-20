@@ -1,0 +1,14 @@
+{
+    "type": "all_labs",
+    "timestamp": "xxx",
+    "title": {"en-us": "ARMATH LABS",
+              "hy-am": "xxx"
+    },
+    "text": {"en-us": "xxx",
+             "hy-am": "xxx"
+    },
+    "labs" : [
+        {"uuid": "6ac46a1c-82fd-465a-b6e9-a8d0273965ee"}
+    ],
+    "labs_page": {"uuid": "bd9fdd77-92c3-4247-919c-d266c6aa3ee5"}
+}

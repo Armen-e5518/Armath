@@ -1,0 +1,37 @@
+{
+    "type": "gallery_page",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+              "hy-am": "xxx"
+    },
+    "gallery_items": [
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "text": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "uuid": "861ee3f8-d604-4cd2-bbb8-d1b2d585b9a9"
+        },
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "text": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "uuid": "3277eb7e-5122-4ad3-96e8-d7bb05076fdd"
+        },
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "text": {"en-us":"xxx",
+                  "hy-am": "xxx"
+                },
+        "uuid": "75444226-77f2-4e44-b4a9-d11ff3a87ad2"
+        }
+    ],
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"}
+}

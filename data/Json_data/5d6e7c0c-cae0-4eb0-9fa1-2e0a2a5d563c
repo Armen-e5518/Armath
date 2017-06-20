@@ -1,0 +1,59 @@
+{
+    "type": "contest_history",
+    "timestamp": "xxx",
+    "title": {"en-us":"\"Open game\" contest/2011",
+              "hy-am": "&laquo;Բաց Խաղ&raquo; առաջնություն/2011"
+    },
+    "text": {"en-us":"<p><b>The final stage of the Open game contest 2011</b> was organized on 18th of June in the main office of Orange Armenia. In the frames of the final stage the expo was organized, during which the 18 participants presented their works, scenarios, designs and developed mobile or computer games.  During the presentation jury members could see the final projects of the participants.<br/>There were more than 170 visitors, they also could vote for the preferred participant and project.  The winner was the <b>Lemalusp team</b>.<br/>After the exhibition the winners was announced and awarded.<br/><b>\"Best design\"</b> award got <b>Green Circle</b> team with <b>\"Ani\"</b> game (3D shooter).<br/> <b>\"Best</b> design\" award got <b>Ruzanna Asryan</b> with <b>\"Sasuntsi David\"</b> game for the characters and the environment design.<br/><b>\"The best mobile application\"</b> award got <b>Vaspurik</b> team. The game is like the Mario game, but adapted for Android.<br/><b>\"Best scenario\"</b> award got <b>Victoria Harutyunyan</b> with <b>\"Viking\"</b> game, <b>LeMaLuSp</b> team with \"LeMaLuSp\" game and <b>Event Horizon</b> team with <b>\"Thief- The Apprentice\"</b> game.</p>",
+             "hy-am": "<p><b>&laquo;Բաց Խաղ&raquo; առաջնություն 2011-ի եզրափակիչ փուլը</b>տեղի ունեցավ Հունիս 18 Օրանժ Արմենիա Գլխավոր գրախանութում: Եզրափակիչ փուլին զուգահեռ անցկացվեց նաև ցուցահանդես, որին ներկայացան 18 մասնակից, ովքեր ցուցադրում էին իրենց աշխատանքները, սցենարները, դիզայնը և պատրաստի խաղերը նախատեսված բջջ. հեռախոսների, համակարգիչների և առցանց խաղալու համար: Ամբողջ ընթացքում ժյուրիի անդամները շրջում էին և ուսումնասիրում մասնակիցների նախագծերը վերջնական  վիճակում: Ցուցահանդեսն այցելեցին ավելի քան 170 այցելու, որոնք կարող էին քվեարկել իրենց սիրված մասնակցի համար: Քվեարկության արդյունքում հաղթեց <b>Լեմալուսպ</b> թիմը:<br>Ցուցահանդեսից հետո հայտարարվեցին և պարգևատրվեցին հաղաթողները: <b>&laquo;Լավագույն խաղ&raquo;</b> անվանակարգում հաղթող ճանաչվեց <b>Green Circle</b> թիմի մշակած <b>&laquo;Անի&raquo;</b> խաղը, (3D shooter):<br><b>Լավագույն</b> դիզայնի համար պարգևատրվեց <b>Ռուզաննա Ասրյանը</b> <b>&laquo;Սասունցի Դավիթ&raquo;</b> խաղի ինչպես կերպարների, այնպես էլ միջավայրի ձևավորման և դիզայնի համար:<br><b>&laquo;Լավագույն շարժական հավելված-խաղ&raquo;</b> անվանակարգում հաղթող ճանաչվեց <b>Vaspurik</b> թիմը: Խաղը հիշեցնում է հանրահայտ Mario խաղը, սակայն մշակված է Android օպերացիոն համակարգի համար:<br><b>Լավագույն սցենար</b>անվանակարգը կիսեցին <b>Վիկտորյա Հարությունյանի</b> մշակած <b>&laquo;Viking&raquo;</b> խաղը, <b>LeMaLuSp </b>թիմի <b>&laquo;LeMaLuSp&raquo;</b> խաղը և <b>Event Horizon</b> թիմի մշակած </b>&laquo;Thief- The Apprentice&raquo;</b> խաղը:</p>"
+    },
+    "date": "2011",
+    "gallery": {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs" : [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+    },
+    "best_games": [
+        {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url" : "xxx",
+            "creator_name": {"en-us":"xxx",
+                             "hy-am": "xxx"
+            }
+        },
+        {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url" : "xxx",
+            "creator_name": {"en-us":"xxx",
+                             "hy-am": "xxx"
+            }
+        }
+    ],
+    "contest": {
+        "uuid": "f1511ba0-9222-41c8-a99e-0a1405423000"
+    }
+}

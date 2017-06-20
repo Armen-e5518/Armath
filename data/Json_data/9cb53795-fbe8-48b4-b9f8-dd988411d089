@@ -1,0 +1,35 @@
+{ 
+    "type": "header",
+    "timestamp": "xxx",
+    "assets": {
+        "logos": [
+            {"uuid":"xxx"},
+            {"uuid":"xxx"}
+        ]
+    },
+    "search_item": {
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"}
+            ]
+        },
+        "text": {"en-us": "Search",
+                 "hy-am": "xxx"
+        }
+    },
+    "social_media": {"uuid": "c9d5cce6-0184-4865-bfba-eca09534ded7"},
+    "login_item": {
+        "text": {"en-us": "Login",
+                 "hy-am": "Մուտք"
+        },
+        "url": "xxx"
+    },
+    "languages": [
+        {"name": "EN",
+         "id": "en-us" },
+        {"name": "AM",
+         "id": "hy-am" }
+    ],
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"},
+    "web_site_skeleton": {"uuid": "42ab276a-ece7-4fde-8add-c6994b448b09"}
+}

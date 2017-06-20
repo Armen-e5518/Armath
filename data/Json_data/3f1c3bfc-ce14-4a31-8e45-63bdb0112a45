@@ -1,0 +1,12 @@
+{
+    "type": "e_learning_page",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+              "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+              "hy-am": "xxx"
+    },
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"},
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"}
+}

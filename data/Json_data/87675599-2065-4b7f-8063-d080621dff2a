@@ -1,0 +1,17 @@
+{
+    "type": "jury",
+    "timestamp": "xxx",
+    "name" : {"en-us": "Manuk Shemsyan",
+              "hy-am": "Մանուկ Շեմսյան"},
+    "company_name": {"en-us": "Pegasus Logic",
+                     "hy-am": "Պեգասուս Լոջիք"},
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"}
+        ]
+    },
+    "contests" : [
+        {"uuid": "4389da4c-0ccb-467e-93ea-9a0fd415996e"},
+        {"uuid": "b993568a-ce26-4794-a296-623db4089715"}
+    ]
+}

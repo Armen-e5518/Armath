@@ -1,0 +1,78 @@
+{
+    "type": "home_page_content",
+    "timestamp": "xxx",
+    "slide_swiper": {
+        "uuid": "624631ec-f8b0-4f56-83a9-82a7ffa204bf",
+        "slides": [
+            {
+            "title": {"en-us":"ARMATH - AN ARMENIAN TECHNOLOGICAL EDUCATIONAL PROJECT",
+                      "hy-am": "xxx"
+            },
+            "text": {"en-us":"The new generation with its infinite capacity to create is filled with the desire and knowledge to change the world and to make it a better place.",
+                     "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            }
+            },
+            {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                     "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            }
+            }
+        ]
+    },
+    "events":{
+        "title": {"en-us":"xxx",
+            "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+            "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        },
+        "uuid": "2ff1033f-17bd-4153-9fee-fe06c5d1b21e"
+    },
+    "join_armath": {
+        "title": {"en-us": "Join Armath",
+                  "hy-am": "xxx"
+        },
+        "link": {"uuid": "bd9fdd77-92c3-4247-919c-d266c6aa3ee5"}
+    },
+    "gallery": {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"}
+            ]
+        },
+        "link": {"uuid": "xxx"}
+    },
+    "support_armath": {
+        "title": {"en-us": "Support Armath",
+                  "hy-am": "xxx"
+        },
+        "link": {"uuid": "b6dd08a7-8d8b-448d-9bdf-0e40abcce447"}
+    },
+    "labs_map": {"uuid": "33c639d4-b4f2-47d1-a372-a5a3af5b7a15"},
+    "latest_news": {"uuid": "fcc90652-9e5c-4035-98c3-aff4d36da2ed"},
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"},
+    "web_site_skeleton": {"uuid": "42ab276a-ece7-4fde-8add-c6994b448b09"}
+}

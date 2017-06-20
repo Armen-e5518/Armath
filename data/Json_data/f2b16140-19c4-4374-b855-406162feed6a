@@ -1,0 +1,61 @@
+{
+    "type": "event",
+    "timestamp": "xxx",
+    "title": {"en-us":"UAV Contest",
+              "hy-am": "xxx"
+    },
+    "about_contest": {
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ],
+            "logos": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+    },
+    "contests": [
+        {
+            "title": {"en-us":"",
+                      "hy-am": "xxx"
+            },
+            "text": {"en-us":"",
+                     "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "contest": {
+                "uuid": "xxx"
+            }
+        },
+        {
+            "title": {"en-us":"xxx",
+                      "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                     "hy-am": "xxx"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "contest": {
+                "uuid": "xxx"
+            }
+        }
+    ],
+    "event": {
+        "uuid": "bfec58de-1eb9-4254-b067-72661ea08ed9"
+    }
+}

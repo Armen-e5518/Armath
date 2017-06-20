@@ -1,0 +1,17 @@
+{
+    "type": "contact_address",
+    "timestamp": "xxx",
+    "country": {"en-us": "Armenia",
+                "hy-am": "Հայաստան"},
+    "city": {"en-us": "Yerevan",
+             "hy-am": "Երևան"},
+    "street": {"en-us": "Hakob Hakobyan",
+               "hy-am": "Հակոբ Հակոբյան"},
+    "building": "3 building,",
+    "floor": "3 floor,",
+    "post_code": "0033,",
+    "phone_num": "+374 11 548881",
+    "mobile_num": "+374 91 248881(82)",
+    "email_address": "info@uite.org",
+    "official_site_url": "http://www.uite.org"
+}

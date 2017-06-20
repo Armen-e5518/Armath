@@ -1,0 +1,61 @@
+{
+    "type": "event",
+    "timestamp": "xxx",
+    "title": {"en-us":"Robotics Contest",
+              "hy-am": "Ռոբոտաշինության մրցույթներ"
+    },
+    "about_contest": {
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ],
+            "logos": [
+                {"uuid": "xxx"},
+                {"uuid": "xxx"},
+                {"uuid": "xxx"}
+            ]
+        }
+    },
+    "contests": [
+        {
+            "title": {"en-us":"Minesweeper Robots contest",
+                      "hy-am": "Ական փնտրող ռոբոտների մրցույթ"
+            },
+            "text": {"en-us":"<p>It aims to encourage public interest in robotics, to develop the robotics sector of Armenia and to encourage the production of the military equipment and use them for the national security.</p>",
+                     "hy-am": "<p>Այն նպատակ ունի խրախուսել և հանրայնացնել ռոբոտաշինության նկատմամբ հետաքրքրությունը, զարգացնել ռոբոտաշինության ոլորտը Հայաստանում և նպաստել ազգային անվտանգություն ապահովող ռազմական կիրառության սարքերի արտադրությանը:</p>"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "contest": {
+                "uuid": "4389da4c-0ccb-467e-93ea-9a0fd415996e"
+            }
+        },
+        {
+            "title": {"en-us":"Object finding and sorting robots contest",
+                      "hy-am": "Իրեր գտնող և տեղափոխող ռոբոտների մրցույթ"
+            },
+            "text": {"en-us":"<p>In 2017 UITE has announced the <b>Objects finding and sorting robots</b> contest. During the contest, the robots must find the objects on the field, take them and move to the storage of the robot, 2-3 teams will compete together.</p>",
+                     "hy-am": "<p>2017 թվականին ԻՏՁՄ-ն հայտարարել է Իրեր գտնող և տեղափոխող ռոբոտների մրցույթը, որի ժամանակ մրցութային դաշտում պետք է գտնել իրեր, վերցնել դրանք և տեղափոխել տվյալ ռոբոտին հատկացված պահեստային տարածք: Մրցութային ժամանակահատվածում դաշտում միաժամանակ մրցելու են 2-3 թիմերի ռոբոտներ:</p>"
+            },
+            "assets": {
+                "imgs": [
+                    {"uuid": "xxx"}
+                ]
+            },
+            "contest": {
+                "uuid": "b993568a-ce26-4794-a296-623db4089715"
+            }
+        }
+    ],
+    "event": {
+        "uuid": "bfec58de-1eb9-4254-b067-72661ea08ed9"
+    }
+}
