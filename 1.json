@@ -1,0 +1,924 @@
+{
+  "gameDuration": 90,
+  "name": "Socioss",
+  "extraTimeDuration": 30,
+  "_embedded": {
+    "mc:footballPlayer": [{
+      "familyName": "Bernahrdt",
+      "number": 13,
+      "givenName": "Mickael",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/74d8d3ea-da48-46d2-b2a1-a51ecd67007e/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "locale": "fr-FR",
+      "userHref": "ca9f1aa2-53d7-429b-bd30-7c1c4406cbe9",
+      "principal": "0ffcfd03e3c8969bc95235132ca2b44b",
+      "position": "2",
+      "idLegacy": 245103,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/ca9f1aa2-53d7-429b-bd30-7c1c4406cbe9/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/74d8d3ea-da48-46d2-b2a1-a51ecd67007e"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/74d8d3ea-da48-46d2-b2a1-a51ecd67007e/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/74d8d3ea-da48-46d2-b2a1-a51ecd67007e"
+        }
+      }
+    }, {
+      "familyName": "Graff",
+      "number": 5,
+      "givenName": "Valentin",
+      "preferredFoot": "Right",
+      "email": "vgraff67@gmail.com",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/7c588fe3-5c13-40ff-b1e3-52fea089f3b1/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1992-02-29T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "e38292dd-a049-4182-ac8c-5e7e76ade543",
+      "principal": "56b86ad8273e7",
+      "position": "2",
+      "idLegacy": 245110,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/e38292dd-a049-4182-ac8c-5e7e76ade543/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/7c588fe3-5c13-40ff-b1e3-52fea089f3b1"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/7c588fe3-5c13-40ff-b1e3-52fea089f3b1/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/7c588fe3-5c13-40ff-b1e3-52fea089f3b1"
+        }
+      }
+    }, {
+      "familyName": "Graff",
+      "number": 22,
+      "givenName": "Sylvain",
+      "preferredFoot": "Right",
+      "email": "",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/2dbcf2c3-822d-44a3-a349-628b9149ebd6/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1988-05-05T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "e1934045-d1ff-410d-97f3-495a348b1c88",
+      "dateArrivalInClub": "2011-07-15T12:00:00.000Z",
+      "principal": "56a13965882fd",
+      "position": "2",
+      "idLegacy": 245093,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/e1934045-d1ff-410d-97f3-495a348b1c88/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/2dbcf2c3-822d-44a3-a349-628b9149ebd6"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/2dbcf2c3-822d-44a3-a349-628b9149ebd6/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/2dbcf2c3-822d-44a3-a349-628b9149ebd6"
+        }
+      }
+    }, {
+      "familyName": "Hummel",
+      "number": 2,
+      "givenName": "Jeremy",
+      "preferredFoot": "Right",
+      "email": "jeremyhummel@hotmail.fr",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/34437009-57e7-45f7-a93a-134fd63792f7/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "433307fa-3902-4a8c-a9c2-c979afb09657",
+      "principal": "56b86a2412abb",
+      "position": "2",
+      "idLegacy": 245113,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/433307fa-3902-4a8c-a9c2-c979afb09657/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/34437009-57e7-45f7-a93a-134fd63792f7"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/34437009-57e7-45f7-a93a-134fd63792f7/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/34437009-57e7-45f7-a93a-134fd63792f7"
+        }
+      }
+    }, {
+      "familyName": "M bodji",
+      "number": 17,
+      "givenName": "Bamba",
+      "preferredFoot": "Right",
+      "email": "Mbodji02@hotmail.fr",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "senegalais",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/28a63612-a66b-43bb-a7ac-579a46fef7cf/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1988-07-31T12:00:00.000Z",
+      "secondPosition": "4",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "804a5e63-bbcb-41db-b185-9a4d9b7e24ae",
+      "dateArrivalInClub": "2015-07-15T12:00:00.000Z",
+      "principal": "56a5e869f3749",
+      "position": "4",
+      "idLegacy": 245097,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/804a5e63-bbcb-41db-b185-9a4d9b7e24ae/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/28a63612-a66b-43bb-a7ac-579a46fef7cf"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/28a63612-a66b-43bb-a7ac-579a46fef7cf/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/28a63612-a66b-43bb-a7ac-579a46fef7cf"
+        }
+      }
+    }, {
+      "familyName": "Metzger",
+      "number": 3,
+      "givenName": "fred",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/de0245a2-8a8a-4d88-9cdc-51642dac0c68/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "3",
+      "locale": "fr-FR",
+      "userHref": "3d22f480-f10b-4511-b157-65a787a01d55",
+      "principal": "5df660e9ca73c820ac7d5bd522c8adfb",
+      "position": "2",
+      "idLegacy": 270017,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/3d22f480-f10b-4511-b157-65a787a01d55/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/de0245a2-8a8a-4d88-9cdc-51642dac0c68"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/de0245a2-8a8a-4d88-9cdc-51642dac0c68/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/de0245a2-8a8a-4d88-9cdc-51642dac0c68"
+        }
+      }
+    }, {
+      "familyName": "Metzger",
+      "givenName": "guiguess",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/4cd175af-13bd-4fb1-ae11-1fff996d736f/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "2016-11-14T12:00:00.000Z",
+      "locale": "fr-FR",
+      "userHref": "aec12acb-cbca-4c2d-bf4e-f79a3209a2b1",
+      "principal": "dac37f6685d5be1248140c123417d289",
+      "position": "1",
+      "idLegacy": 288663,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/aec12acb-cbca-4c2d-bf4e-f79a3209a2b1/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/4cd175af-13bd-4fb1-ae11-1fff996d736f"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/4cd175af-13bd-4fb1-ae11-1fff996d736f/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/4cd175af-13bd-4fb1-ae11-1fff996d736f"
+        }
+      }
+    }, {
+      "familyName": "Metzger",
+      "number": 2,
+      "givenName": "guillaume",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/32cb4beb-9e0c-4fa3-8476-c974912e51d1/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "4",
+      "locale": "fr-FR",
+      "userHref": "2ff39d6a-872a-41e9-9116-c0811a51c4f6",
+      "principal": "f58884ec9ab32258c3e22b0439dbd62b",
+      "position": "2",
+      "idLegacy": 270016,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/2ff39d6a-872a-41e9-9116-c0811a51c4f6/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/32cb4beb-9e0c-4fa3-8476-c974912e51d1"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/32cb4beb-9e0c-4fa3-8476-c974912e51d1/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/32cb4beb-9e0c-4fa3-8476-c974912e51d1"
+        }
+      }
+    }, {
+      "familyName": "Mutzig",
+      "number": 15,
+      "givenName": "Aurel",
+      "preferredFoot": "Right",
+      "email": "",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/14757e62-6f8b-4481-b317-ea1ba3773b76/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "baf3fc66-0185-44c4-869d-5dc6e2e2c68e",
+      "principal": "56b86b6b565b2",
+      "position": "2",
+      "idLegacy": 245100,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/baf3fc66-0185-44c4-869d-5dc6e2e2c68e/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/14757e62-6f8b-4481-b317-ea1ba3773b76"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/14757e62-6f8b-4481-b317-ea1ba3773b76/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/14757e62-6f8b-4481-b317-ea1ba3773b76"
+        }
+      }
+    }, {
+      "familyName": "Nuss",
+      "number": 7,
+      "givenName": "Michel",
+      "preferredFoot": "Right",
+      "email": "michelnoix@hotmail.com",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/f462e956-c2bf-489b-b769-e11737d9d002/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1982-09-09T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "012c6b17-c61e-4df9-8b32-e2bf3c6866b5",
+      "principal": "56b86e0b35836",
+      "position": "4",
+      "idLegacy": 245108,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/012c6b17-c61e-4df9-8b32-e2bf3c6866b5/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/f462e956-c2bf-489b-b769-e11737d9d002"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/f462e956-c2bf-489b-b769-e11737d9d002/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/f462e956-c2bf-489b-b769-e11737d9d002"
+        }
+      }
+    }, {
+      "familyName": "Rey",
+      "number": 9,
+      "givenName": "Anthony",
+      "preferredFoot": "Right",
+      "email": "anthony.rey@hotmail.fr",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/8c5c1124-fbd6-421e-b537-c7b9dce3cfce/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1993-07-18T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "930d3dfb-42b6-4a5c-bbf1-5745c8c637db",
+      "principal": "56b86e7af3f22",
+      "position": "4",
+      "idLegacy": 245106,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/930d3dfb-42b6-4a5c-bbf1-5745c8c637db/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/8c5c1124-fbd6-421e-b537-c7b9dce3cfce"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/8c5c1124-fbd6-421e-b537-c7b9dce3cfce/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/8c5c1124-fbd6-421e-b537-c7b9dce3cfce"
+        }
+      }
+    }, {
+      "familyName": "Schaeffer",
+      "number": 3,
+      "givenName": "Arnaud",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/510c5b19-4834-4b23-ae27-0569e254ebe9/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "locale": "fr-FR",
+      "userHref": "ebc6d54e-f559-43f1-b92f-16868cecbad3",
+      "principal": "f2c106552d6577bb7ffae791b538f70f",
+      "position": "2",
+      "idLegacy": 245112,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/ebc6d54e-f559-43f1-b92f-16868cecbad3/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/510c5b19-4834-4b23-ae27-0569e254ebe9"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/510c5b19-4834-4b23-ae27-0569e254ebe9/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/510c5b19-4834-4b23-ae27-0569e254ebe9"
+        }
+      }
+    }, {
+      "familyName": "Schneider",
+      "number": 21,
+      "givenName": "Steve",
+      "preferredFoot": "Right",
+      "email": "Steveschneider67@gmail.com",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/c601e207-c9e2-4b9b-bcef-70a45036610c/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1991-02-21T12:00:00.000Z",
+      "secondPosition": "4",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "f1abf2df-cbf7-426a-841f-8d4683d1236b",
+      "dateArrivalInClub": "2013-07-15T12:00:00.000Z",
+      "principal": "56a5e8eb31c9b",
+      "position": "4",
+      "idLegacy": 245094,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/f1abf2df-cbf7-426a-841f-8d4683d1236b/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/c601e207-c9e2-4b9b-bcef-70a45036610c"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/c601e207-c9e2-4b9b-bcef-70a45036610c/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/c601e207-c9e2-4b9b-bcef-70a45036610c"
+        }
+      }
+    }, {
+      "familyName": "Weisskopf",
+      "number": 1,
+      "givenName": "Raphael",
+      "preferredFoot": "Right",
+      "email": "",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/8eff018f-5c6c-4ef0-9853-9a71f2f59df1/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "1",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "c241a226-8dc9-416e-9a54-0b865d07ee28",
+      "principal": "56a2017f3cb57",
+      "position": "1",
+      "idLegacy": 245114,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/c241a226-8dc9-416e-9a54-0b865d07ee28/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/8eff018f-5c6c-4ef0-9853-9a71f2f59df1"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/8eff018f-5c6c-4ef0-9853-9a71f2f59df1/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/8eff018f-5c6c-4ef0-9853-9a71f2f59df1"
+        }
+      }
+    }, {
+      "familyName": "Yves",
+      "givenName": "Hofmann ",
+      "preferredFoot": "Left",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/2d99cf18-9f2b-402c-9fe7-74922b7d0f32/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "2016-11-14T12:00:00.000Z",
+      "secondPosition": "3",
+      "locale": "fr-FR",
+      "userHref": "33d2b428-bde0-4805-ae53-e3656c2190d8",
+      "dateArrivalInClub": "2016-09-01T12:00:00.000Z",
+      "principal": "90CF37A2-B4D9-434C-BABC-2586F5313D66",
+      "position": "2",
+      "idLegacy": 288672,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/33d2b428-bde0-4805-ae53-e3656c2190d8/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/2d99cf18-9f2b-402c-9fe7-74922b7d0f32"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/2d99cf18-9f2b-402c-9fe7-74922b7d0f32/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/2d99cf18-9f2b-402c-9fe7-74922b7d0f32"
+        }
+      }
+    }, {
+      "familyName": "dere",
+      "givenName": "chris",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/c74f6d0a-94fe-4b75-b6a4-b7eb96df46ae/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "3",
+      "locale": "fr-FR",
+      "userHref": "28d74508-1875-40e3-94ca-3f5775707eea",
+      "principal": "e11daa9f2f752a2486af280e5866b8ee",
+      "position": "4",
+      "idLegacy": 270024,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/28d74508-1875-40e3-94ca-3f5775707eea/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/c74f6d0a-94fe-4b75-b6a4-b7eb96df46ae"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/c74f6d0a-94fe-4b75-b6a4-b7eb96df46ae/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/c74f6d0a-94fe-4b75-b6a4-b7eb96df46ae"
+        }
+      }
+    }, {
+      "familyName": "gundogdu",
+      "givenName": "kaan",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/8c7c607e-6169-4fcd-9037-17ea7b29bc35/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "4",
+      "locale": "fr-FR",
+      "userHref": "36cff267-644c-4960-9814-470ce99aaa61",
+      "principal": "f7e4a261ece8e8e6b4662ce4c9eb6d91",
+      "position": "3",
+      "idLegacy": 270022,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/36cff267-644c-4960-9814-470ce99aaa61/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/8c7c607e-6169-4fcd-9037-17ea7b29bc35"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/8c7c607e-6169-4fcd-9037-17ea7b29bc35/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/8c7c607e-6169-4fcd-9037-17ea7b29bc35"
+        }
+      }
+    }, {
+      "familyName": "kaercher",
+      "number": 4,
+      "givenName": "ludovic",
+      "preferredFoot": "Right",
+      "email": "kaercher.ludovic@live.fr",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "francaise",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/9678ef8f-538b-5e2f-be63-77c4ce0ecc0a/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1988-01-09T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "c90cfba6-e656-53f2-95ca-7cd071548357",
+      "dateArrivalInClub": "2011-07-15T12:00:00.000Z",
+      "principal": "56ab2b1733cf5",
+      "position": "2",
+      "idLegacy": 246226,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/c90cfba6-e656-53f2-95ca-7cd071548357/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/9678ef8f-538b-5e2f-be63-77c4ce0ecc0a"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/9678ef8f-538b-5e2f-be63-77c4ce0ecc0a/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/9678ef8f-538b-5e2f-be63-77c4ce0ecc0a"
+        }
+      }
+    }, {
+      "familyName": "kaueffer",
+      "givenName": "romain",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/5a67b63c-db0d-4583-9abd-4ff8b22a337f/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "2016-11-14T12:00:00.000Z",
+      "locale": "fr-FR",
+      "userHref": "7919f7d2-2895-4c38-9f92-a84b13b4b8dd",
+      "principal": "58bc5c0ab191399d72098a419cdfccfa",
+      "position": "3",
+      "idLegacy": 288662,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/7919f7d2-2895-4c38-9f92-a84b13b4b8dd/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/5a67b63c-db0d-4583-9abd-4ff8b22a337f"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/5a67b63c-db0d-4583-9abd-4ff8b22a337f/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/5a67b63c-db0d-4583-9abd-4ff8b22a337f"
+        }
+      }
+    }, {
+      "familyName": "lm",
+      "givenName": "nelson",
+      "preferredFoot": "Left",
+      "email": "",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/466cf4cd-76b8-558f-9a5e-367434f9715f/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "3",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "3c69434e-395c-5870-98bb-e756692dd5d8",
+      "principal": "56cb1fff08619",
+      "position": "3",
+      "idLegacy": 248555,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/3c69434e-395c-5870-98bb-e756692dd5d8/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/466cf4cd-76b8-558f-9a5e-367434f9715f"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/466cf4cd-76b8-558f-9a5e-367434f9715f/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/466cf4cd-76b8-558f-9a5e-367434f9715f"
+        }
+      }
+    }, {
+      "familyName": "weber",
+      "givenName": "corentin",
+      "preferredFoot": "Right",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/dec50a6f-0c8c-4f8e-8424-25955207bacd/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "2",
+      "locale": "fr-FR",
+      "userHref": "42a32944-a567-4ad8-842a-7a212a947c0a",
+      "principal": "f6dcf645266bb2bde56d47a22059958b",
+      "position": "3",
+      "idLegacy": 270023,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/42a32944-a567-4ad8-842a-7a212a947c0a/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/dec50a6f-0c8c-4f8e-8424-25955207bacd"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/dec50a6f-0c8c-4f8e-8424-25955207bacd/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/dec50a6f-0c8c-4f8e-8424-25955207bacd"
+        }
+      }
+    }, {
+      "familyName": "wucher",
+      "givenName": "fred",
+      "preferredFoot": "Right",
+      "email": "",
+      "bestContactOption": "SMS",
+      "landlineNumber": "",
+      "citizenship": "",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/fa981272-2e75-50d7-84d1-fa3eb7cc1bec/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "1",
+      "mobileNumber": "",
+      "locale": "fr-FR",
+      "userHref": "a59f2bcf-75d1-5d69-8ff9-fc609cd12358",
+      "principal": "56cb1fe99f621",
+      "position": "1",
+      "idLegacy": 248554,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/a59f2bcf-75d1-5d69-8ff9-fc609cd12358/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/fa981272-2e75-50d7-84d1-fa3eb7cc1bec"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/fa981272-2e75-50d7-84d1-fa3eb7cc1bec/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players/fa981272-2e75-50d7-84d1-fa3eb7cc1bec"
+        }
+      }
+    }],
+    "mc:footballClub": [{
+      "website": "www.facebook.com/fc.breuschwickersheim",
+      "city": "BREUSCHWICKERSHEIM",
+      "name": "Football Club de Breuschwickersheim",
+      "president": "Gerard Bernahrdt",
+      "zip": "67112",
+      "email": "beckham-usi@hotmail.fr",
+      "label": "FCB",
+      "ligueId": "1",
+      "fax": "",
+      "countryId": 118,
+      "circumscriptionId": "",
+      "address": "Route d'Hangenbieten",
+      "stadium": "stade du Muhlbach",
+      "idLegacy": 3308,
+      "seasonHref": "8",
+      "mobile": "0676357308",
+      "phone": "0676357308",
+      "_links": {
+        "self": {
+          "href": "/football-clubs/4a1329fc-c859-11e5-baf5-0cc47a6c31e2"
+        }
+      }
+    }]
+  },
+  "sportId": "football",
+  "category": "",
+  "footballClubHref": "4a1329fc-c859-11e5-baf5-0cc47a6c31e2",
+  "verified": false,
+  "level": "",
+  "_links": {
+    "mc:footballGames": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/football-games"
+    }],
+    "curies": [{
+      "name": "mc",
+      "href": "http://api.mycoachfootball.com/rels/{rel}",
+      "templated": true
+    }],
+    "self": {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6"
+    },
+    "mc:physios": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/physios",
+      "title": "Physios"
+    }],
+    "mc:players": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/players"
+    }],
+    "mc:fffTeam": [{
+      "href": "/fff/teams/998"
+    }],
+    "mc:seasons": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/info/seasons/8"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/info/seasons/9"
+    }],
+    "mc:trainingSessions": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/training-sessions"
+    }],
+    "mc:fffGames": [{
+      "href": "/fff/teams/998/games"
+    }],
+    "mc:staffMembers": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/staff"
+    }],
+    "mc:statistics": [{
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/1"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/2"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/3"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/5"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/6"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/7"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/8"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/9"
+    }, {
+      "href": "/football-teams/7c47f8b1-6326-5048-bc99-fbf974d318f6/seasons/10"
+    }]
+  }
+}

@@ -1,5 +1,5 @@
 var FooterConfig = {
-    'footer_data': '458652d4-2d0c-406b-9ec1-f5f157dbf181',
+    'footer_data': Config.api +'458652d4-2d0c-406b-9ec1-f5f157dbf181',
 };
 
 var RunFooter = setInterval(function () {

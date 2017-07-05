@@ -1,5 +1,5 @@
 var PartnersPageConfig = {
-    'partners_page_data': 'c74c228d-ab61-4237-b49d-440c315d8d6b',
+    'partners_page_data': Config.api +'c74c228d-ab61-4237-b49d-440c315d8d6b',
     'count': 5,
 };
 

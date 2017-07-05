@@ -1,6 +1,6 @@
 var ContactsPageConfig = {
 
-    'contacts_page_data': '2757a4a0-5d30-4587-a149-3cd2d2980710',
+    'contacts_page_data': Config.api +'2757a4a0-5d30-4587-a149-3cd2d2980710',
 
 
 };

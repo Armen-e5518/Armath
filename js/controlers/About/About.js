@@ -1,7 +1,7 @@
 var AboutPageConfig = {
 
-    'about_page_data': '624631ec-f8b0-4f56-83a9-82a7ffa204bf',
-    'all_equipment': '6578857e-1c09-475f-92ef-8b394f6a22c1',
+    'about_page_data': Config.api + '624631ec-f8b0-4f56-83a9-82a7ffa204bf',
+    'all_equipment': Config.api + '6578857e-1c09-475f-92ef-8b394f6a22c1',
 
 
 };
@@ -70,7 +70,7 @@ function GetAllEquipment(leng) {
                 res.tech_equipment.forEach(function (val) {
                     $.ajax({
                         type: "POST",
-                        url: Config.domain + Config.Path + val.uuid,
+                        url: Config.domain + Config.Path + Config.api + val.uuid,
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {

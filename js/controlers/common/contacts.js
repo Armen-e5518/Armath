@@ -1,5 +1,5 @@
 var ContactsConfig = {
-    'contact_data': '7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b',
+    'contact_data': Config.api +'7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b',
 };
 
 var RunContacts = setInterval(function () {

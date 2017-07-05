@@ -1,8 +1,8 @@
 var EventConfig = {
 
-    'event_data': '2ff1033f-17bd-4153-9fee-fe06c5d1b21e',
+    'event_data': Config.api +'2ff1033f-17bd-4153-9fee-fe06c5d1b21e',
 
-    'all_events': 'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb'
+    'all_events': Config.api +'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb'
 };
 
 

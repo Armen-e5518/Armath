@@ -1,10 +1,10 @@
 var HomeConfig = {
 
-    'home_data': 'c120e3b5-a8d0-4770-842d-13cfad2a960d',
+    'home_data': Config.api + 'c120e3b5-a8d0-4770-842d-13cfad2a960d',
 
-    'slide_swiper': 'c120e3b5-a8d0-4770-842d-13cfad2a960d',
+    'slide_swiper': Config.api + 'c120e3b5-a8d0-4770-842d-13cfad2a960d',
 
-    'labs_map': '33c639d4-b4f2-47d1-a372-a5a3af5b7a15',
+    'labs_map': Config.api + '33c639d4-b4f2-47d1-a372-a5a3af5b7a15',
 
 };
 

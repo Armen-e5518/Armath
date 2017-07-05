@@ -1,0 +1,1219 @@
+{
+  "gameDuration": 90,
+  "name": "Team",
+  "extraTimeDuration": 30,
+  "_embedded": {
+    "mc:footballPlayer": [{
+      "familyName": "Adam",
+      "number": 34,
+      "givenName": "Grégory",
+      "preferredFoot": "Left",
+      "email": "gregada67@gmail.com",
+      "mostRecentImageHref": "d867dea5-e51d-4980-b4cc-a37b9d00d1c0",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/acab1839-098b-4680-b9de-3e146ce08ff4/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 10 35 65 04",
+      "locale": "fr-FR",
+      "userHref": "4f767215-4f56-438b-a3c8-844e9e79709c",
+      "licenceNumber": "2543945500",
+      "dateArrivalInClub": "2015-07-15T12:00:00.000Z",
+      "principal": "1499293cfdd5260596cab5b5ef75db23",
+      "position": "2",
+      "idLegacy": 286812,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/4f767215-4f56-438b-a3c8-844e9e79709c/images/d867dea5-e51d-4980-b4cc-a37b9d00d1c0"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/acab1839-098b-4680-b9de-3e146ce08ff4"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/acab1839-098b-4680-b9de-3e146ce08ff4/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/acab1839-098b-4680-b9de-3e146ce08ff4"
+        }
+      }
+    }, {
+      "familyName": "Bouchoucha",
+      "number": 3,
+      "givenName": "Karim",
+      "preferredFoot": "Right",
+      "email": "karim9b@hotmail.fr",
+      "mostRecentImageHref": "eea80fa3-9a00-4568-8db1-f5bde118a0bd",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/acaa8de1-9c39-4b43-968a-d0733ab6722f/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 66 87 14 77 ",
+      "locale": "fr-FR",
+      "userHref": "97e86efa-06c2-4f16-850c-579ca88edbd8",
+      "licenceNumber": "2543702320",
+      "dateArrivalInClub": "2014-07-01T12:00:00.000Z",
+      "principal": "438fecc040daeec52b3292f5e01d9980",
+      "position": "3",
+      "idLegacy": 286598,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/97e86efa-06c2-4f16-850c-579ca88edbd8/images/eea80fa3-9a00-4568-8db1-f5bde118a0bd"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/acaa8de1-9c39-4b43-968a-d0733ab6722f"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/acaa8de1-9c39-4b43-968a-d0733ab6722f/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/acaa8de1-9c39-4b43-968a-d0733ab6722f"
+        }
+      }
+    }, {
+      "familyName": "Boukhouya",
+      "number": 8,
+      "givenName": "Oualid",
+      "preferredFoot": "Right",
+      "email": "oualid67@hotmail.fr ",
+      "mostRecentImageHref": "e55817a5-ccca-495b-9604-d51b88c70fbf",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/ded2f21d-e558-43b9-a9d2-ea5a0c100de4/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 73 59 92 72 ",
+      "locale": "fr-FR",
+      "userHref": "59c2bf1e-5ef5-4fd9-bc9a-9a87fd5eef49",
+      "licenceNumber": "200404570",
+      "dateArrivalInClub": "2016-07-07T12:00:00.000Z",
+      "principal": "2f8c78d1e5b9ae9f35935547bced5715",
+      "position": "3",
+      "idLegacy": 286597,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/59c2bf1e-5ef5-4fd9-bc9a-9a87fd5eef49/images/e55817a5-ccca-495b-9604-d51b88c70fbf"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/ded2f21d-e558-43b9-a9d2-ea5a0c100de4"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/ded2f21d-e558-43b9-a9d2-ea5a0c100de4/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/ded2f21d-e558-43b9-a9d2-ea5a0c100de4"
+        }
+      }
+    }, {
+      "familyName": "Boutiba",
+      "number": 12,
+      "givenName": "Zakaria",
+      "preferredFoot": "Left",
+      "email": "zakaria.boutiba@gmail.com ",
+      "mostRecentImageHref": "6f7ba771-2b60-4347-a8b9-fb425fab5740",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/b08e9f35-3fe1-4edf-baa5-b4574bed29c7/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1986-10-05T12:00:00.000Z",
+      "mobileNumber": "06 49 76 81 98 ",
+      "locale": "fr-FR",
+      "userHref": "aa1dcec8-91c4-4d19-978d-184872fa36a7",
+      "licenceNumber": "270318068",
+      "dateArrivalInClub": "2013-01-31T12:00:00.000Z",
+      "principal": "a66f0c69646b206c0b39651ff658e975",
+      "position": "2",
+      "idLegacy": 286600,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/aa1dcec8-91c4-4d19-978d-184872fa36a7/images/6f7ba771-2b60-4347-a8b9-fb425fab5740"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/b08e9f35-3fe1-4edf-baa5-b4574bed29c7"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/b08e9f35-3fe1-4edf-baa5-b4574bed29c7/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/b08e9f35-3fe1-4edf-baa5-b4574bed29c7"
+        }
+      }
+    }, {
+      "familyName": "Cataldi",
+      "number": 15,
+      "givenName": "Jordan",
+      "preferredFoot": "Right",
+      "email": "cataldijordan134@gmail.com",
+      "mostRecentImageHref": "ec781704-627a-46a5-b910-9653a7d39f87",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/eabf62b5-616c-46b7-a14a-a1ee46c72e0c/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "2",
+      "mobileNumber": "06 28 89 39 77",
+      "locale": "fr-FR",
+      "userHref": "286e1ce1-f4d1-47cc-a625-ee4c96368e95",
+      "licenceNumber": "200401672",
+      "dateArrivalInClub": "2014-07-15T12:00:00.000Z",
+      "principal": "f8200082284ee4a255b7493f4435ab52",
+      "position": "2",
+      "idLegacy": 286795,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/286e1ce1-f4d1-47cc-a625-ee4c96368e95/images/ec781704-627a-46a5-b910-9653a7d39f87"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/eabf62b5-616c-46b7-a14a-a1ee46c72e0c"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/eabf62b5-616c-46b7-a14a-a1ee46c72e0c/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/eabf62b5-616c-46b7-a14a-a1ee46c72e0c"
+        }
+      }
+    }, {
+      "familyName": "Dalil Essakali",
+      "number": 17,
+      "givenName": "Amine",
+      "preferredFoot": "Right",
+      "email": "dalil-amine@hotmail.com",
+      "mostRecentImageHref": "95c7eaea-5c09-4dc7-b715-c83e3179ae86",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/d9fe12c8-cd26-4286-8717-f2290a3d78d5/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1997-07-07T12:00:00.000Z",
+      "mobileNumber": "06 34 35 13 67",
+      "locale": "fr-FR",
+      "userHref": "b870e883-f143-4d1e-8bbc-f9b58b593116",
+      "licenceNumber": "2543299190",
+      "dateArrivalInClub": "2016-07-01T12:00:00.000Z",
+      "principal": "bcc23bbac93f75c317657d39d2215c92",
+      "position": "3",
+      "idLegacy": 286602,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/b870e883-f143-4d1e-8bbc-f9b58b593116/images/95c7eaea-5c09-4dc7-b715-c83e3179ae86"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/d9fe12c8-cd26-4286-8717-f2290a3d78d5"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/d9fe12c8-cd26-4286-8717-f2290a3d78d5/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/d9fe12c8-cd26-4286-8717-f2290a3d78d5"
+        }
+      }
+    }, {
+      "familyName": "Froeliger",
+      "number": 9,
+      "givenName": "Valentin",
+      "preferredFoot": "Left",
+      "mostRecentImageHref": "ef5b26c4-247d-4f9f-975d-a34f7a80f5bd",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/e4568eb4-c538-4fed-bbab-0a86fce01599/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 19 57 89 38",
+      "locale": "fr-FR",
+      "userHref": "65ce5acc-768e-41a5-81f3-acf877ac085e",
+      "licenceNumber": "290317567",
+      "dateArrivalInClub": "2016-07-01T12:00:00.000Z",
+      "principal": "23536360552dd20f78f9e1a5cf308015",
+      "position": "4",
+      "idLegacy": 286645,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/65ce5acc-768e-41a5-81f3-acf877ac085e/images/ef5b26c4-247d-4f9f-975d-a34f7a80f5bd"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/e4568eb4-c538-4fed-bbab-0a86fce01599"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/e4568eb4-c538-4fed-bbab-0a86fce01599/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/e4568eb4-c538-4fed-bbab-0a86fce01599"
+        }
+      }
+    }, {
+      "familyName": "Froeliger",
+      "number": 6,
+      "givenName": "Anthony",
+      "preferredFoot": "Right",
+      "email": "anthonyfroeliger@gmail.com",
+      "mostRecentImageHref": "89f56cc3-caa6-42b6-beb9-12d9413fd0e0",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/3711749b-967d-434e-830e-2b6f20caf9c2/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 62 29 84 09",
+      "locale": "fr-FR",
+      "userHref": "470cf97f-49a6-481e-bab8-f27ad4009d8a",
+      "licenceNumber": "270315350",
+      "dateArrivalInClub": "2016-07-01T12:00:00.000Z",
+      "principal": "fb218c7205328429d449277449a4b047",
+      "position": "3",
+      "idLegacy": 286644,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/470cf97f-49a6-481e-bab8-f27ad4009d8a/images/89f56cc3-caa6-42b6-beb9-12d9413fd0e0"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/3711749b-967d-434e-830e-2b6f20caf9c2"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/3711749b-967d-434e-830e-2b6f20caf9c2/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/3711749b-967d-434e-830e-2b6f20caf9c2"
+        }
+      }
+    }, {
+      "familyName": "Froeliger",
+      "number": 30,
+      "givenName": "Frédéric",
+      "preferredFoot": "Right",
+      "email": "gabrielle.hauswald@gmail.com",
+      "mostRecentImageHref": "763e72df-7058-4b98-aca4-a27a30c0ec1c",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/3ee9b862-4a6b-41bc-b48a-4cce5afee8e2/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "2",
+      "mobileNumber": "06 20 30 12 03",
+      "locale": "fr-FR",
+      "userHref": "3d605ce1-e4c7-4fb6-829f-430350f3c373",
+      "licenceNumber": "280350216",
+      "dateArrivalInClub": "2014-07-01T12:00:00.000Z",
+      "principal": "c6262ae0fb585e84e82cade59c416f36",
+      "position": "2",
+      "idLegacy": 286796,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/3d605ce1-e4c7-4fb6-829f-430350f3c373/images/763e72df-7058-4b98-aca4-a27a30c0ec1c"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/3ee9b862-4a6b-41bc-b48a-4cce5afee8e2"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/3ee9b862-4a6b-41bc-b48a-4cce5afee8e2/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/3ee9b862-4a6b-41bc-b48a-4cce5afee8e2"
+        }
+      }
+    }, {
+      "familyName": "Froeliger",
+      "number": 31,
+      "givenName": "Grégory",
+      "preferredFoot": "Right",
+      "email": "greg.froeliger@gmail.com ",
+      "mostRecentImageHref": "0d836c1a-6df4-44e1-9b54-d1e4cb1acadc",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/b1f53971-6caa-40ab-a34d-f21cfcb3e5b4/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1985-03-09T12:00:00.000Z",
+      "secondPosition": "4",
+      "mobileNumber": "06 60 66 48 44",
+      "locale": "fr-FR",
+      "userHref": "a6e325e8-258e-4572-bd5e-abf4b719084f",
+      "licenceNumber": "280336072",
+      "dateArrivalInClub": "2014-07-01T12:00:00.000Z",
+      "principal": "301257e09fd88e5fe828eba793f58126",
+      "position": "3",
+      "idLegacy": 286787,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/a6e325e8-258e-4572-bd5e-abf4b719084f/images/0d836c1a-6df4-44e1-9b54-d1e4cb1acadc"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/b1f53971-6caa-40ab-a34d-f21cfcb3e5b4"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/b1f53971-6caa-40ab-a34d-f21cfcb3e5b4/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/b1f53971-6caa-40ab-a34d-f21cfcb3e5b4"
+        }
+      }
+    }, {
+      "familyName": "Hackspill",
+      "number": 4,
+      "givenName": "Loic",
+      "preferredFoot": "Right",
+      "mostRecentImageHref": "44514f00-55b5-4ae9-9ab5-9fa9f0b1a500",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/e494e252-5577-4688-95bf-1c85cbec7011/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "07 82 96 87 31",
+      "locale": "fr-FR",
+      "userHref": "eed4dee1-bd45-4e98-8743-b9ceb566c326",
+      "licenceNumber": "290311455",
+      "dateArrivalInClub": "1999-08-12T12:00:00.000Z",
+      "principal": "9751094a1c23728d847c4c7a513b68b8",
+      "position": "2",
+      "idLegacy": 286770,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/eed4dee1-bd45-4e98-8743-b9ceb566c326/images/44514f00-55b5-4ae9-9ab5-9fa9f0b1a500"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/e494e252-5577-4688-95bf-1c85cbec7011"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/e494e252-5577-4688-95bf-1c85cbec7011/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/e494e252-5577-4688-95bf-1c85cbec7011"
+        }
+      }
+    }, {
+      "familyName": "Hassibout",
+      "number": 11,
+      "givenName": "Zakaria",
+      "preferredFoot": "Right",
+      "email": "zakariahassibout@hotmail.fr",
+      "mostRecentImageHref": "dca178e7-cf2d-4ae7-9d2e-a0199c063c45",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/9c0bb346-0ba9-4a92-9e9b-cb63cebb55b8/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1986-11-04T12:00:00.000Z",
+      "mobileNumber": "06 02 69 50 62",
+      "locale": "fr-FR",
+      "userHref": "607f12a5-cfb0-47ae-9968-59d113563553",
+      "licenceNumber": "230392715",
+      "dateArrivalInClub": "2007-07-02T12:00:00.000Z",
+      "principal": "cd06b11f21b7e0eb36d52190e5c4b7f9",
+      "position": "3",
+      "idLegacy": 286771,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/607f12a5-cfb0-47ae-9968-59d113563553/images/dca178e7-cf2d-4ae7-9d2e-a0199c063c45"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/9c0bb346-0ba9-4a92-9e9b-cb63cebb55b8"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/9c0bb346-0ba9-4a92-9e9b-cb63cebb55b8/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/9c0bb346-0ba9-4a92-9e9b-cb63cebb55b8"
+        }
+      }
+    }, {
+      "familyName": "Hassidou",
+      "number": 5,
+      "givenName": "Mohammed",
+      "preferredFoot": "Left",
+      "mostRecentImageHref": "1e2a1593-0b97-4f10-a2c2-30051c8025e5",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/b14dbd16-d529-475d-b794-87b1a4f39c74/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "07 62 50 16 52",
+      "locale": "fr-FR",
+      "userHref": "ed62cf98-2eb0-4ad4-b7b8-32ca427615c4",
+      "licenceNumber": "2546208430",
+      "dateArrivalInClub": "2016-07-01T12:00:00.000Z",
+      "principal": "1714749ce14c92c1f4d46d71d64850fe",
+      "position": "3",
+      "idLegacy": 286772,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/ed62cf98-2eb0-4ad4-b7b8-32ca427615c4/images/1e2a1593-0b97-4f10-a2c2-30051c8025e5"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/b14dbd16-d529-475d-b794-87b1a4f39c74"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/b14dbd16-d529-475d-b794-87b1a4f39c74/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/b14dbd16-d529-475d-b794-87b1a4f39c74"
+        }
+      }
+    }, {
+      "familyName": "Imloul",
+      "number": 2,
+      "givenName": "Mehdi",
+      "preferredFoot": "Right",
+      "mostRecentImageHref": "f9e73bd0-4c71-4715-9f68-42ac760ffda0",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/67e977ea-f764-48a6-88a9-68c1d04008f5/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1990-02-08T12:00:00.000Z",
+      "secondPosition": "2",
+      "mobileNumber": "06 50 96 67 39",
+      "locale": "fr-FR",
+      "userHref": "42545370-ff3a-4248-8330-7914fa1dca89",
+      "licenceNumber": "260317149",
+      "dateArrivalInClub": "2016-07-12T12:00:00.000Z",
+      "principal": "ec8f61c1c2f17d11280aa5ecbedcfd61",
+      "position": "2",
+      "idLegacy": 286773,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/42545370-ff3a-4248-8330-7914fa1dca89/images/f9e73bd0-4c71-4715-9f68-42ac760ffda0"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/67e977ea-f764-48a6-88a9-68c1d04008f5"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/67e977ea-f764-48a6-88a9-68c1d04008f5/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/67e977ea-f764-48a6-88a9-68c1d04008f5"
+        }
+      }
+    }, {
+      "familyName": "Khettabi",
+      "number": 1,
+      "givenName": "Taha",
+      "preferredFoot": "Right",
+      "email": "khettabitaha@yahoo.fr",
+      "mostRecentImageHref": "a42cb7d0-a77a-43fd-94ec-901d5d45e57d",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/1da584c0-691a-4f3a-8196-8904792b0953/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 15 54 46 32 ",
+      "locale": "fr-FR",
+      "userHref": "3d454dde-c52a-48c7-b09b-c86ebe1d3711",
+      "licenceNumber": "270314688",
+      "principal": "f7ff4b254db19812a11f71ff5f94dfa1",
+      "position": "1",
+      "idLegacy": 286596,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/3d454dde-c52a-48c7-b09b-c86ebe1d3711/images/a42cb7d0-a77a-43fd-94ec-901d5d45e57d"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/1da584c0-691a-4f3a-8196-8904792b0953"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/1da584c0-691a-4f3a-8196-8904792b0953/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/1da584c0-691a-4f3a-8196-8904792b0953"
+        }
+      }
+    }, {
+      "familyName": "Lamri",
+      "number": 18,
+      "givenName": "Heder",
+      "preferredFoot": "Right",
+      "email": "lamriheder@gmail.com ",
+      "mostRecentImageHref": "700e6cfb-eaf1-4a04-a166-9fc3650d0316",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/fe188301-1d7d-4148-82dc-4361034b30fa/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1997-09-04T12:00:00.000Z",
+      "mobileNumber": "06 26 74 42 02",
+      "locale": "fr-FR",
+      "userHref": "e38260a9-1b13-408d-9728-a1a85912850b",
+      "licenceNumber": "2543080712",
+      "dateArrivalInClub": "2016-07-02T12:00:00.000Z",
+      "principal": "d9324769c57ce53b89249a9a25a9752b",
+      "position": "3",
+      "idLegacy": 286776,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/e38260a9-1b13-408d-9728-a1a85912850b/images/700e6cfb-eaf1-4a04-a166-9fc3650d0316"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/fe188301-1d7d-4148-82dc-4361034b30fa"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/fe188301-1d7d-4148-82dc-4361034b30fa/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/fe188301-1d7d-4148-82dc-4361034b30fa"
+        }
+      }
+    }, {
+      "familyName": "Levier",
+      "number": 16,
+      "givenName": "Maximilien",
+      "preferredFoot": "Right",
+      "email": "max-du-khf@hotmail.fr ",
+      "mostRecentImageHref": "c17aa889-b0d4-4252-a494-4ec45e4d4909",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/ec69280a-5463-407e-9627-dc459e0d7cf4/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 70 16 21 89",
+      "locale": "fr-FR",
+      "userHref": "2ebd2395-b36b-4e00-b9db-1c86943ed427",
+      "licenceNumber": "2544207500",
+      "dateArrivalInClub": "2016-07-08T12:00:00.000Z",
+      "principal": "e3d6cf5a755ab39935bafae8d26bd127",
+      "position": "1",
+      "idLegacy": 286780,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/2ebd2395-b36b-4e00-b9db-1c86943ed427/images/c17aa889-b0d4-4252-a494-4ec45e4d4909"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/ec69280a-5463-407e-9627-dc459e0d7cf4"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/ec69280a-5463-407e-9627-dc459e0d7cf4/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/ec69280a-5463-407e-9627-dc459e0d7cf4"
+        }
+      }
+    }, {
+      "familyName": "Lichté",
+      "number": 32,
+      "givenName": "Jérome",
+      "preferredFoot": "Right",
+      "email": "jerome.lichte@hotmail.fr",
+      "mostRecentImageHref": "45a31c91-901b-48dc-98e9-66b4c30a99cd",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/4e37ea9a-2a6f-4339-8e54-801d93b8936c/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 62 46 67 92",
+      "locale": "fr-FR",
+      "userHref": "033c30c5-bac6-4a42-8e84-64b1edb7874f",
+      "licenceNumber": "280331706",
+      "dateArrivalInClub": "1995-09-07T12:00:00.000Z",
+      "principal": "28d3c825e86ea926f5c9b1874799d137",
+      "position": "2",
+      "idLegacy": 286797,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/033c30c5-bac6-4a42-8e84-64b1edb7874f/images/45a31c91-901b-48dc-98e9-66b4c30a99cd"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/4e37ea9a-2a6f-4339-8e54-801d93b8936c"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/4e37ea9a-2a6f-4339-8e54-801d93b8936c/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/4e37ea9a-2a6f-4339-8e54-801d93b8936c"
+        }
+      }
+    }, {
+      "familyName": "Mateus",
+      "number": 17,
+      "givenName": "Cédric",
+      "preferredFoot": "Right",
+      "email": "cedric.mateus@yahoo.fr ",
+      "mostRecentImageHref": "c8a126de-6179-48c3-8595-3dbc4ed242ee",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/c2c1f249-b866-49e8-91f2-040b74dc1066/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1986-06-06T12:00:00.000Z",
+      "mobileNumber": "06 35 20 02 98",
+      "locale": "fr-FR",
+      "userHref": "cbeb5bf3-abf7-4762-96b7-983336734dc5",
+      "licenceNumber": "270314569",
+      "dateArrivalInClub": "2016-07-06T12:00:00.000Z",
+      "principal": "4e8afea7080191eea5e4f4bbf3292cfb",
+      "position": "2",
+      "idLegacy": 286798,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/cbeb5bf3-abf7-4762-96b7-983336734dc5/images/c8a126de-6179-48c3-8595-3dbc4ed242ee"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/c2c1f249-b866-49e8-91f2-040b74dc1066"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/c2c1f249-b866-49e8-91f2-040b74dc1066/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/c2c1f249-b866-49e8-91f2-040b74dc1066"
+        }
+      }
+    }, {
+      "familyName": "Nsangu",
+      "number": 7,
+      "givenName": "Antonio",
+      "preferredFoot": "Right",
+      "email": "nino_67100@hotmail.fr ",
+      "mostRecentImageHref": "f5348054-c354-4843-b628-405212123f07",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/e2213411-503d-49de-9a95-cce42d193be3/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1984-04-11T12:00:00.000Z",
+      "secondPosition": "4",
+      "mobileNumber": "06 20 46 80 56",
+      "locale": "fr-FR",
+      "userHref": "51cd7c44-ece2-48b7-a310-13759505870f",
+      "licenceNumber": "170312858",
+      "dateArrivalInClub": "2015-07-01T12:00:00.000Z",
+      "principal": "08a283db78bd9e3a5d53b5d389f9f242",
+      "position": "4",
+      "idLegacy": 286781,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/51cd7c44-ece2-48b7-a310-13759505870f/images/f5348054-c354-4843-b628-405212123f07"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/e2213411-503d-49de-9a95-cce42d193be3"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/e2213411-503d-49de-9a95-cce42d193be3/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/e2213411-503d-49de-9a95-cce42d193be3"
+        }
+      }
+    }, {
+      "familyName": "Ouaked",
+      "number": 33,
+      "givenName": "Mouh",
+      "preferredFoot": "Right",
+      "email": "moetmolly@hotmail.fr ",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/e02da84f-33a1-4f72-ac33-673037d3d2de/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 69 34 51 89",
+      "locale": "fr-FR",
+      "userHref": "53b9b4ba-3db8-46d6-8f37-649eb5744c36",
+      "licenceNumber": "250314966",
+      "dateArrivalInClub": "2015-07-11T12:00:00.000Z",
+      "principal": "5d152682eb1f2493fb6cba54aaa5149a",
+      "position": "2",
+      "idLegacy": 286811,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/53b9b4ba-3db8-46d6-8f37-649eb5744c36/images/"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/e02da84f-33a1-4f72-ac33-673037d3d2de"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/e02da84f-33a1-4f72-ac33-673037d3d2de/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/e02da84f-33a1-4f72-ac33-673037d3d2de"
+        }
+      }
+    }, {
+      "familyName": "Ouchenne",
+      "number": 14,
+      "givenName": "Samir",
+      "preferredFoot": "Left",
+      "email": "ouchenne.s@gmail.com",
+      "mostRecentImageHref": "66a705fa-a6a7-4bf2-b49f-5345769e80cf",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/be7bdbda-5fdb-493c-b298-280cc556b7b1/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 23 11 03 39",
+      "locale": "fr-FR",
+      "userHref": "9c7cba36-1345-4fb2-8895-aba4a6746db0",
+      "licenceNumber": "260310584",
+      "dateArrivalInClub": "2016-07-11T12:00:00.000Z",
+      "principal": "4afb18629ff074a0380d65a83ce7ff3a",
+      "position": "3",
+      "idLegacy": 286785,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/9c7cba36-1345-4fb2-8895-aba4a6746db0/images/66a705fa-a6a7-4bf2-b49f-5345769e80cf"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/be7bdbda-5fdb-493c-b298-280cc556b7b1"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/be7bdbda-5fdb-493c-b298-280cc556b7b1/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/be7bdbda-5fdb-493c-b298-280cc556b7b1"
+        }
+      }
+    }, {
+      "familyName": "Rebmann",
+      "number": 13,
+      "givenName": "Jonathan",
+      "preferredFoot": "Left",
+      "email": "gucci6700@hotmail.fr ",
+      "mostRecentImageHref": "a71d71ba-ae02-4b41-bf94-702d82f1f961",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/00bf7403-27e6-4ede-9a9d-2a2e8b93734a/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1987-07-11T12:00:00.000Z",
+      "secondPosition": "2",
+      "mobileNumber": "06 14 12 77 68",
+      "locale": "fr-FR",
+      "userHref": "a7fd11cf-0ba0-48b9-b721-4eee97961457",
+      "licenceNumber": "240310428",
+      "dateArrivalInClub": "2016-07-01T12:00:00.000Z",
+      "principal": "8c0c05ff721ad77e4bda375c33318c7a",
+      "position": "2",
+      "idLegacy": 286782,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/a7fd11cf-0ba0-48b9-b721-4eee97961457/images/a71d71ba-ae02-4b41-bf94-702d82f1f961"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/00bf7403-27e6-4ede-9a9d-2a2e8b93734a"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/00bf7403-27e6-4ede-9a9d-2a2e8b93734a/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/00bf7403-27e6-4ede-9a9d-2a2e8b93734a"
+        }
+      }
+    }, {
+      "familyName": "Rub",
+      "number": 18,
+      "givenName": "Frédéric",
+      "preferredFoot": "Right",
+      "email": "rubfrederic@hotmail.fr",
+      "mostRecentImageHref": "f1d872b2-cab7-44a6-ad7d-7d95007f703f",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/0633898e-607b-4c54-8c09-5b4f64c06cd0/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "secondPosition": "2",
+      "mobileNumber": "06 89 36 84 84",
+      "locale": "fr-FR",
+      "userHref": "39093c51-45d9-4758-a74b-f4eae9b44393",
+      "licenceNumber": "200408359",
+      "dateArrivalInClub": "2014-07-14T12:00:00.000Z",
+      "principal": "0b517cd56bac947a18b75f86719da18f",
+      "position": "2",
+      "idLegacy": 286799,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/39093c51-45d9-4758-a74b-f4eae9b44393/images/f1d872b2-cab7-44a6-ad7d-7d95007f703f"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/0633898e-607b-4c54-8c09-5b4f64c06cd0"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/0633898e-607b-4c54-8c09-5b4f64c06cd0/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/0633898e-607b-4c54-8c09-5b4f64c06cd0"
+        }
+      }
+    }, {
+      "familyName": "Saber",
+      "number": 19,
+      "givenName": "Abdelkrim",
+      "preferredFoot": "Right",
+      "mostRecentImageHref": "f38db698-819b-4791-b210-afe531625393",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/cda75593-833d-40a1-b8b0-7d6873b969f0/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 46 71 55 83",
+      "locale": "fr-FR",
+      "userHref": "4bf3c4b9-c75f-47ed-8aa0-40f9cc10c65a",
+      "licenceNumber": "1585624606",
+      "dateArrivalInClub": "2016-07-13T12:00:00.000Z",
+      "principal": "94291ad58233057b6618e7d7b857a5a8",
+      "position": "2",
+      "idLegacy": 286800,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/4bf3c4b9-c75f-47ed-8aa0-40f9cc10c65a/images/f38db698-819b-4791-b210-afe531625393"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/cda75593-833d-40a1-b8b0-7d6873b969f0"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/cda75593-833d-40a1-b8b0-7d6873b969f0/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/cda75593-833d-40a1-b8b0-7d6873b969f0"
+        }
+      }
+    }, {
+      "familyName": "Sassi",
+      "number": 20,
+      "givenName": "Chemss Eddine",
+      "preferredFoot": "Left",
+      "mostRecentImageHref": "4af38520-f3af-47e4-9581-fcaf937400ee",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/8c145f7b-1822-443a-8e2d-bfac38aace02/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "dateOfBirth": "1987-02-12T12:00:00.000Z",
+      "secondPosition": "3",
+      "mobileNumber": "06 16 45 71 22",
+      "locale": "fr-FR",
+      "userHref": "1177ea49-62cc-463d-a4df-b3211fb84c48",
+      "licenceNumber": "2546893107",
+      "dateArrivalInClub": "2013-08-27T12:00:00.000Z",
+      "principal": "33e9ce15f452a6799e79153c9506dac1",
+      "position": "2",
+      "idLegacy": 286801,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/1177ea49-62cc-463d-a4df-b3211fb84c48/images/4af38520-f3af-47e4-9581-fcaf937400ee"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/8c145f7b-1822-443a-8e2d-bfac38aace02"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/8c145f7b-1822-443a-8e2d-bfac38aace02/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/8c145f7b-1822-443a-8e2d-bfac38aace02"
+        }
+      }
+    }, {
+      "familyName": "Schauli",
+      "number": 21,
+      "givenName": "Frédéric",
+      "preferredFoot": "Right",
+      "email": "schauli.frederic@laposte.net",
+      "mostRecentImageHref": "756a9cc6-4f05-4cf2-a5f3-1b88db6044a4",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/5d3886fb-54d5-4eb0-ada9-60b8e2ef4a27/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 98 04 57 55",
+      "locale": "fr-FR",
+      "userHref": "a193418b-18e5-40d3-b27a-6fca01a22006",
+      "licenceNumber": "260310038",
+      "dateArrivalInClub": "2014-07-01T12:00:00.000Z",
+      "principal": "3b227b7c8136b994b0437a47380ba1a3",
+      "position": "2",
+      "idLegacy": 286802,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/a193418b-18e5-40d3-b27a-6fca01a22006/images/756a9cc6-4f05-4cf2-a5f3-1b88db6044a4"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/5d3886fb-54d5-4eb0-ada9-60b8e2ef4a27"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/5d3886fb-54d5-4eb0-ada9-60b8e2ef4a27/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/5d3886fb-54d5-4eb0-ada9-60b8e2ef4a27"
+        }
+      }
+    }, {
+      "familyName": "Utz",
+      "number": 10,
+      "givenName": "Lionel",
+      "preferredFoot": "Left",
+      "email": "guibolle_de_stras@hotmail.fr",
+      "mostRecentImageHref": "4a42b161-e629-4e00-afb7-f675caf8233e",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/85065f8f-84a7-4c5e-87fe-ee99fe8d2439/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "06 58 65 84 83",
+      "locale": "fr-FR",
+      "userHref": "2cd3e057-3a26-44fa-959b-1681304c9320",
+      "licenceNumber": "250319886",
+      "dateArrivalInClub": "1996-05-07T12:00:00.000Z",
+      "principal": "ae4fe0fa506f3e77589871c4d35f7088",
+      "position": "3",
+      "idLegacy": 286803,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/2cd3e057-3a26-44fa-959b-1681304c9320/images/4a42b161-e629-4e00-afb7-f675caf8233e"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/85065f8f-84a7-4c5e-87fe-ee99fe8d2439"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/85065f8f-84a7-4c5e-87fe-ee99fe8d2439/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/85065f8f-84a7-4c5e-87fe-ee99fe8d2439"
+        }
+      }
+    }, {
+      "familyName": "Wolff",
+      "number": 22,
+      "givenName": "Ludovic",
+      "preferredFoot": "Right",
+      "email": "nini.fricker@free.fr",
+      "mostRecentImageHref": "87baceac-b0d4-4e9f-b06e-e2ba3c4f6885",
+      "_embedded": {
+        "mc:teamStatus": [{
+          "_links": {
+            "self": {
+              "href": "/football-players/0f93751d-e4b0-4890-8356-f649735523d5/status"
+            }
+          },
+          "status": "OK"
+        }]
+      },
+      "mobileNumber": "07 87 41 54 36",
+      "locale": "fr-FR",
+      "userHref": "f1ca4333-d76b-47b6-b4f4-498040b298c9",
+      "licenceNumber": "280365421",
+      "dateArrivalInClub": "2015-07-01T12:00:00.000Z",
+      "principal": "2263214bc7cb9b703c810e80f1a51927",
+      "position": "3",
+      "idLegacy": 286805,
+      "_links": {
+        "mc:image": [{
+          "href": "/users/f1ca4333-d76b-47b6-b4f4-498040b298c9/images/87baceac-b0d4-4e9f-b06e-e2ba3c4f6885"
+        }],
+        "mc:footballPlayer": [{
+          "href": "/football-players/0f93751d-e4b0-4890-8356-f649735523d5"
+        }],
+        "mc:profilePicture": [{
+          "href": "/football-players/0f93751d-e4b0-4890-8356-f649735523d5/profile-picture"
+        }],
+        "self": {
+          "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players/0f93751d-e4b0-4890-8356-f649735523d5"
+        }
+      }
+    }],
+    "mc:footballClub": [{
+      "name": "Club",
+      "label": "Club",
+      "countryId": 118,
+      "seasonHref": "8",
+      "_links": {
+        "self": {
+          "href": "/football-clubs/8833b559-30cd-478f-bd80-9c1cfb8bf109"
+        }
+      }
+    }]
+  },
+  "sportId": "football",
+  "category": "",
+  "footballClubHref": "8833b559-30cd-478f-bd80-9c1cfb8bf109",
+  "verified": false,
+  "level": "",
+  "_links": {
+    "mc:footballGames": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/football-games"
+    }],
+    "curies": [{
+      "name": "mc",
+      "href": "http://api.mycoachfootball.com/rels/{rel}",
+      "templated": true
+    }],
+    "self": {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142"
+    },
+    "mc:physios": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/physios",
+      "title": "Physios"
+    }],
+    "mc:players": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/players"
+    }],
+    "mc:fffTeam": [{
+      "href": "/fff/teams/1083"
+    }],
+    "mc:seasons": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/info/seasons/9"
+    }],
+    "mc:trainingSessions": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/training-sessions"
+    }],
+    "mc:fffGames": [{
+      "href": "/fff/teams/1083/games"
+    }],
+    "mc:staffMembers": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/staff"
+    }],
+    "mc:statistics": [{
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/1"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/2"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/3"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/5"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/6"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/7"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/8"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/9"
+    }, {
+      "href": "/football-teams/ca14ce14-50be-406e-b7ea-98232a7ce142/seasons/10"
+    }]
+  }
+}

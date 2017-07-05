@@ -6,9 +6,3 @@ $(document).ready(function () {
     })
 
 });
-
-function SetActiveMenu(type) {
-    var id = Routing.type;
-    $(Routing.type.deader).addClass('active-nav')
-    $(Routing.type.footer).addClass('active-footer')
-}

@@ -1,8 +1,8 @@
 var HeaderConfig = {
 
-    'header_data': '9cb53795-fbe8-48b4-b9f8-dd988411d089',
+    'header_data': Config.api + '9cb53795-fbe8-48b4-b9f8-dd988411d089',
 
-    'navigation_items': '13cfeaea-8b63-43d9-a92a-89c698354280'
+    'navigation_items': Config.api + '13cfeaea-8b63-43d9-a92a-89c698354280'
 };
 
 var RunHeader = setInterval(function () {
@@ -24,7 +24,7 @@ function GetNavigationData(leng) {
                 $('#id_home').html(res.home.name[leng]);
                 $('#id_about').html(res.about.name[leng]);
                 $('#id_armath_labs').html(res.armath_labs.name[leng]);
-                $('#id_online_resources').html(res.e_learning.name[leng]);
+                $('#id_online_resources').html(res.online_resources.name[leng]);
                 $('#id_events').html(res.events.name[leng]);
                 $('#id_partners').html(res.partners.name[leng]);
                 $('#id_gallery').html(res.gallery.name[leng]);
@@ -34,7 +34,7 @@ function GetNavigationData(leng) {
                 $('#id_foo_home').html(res.home.name[leng]);
                 $('#id_foo_about').html(res.about.name[leng]);
                 $('#id_foo_armath_labs').html(res.armath_labs.name[leng]);
-                $('#id_foo_online_resources').html(res.e_learning.name[leng]);
+                $('#id_foo_online_resources').html(res.online_resources.name[leng]);
                 $('#id_foo_events').html(res.events.name[leng]);
                 $('#id_foo_partners').html(res.partners.name[leng]);
                 $('#id_foo_gallery').html(res.gallery.name[leng]);

@@ -1,6 +1,6 @@
 var ArmroboticsPageConfig = {
-    'armrobotics_page_data': 'bfec58de-1eb9-4254-b067-72661ea08ed9',
-    'all_events': 'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb'
+    'armrobotics_page_data': Config.api +'bfec58de-1eb9-4254-b067-72661ea08ed9',
+    'all_events': Config.api +'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb'
 };
 
 w3.includeHTML(function () {
@@ -11,6 +11,13 @@ w3.includeHTML(function () {
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
 });
+
+$(document).on('click', '.contest', function () {
+    localStorage.setItem('uuid', $(this).attr('uuid'));
+    var href = location.protocol + "//" + document.domain + '/contests.html';
+    window.location.href = href;
+})
+
 
 function GetArmroboticsPageData(leng) {
     $.ajax({
@@ -28,7 +35,7 @@ function GetArmroboticsPageData(leng) {
                         '<div> ' +
                         '<h2>' + val.title[leng] + '</h2>' +
                         '<p>' + val.text[leng] + '</p>' +
-                        '<p><a href="#">View all Robotics contests</a></p>' +
+                        '<p><a class="contest"  uuid="' + val.contest.uuid + '">View all Robotics contests</a></p>' +
                         '</div>' +
                         '</div>'
                     )
