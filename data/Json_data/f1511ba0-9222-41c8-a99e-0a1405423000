@@ -33,8 +33,11 @@
     "rules":{"url": "xxx"},
     "history": [
         {"uuid": "5d6e7c0c-cae0-4eb0-9fa1-2e0a2a5d563c"},
-        {"uuid": "xxx"},
-        {"uuid": "xxx"}
+        {"uuid": "70f01646-b2fb-4eef-aa88-9194aff97e5b"},
+        {"uuid": "5697cd89-02d2-437d-850c-62d1867152c3"},
+        {"uuid": "eab53333-26a8-4f86-bcfd-ae768cba8f58"},
+        {"uuid": "b95572bd-9700-4313-bcfe-c66f175216b2"},
+        {"uuid": "1f5092f0-924f-462f-b3a5-eeb9810cff59"}
     ],
     "all_events": {
         "uuid": "b79f78fb-f8af-4dee-b4d0-59b6dc9951bb"

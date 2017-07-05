@@ -10,7 +10,7 @@
     "armath_labs" : {"name": {"en-us": "Armath labs",
                               "hy-am": ""},
                      "uuid": "xxx" },
-    "e_learning" : {"name": {"en-us": "E-Learning",
+    "online_resources" : {"name": {"en-us": "Online Resources",
                     "hy-am": ""},
                 "uuid": "3f1c3bfc-ce14-4a31-8e45-63bdb0112a45" },
     "events" : {"name": {"en-us": "Events",

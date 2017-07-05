@@ -13,7 +13,7 @@
             },
             "assets": {
                 "imgs": [
-                    {"uuid": "xxx"}
+                    {"uuid": "00a98de4-9e09-4fca-97bf-865a83e96d9b"}
                 ]
             }
             },
@@ -73,6 +73,7 @@
     },
     "labs_map": {"uuid": "33c639d4-b4f2-47d1-a372-a5a3af5b7a15"},
     "latest_news": {"uuid": "fcc90652-9e5c-4035-98c3-aff4d36da2ed"},
+    "all_news": {"uuid": "1f5a5503-d951-4920-bf90-b7b5cfb745b1"},
     "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"},
     "web_site_skeleton": {"uuid": "42ab276a-ece7-4fde-8add-c6994b448b09"}
 }
