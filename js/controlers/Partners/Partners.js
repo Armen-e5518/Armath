@@ -1,5 +1,5 @@
 var PartnersPageConfig = {
-    'partners_page_data': Config.api +'c74c228d-ab61-4237-b49d-440c315d8d6b',
+    'partners_page_data': Config.api + 'c74c228d-ab61-4237-b49d-440c315d8d6b',
     'count': 5,
 };
 
@@ -40,7 +40,7 @@ function GetPartnersPageData(leng) {
                 res.partners.forEach(function (val) {
                     $.ajax({
                         type: "POST",
-                        url: Config.domain + Config.Path + val.uuid,
+                        url: Config.domain + Config.Path + Config.api + val.uuid,
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {
