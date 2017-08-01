@@ -1,0 +1,231 @@
+web_site_skeleton
+42ab276a-ece7-4fde-8add-c6994b448b09
+
+about page
+624631ec-f8b0-4f56-83a9-82a7ffa204bf
+
+home page
+c120e3b5-a8d0-4770-842d-13cfad2a960d
+
+latest_news
+fcc90652-9e5c-4035-98c3-aff4d36da2ed
+
+news_item
+93ecd4d0-daf3-4430-a520-db623a2826c8
+a14ff309-ccdc-4a42-a303-4144dedf896b
+
+online_resources page - 3f1c3bfc-ce14-4a31-8e45-63bdb0112a45
+nairi_resources- 2c65d9b3-0039-4570-8c98-04b412d849f8
+
+donate_page
+b6dd08a7-8d8b-448d-9bdf-0e40abcce447
+links available on appropriate places in the donate page file
+arcacard-icon.jpg - fc14e9ba-2bb5-4e7f-813a-040c1a895ca7
+mastercard-icon.jpg - 1ef0368b-7147-4db1-9486-bbdda8b98f98
+visacard-icon.jpg - a626b427-2b1d-47bc-8835-d7f65cc42a4d
+aecard-icon.jpg - 33697661-3b6c-4e2a-a9d9-38ee3d8ae888
+donation_product images are also available
+
+events_page
+2ff1033f-17bd-4153-9fee-fe06c5d1b21e
+
+all_events
+b79f78fb-f8af-4dee-b4d0-59b6dc9951bb
+
+event
+ArmRobotics- bfec58de-1eb9-4254-b067-72661ea08ed9 (img -
+732566ac-a3f7-459e-bce9-f4d6b2ed6f64 logo - d96ac52e-4ea9-4a27-a022-292522782c8a)
+
+sub-events
+Robotics- 131797ed-65ac-4414-b662-f43457cfe0a9
+UAV- f2b16140-19c4-4374-b855-406162feed6a
+sub-contests
+Minesweeper - 4389da4c-0ccb-467e-93ea-9a0fd415996e
+Object finding&sorting/Line tracking - b993568a-ce26-4794-a296-623db4089715
+ObjectFinding jury the same as in minessweeper
+
+ObjectFinding history
+Line follower and object sorting 2014 - 5ada11f7-2ab6-4987-bdda-527ddc568816
+Line follower 2014 - a4f4c911-d723-46df-8924-b98325636f96
+
+Minesweeper jury
+
+Tigran Zaqaryan - 66789bc8-3d19-494b-8835-7ac43215c911
+Patvakan Hakhinyan - 7f3ff581-18fb-41c9-b388-0446aa525c02
+Manuk Shemsyan - 87675599-2065-4b7f-8063-d080621dff2a
+Paylak Ghukasyan - 458a3547-ee0c-49ce-9512-2d335004aece
+Hrachya Makaryan - ac36f3af-7ffd-475c-bc02-3b322dc4ae25
+Aram Hajyan - 121bf87f-3698-431c-a45d-b4fd6dbe3577
+Hrachya Khach. - 420280b7-42ea-4a6e-a3a5-5c7fcc84ebef
+Arman Pogh. - a3722982-4d2a-4b40-b45a-38736c32177a
+Vahagn Pogh. - f9525c08-7992-4ebb-8c8a-7283130b5744
+
+Minesweeper "history":
+"2010": "a46ca097-042e-4e69-a895-a90f638d354d"},
+"2011": "efa95803-3258-425e-a1b9-5f9e84753357"},
+"2016": "71c4a09e-f9a8-4046-9983-d5d4b8699db8"}
+
+contest
+Digicode - 95cadc2a-32fb-46b5-b28f-704d31a35af5 (img -
+55ef7b86-7d58-489a-8591-e23bfccda692 logo - b95b3a19-206e-4be5-a235-f43580b00194)
+
+Open Game Championship - f1511ba0-9222-41c8-a99e-0a1405423000 (img -
+7099711d-d4d1-4be8-b74c-b2ce4ff8598b logo_eng - f7fd0067-bb0c-447a-808f-03aa6980162a, logo-hy - 09a09b8d-b5b4-4804-837e-a352768a874e)
+OpenGame Jury
+Gevorg Sargsyan: "72bb3144-d0a3-48c7-b644-7c08c2e94034"},
+Ara Aghayan: "10957794-8827-4af3-80cd-59a5021e5570"},
+Arsham Manukyan: "40084cb1-1183-4fd1-9b4c-3509b21926ca"},
+Karen Vardanyan: "92853b8c-acf6-4c08-ba99-f6957d996379"},
+Suren Azatyan: 886a8f95-a18d-4ea8-87b3-ce56f0d60d50"},
+Gevorg Kopalyan: - 721596fb-b07b-4c68-94d1-feae77c35a7a"},
+Arman Atoyan: - 6aee4f4c-7871-4530-a76a-62c8226a54b1"},
+Hovhannes Safaryan - f81a09ba-57c5-4f33-9e8e-8fdaf190cb48"},
+Naira Aghayan:-   "185a0109-c08e-4e5c-8968-34bad4df2b68"}
+
+Opengame History
+2011 - 5d6e7c0c-cae0-4eb0-9fa1-2e0a2a5d563c
+2012 - 70f01646-b2fb-4eef-aa88-9194aff97e5b
+2013 - 5697cd89-02d2-437d-850c-62d1867152c3
+2014 - eab53333-26a8-4f86-bcfd-ae768cba8f58
+2015 - b95572bd-9700-4313-bcfe-c66f175216b2
+2016 - 1f5092f0-924f-462f-b3a5-eeb9810cff59
+
+
+camp
+Digicamp- 5b97fa6c-bbec-4f34-b6e0-cde24a586e3f (img - 44f26c09-563d-46d4-8a6a-b8438eab0aac logo - 1095bbaa-7e32-44a9-8ba4-a651530b5d62)
+Armath tech camp -  396d4157-e90a-4814-820c-0c12e8542538 (img -
+d1354af6-1e68-4b5f-be8f-29ccb21baa1d logo - 3b74635d-0e50-477a-bb63-c73d13f93c49)
+
+
+labs_page
+bd9fdd77-92c3-4247-919c-d266c6aa3ee5
+
+all_schools in states
+ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1
+
+schools in state
+04d45f52-c7bd-48e9-8145-e9bbd38275a6
+
+all_labs
+6bd5b554-0d0d-4b72-8999-80ff375585ec
+labs_on_map image - a63a2630-b9ad-49be-89e3-f2a3c3650280
+
+lab
+6ac46a1c-82fd-465a-b6e9-a8d0273965ee
+
+school
+f2813072-b690-45e3-b83b-6d485ffaecbb
+
+students
+476108d7-8b6d-4a42-b4bc-9e0d568c3da3
+38e37315-65c1-44b5-bbe4-364379d01b04
+
+
+projects
+b0b2fab6-2c78-45c0-8061-f2b690fd7032
+0958ac80-ff96-45cd-9c7b-8d6ac04a97c1
+
+all_tech_equipment
+6578857e-1c09-475f-92ef-8b394f6a22c1
+
+technical_equipment
+3D printer - 1746c545-4b40-4e63-8f86-cf5ed0c009aa
+Aghves - 6b09af47-aafe-4dc2-acef-2d363a40b965
+CNC - 5f18f981-9a15-468c-9efd-1472190786eb
+SERob - eff0defa-98a4-4e98-a53b-8f8b58e3064d
+Aygestan - cdfe901f-c61f-485d-908e-fc17d1df10b6
+Nairi - d1b4c42c-1d2d-4d7b-a6fc-c50057eeb002
+Kria- 62557c26-7ee7-411a-afbc-4369c3e77346
+
+partners_page
+c74c228d-ab61-4237-b49d-440c315d8d6b
+
+sponsor
+Ucom - f07e8efc-9a61-4529-abf4-066b32283886
+ucom-logo.png - 1d7462d5-968b-44f5-81f7-acb8e4de202c
+UITE- a733362d-727f-4e18-ac03-860c3acc7f06
+uite-logo.png - 4cf04832-898a-49d7-a2f8-cd37cb096759
+
+contact_us_page
+2757a4a0-5d30-4587-a149-3cd2d2980710
+uite-logo.png - f268dda4-a77e-4ac7-8e0d-0192c71faa09
+
+contact_address
+7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b
+
+about project description image - d6bce326-fbe6-4b4f-a612-e59c0b68b76d
+WITSA-award image - 2948accb-653c-490a-bbad-fb36fc04f4c3
+
+action plan of the project
+1 stage image - 146fea79-3068-4190-8b31-606e4a72ebe5
+2 stage image - 
+3 stage image - 21aa27a1-8938-4e25-a55e-aab36aab7469
+4 stage image - 3d395d6b-dd0a-47bd-80f4-87a3b5d9f781
+
+
+gallery_page
+340f0e68-188c-457a-a5f9-daab80100fe4
+gallery_item - 861ee3f8-d604-4cd2-bbb8-d1b2d585b9a9
+gallery_item - 3277eb7e-5122-4ad3-96e8-d7bb05076fdd
+gallery_item - 75444226-77f2-4e44-b4a9-d11ff3a87ad2
+
+header
+9cb53795-fbe8-48b4-b9f8-dd988411d089
+header-logo.png - 967fbc42-a875-44e1-bd14-5884ee34a4eb
+
+footer
+458652d4-2d0c-406b-9ec1-f5f157dbf181
+footer-logo.png - 48be3fe4-9376-4f95-8a06-4e5e1aee4a3d
+
+navigation_items
+13cfeaea-8b63-43d9-a92a-89c698354280
+
+social_media
+c9d5cce6-0184-4865-bfba-eca09534ded7
+
+labs_map
+33c639d4-b4f2-47d1-a372-a5a3af5b7a15
+
+Images
+mob-logo.png - d1f63f43-8fd3-4e55-809b-6edf501e1c9c
+burger-menu.png - 87392cd0-6930-42cd-8fbb-010e60a29f38
+slide-watermark.png - 248dff60-6729-48fc-b078-420de19e89c9
+End Images
+
+---------------------------------------
+Nairi Resources
+---------------------------------------
+online_resources page - 3f1c3bfc-ce14-4a31-8e45-63bdb0112a45
+nairi_resources - 2c65d9b3-0039-4570-8c98-04b412d849f8
+lab_management methodology - 118735dd-bfcc-4150-a741-2388bf1211c5
+nairi_software_packages - 16cff042-36a7-4290-a629-6f34f848a534
+nairi_library - 96839877-cfe2-4c94-95e8-c749b8a1d19e
+nairi_educational_videos - 0c4ce38c-f3b9-4926-933b-f393ac1e2dcb
+nairi_useful_sites - 667f0814-22bc-4738-b7ae-c2c038d6e902
+nairi_3D_modeling - 57ad9a12-da0f-4aad-9e06-ae1bb89e785d
+nairi_aghues - 6db6c23a-8edc-43db-b4d9-ab15c761d3b2
+nairi_kria - ddcea34b-fa4b-4a05-8b01-0e6eaddc192b
+nairi_robotics - e11aafe2-b702-48cd-b73c-d1ac83b7f9e2
+nairi_electrical_engineering - fec93284-4d0a-40f7-ba69-5f3bffaa98fb
+nairi_nairi_board - 0194501c-f562-4f2e-b18b-3feedc7ffd74
+nairi_operating_system - 17535400-c34b-4d4b-bdbc-678aa66a29c1
+nairi_araxOs": {"uuid": "869d785c-31c8-416a-9872-bda6c1374be7"},
+nairi_araxOs_software_packages": {"uuid": "e0237392-cb9b-437a-ba36-9467d3dcc0b7"},
+nairi_araxOs educational_videos": {"uuid": "508735a5-dca7-4e95-8c98-ba8a68dcfb23"},
+nairi_nairiPi_operating_systems - 6c3e9d67-50e0-429e-bfcd-3bd15d72fd70
+
+nairi_Ubuntu12.04VirtualBox_GugarqD - 74b3d4f1-464d-43f4-88d5-c66c66a58728
+nairi_Ubuntu12.04_with_LinuxCNC - 4901d602-60bb-48cd-8219-922de9cf0d37
+nairi_qucs-- c2a6aab2-7a7c-43e7-8cd5-3ad390cbf361
+nairi_qucs_sw - 64f142e9-66a3-4959-8fcf-854fd616590d
+nairi_qucs_educational_videos - e9dcf8e4-080b-46de-8e16-438fe585ddc8
+nairi_electrical_engineering_educational_videos- f42fab6e-4877-422a-a5c4-3d746dca3425
+nairi_electrical_engineering_educational_manual - 88d36682-802e-49d1-a8dc-e87f47c5457d
+nairi_morze_wire_writer - 11e657f0-9237-416b-99d3-d277cde44153
+nairi_microphone - 29e6bf69-146c-4fdb-84d8-7b2e4420160f
+
+nairi_3D_modeling_educational_manual - d399c261-c73c-48fc-970b-146ddc3388ae
+nairi_3D_modeling_educational_videos - e2cba640-7151-4314-a30f-5844d442dea0
+
+nairi_robotics_educational_manual - 7b87c234-cd3e-480e-8a24-3f5fab7d9165
+

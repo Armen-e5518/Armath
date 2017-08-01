@@ -21,7 +21,7 @@ $(document).on('click', '.contest', function () {
 
 function GetArmroboticsPageData(leng) {
     $.ajax({
-        type: "POST",
+        type: Config.request_type,
         url: Config.domain + Config.Path + ArmroboticsPageConfig.armrobotics_page_data,
         dataType: 'json',
         success: function (res) {
@@ -35,7 +35,7 @@ function GetArmroboticsPageData(leng) {
                         '<div> ' +
                         '<h2>' + val.title[leng] + '</h2>' +
                         '<p>' + val.text[leng] + '</p>' +
-                        '<p><a class="contest"  uuid="' + val.contest.uuid + '">View all Robotics contests</a></p>' +
+                        '<p><a class="contest" href="contest1.html"  uuid="' + val.contest.uuid + '">View all Robotics contests</a></p>' +
                         '</div>' +
                         '</div>'
                     )
@@ -47,7 +47,7 @@ function GetArmroboticsPageData(leng) {
 function GetArmroboticsAllEventsPageData(leng) {
     var img = Config.img;
     $.ajax({
-        type: "POST",
+        type: Config.request_type,
         url: Config.domain + Config.Path + ArmroboticsPageConfig.all_events,
         dataType: 'json',
         success: function (res) {

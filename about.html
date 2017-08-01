@@ -17,6 +17,7 @@
 
 		<!-- Style CSS -->
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/lightbox.css" rel="stylesheet">
 		<!-- Custom Fonts -->
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -27,6 +28,7 @@
 		<script src="js/w3.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/language.js"></script>
+		<script src="js/lightbox.js"></script>
 	</head>
 	<body class="inner-page">
         <!-- Navigation -->
@@ -36,7 +38,8 @@
 				<h1 class="page-heading" id="id_about_title"></h1>
 				<div class="post-layout">
 					<div class="post-left-side about">
-						<p><img src="img/about-company/about-armath-featured-img.jpg" class="featured-img" alt=""></p>
+						<!--<p><img src="img/about-company/about-armath-featured-img.jpg" class="featured-img" alt=""></p>-->
+						<p id="id_video" ></p>
 						<p id="id_about_text"></p>
 
 						<h2 id="id_equipment_title"></h2>
@@ -51,16 +54,7 @@
 					<div class="post-right-side">
 						<a href="#" class="join-armath-btn" id="id_join_armath_title"></a>
 						<a href="donate.html" class="support-armath-btn" id="id_support_armath_title"></a>
-						<div class="company-activities">
-							<ul>
-								<li class="labs-map">
-									<div class="typlical-img"></div>
-									<div class="description"> 
-										<h2>Armath Labs on the map</h2>
-									</div>
-								</li>
-							</ul>
-						</div>
+						<div class="company-activities" id="id_map"></div>
 					</div>
 				</div>
 				
@@ -71,6 +65,7 @@
 		<script src="js/controlers/About/About.js"></script>
 		<script src="js/controlers/common/header.js"></script>
 		<script src="js/controlers/common/footer.js"></script>
+		<script src="js/controlers/common/map.js"></script>
 		<script src="js/controlers/common/contacts.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 </body>

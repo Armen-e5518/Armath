@@ -1,0 +1,121 @@
+{
+    "type": "nairi_library",
+    "timestamp": "xxx",
+    "title": {"en-us":"Library",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ],
+        "videos": [
+            {"uuid": "xGuidelines Presentationxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"CNC Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Electrical Engineering Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "88d36682-802e-49d1-a8dc-e87f47c5457d"
+        },
+        {
+            "title": {"en-us":"3D Modeling Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "d399c261-c73c-48fc-970b-146ddc3388ae"
+        },
+        {
+            "title": {"en-us":"Robotics Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Kria Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Aghues Educational Manual",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_resources": { "uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

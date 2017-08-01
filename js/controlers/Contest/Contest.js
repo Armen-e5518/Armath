@@ -22,7 +22,7 @@ w3.includeHTML(function () {
 function GetContestPageData(leng) {
     if (ContestPageConfig.contest_page_data) {
         $.ajax({
-            type: "POST",
+            type: Config.request_type,
             url: Config.domain + Config.Path + ContestPageConfig.contest_page_data,
             dataType: 'json',
             success: function (res) {
@@ -32,7 +32,7 @@ function GetContestPageData(leng) {
                     $('#id_contest_text').html(res.text[leng]);
                     res.jury.forEach(function (val) {
                         $.ajax({
-                            type: "POST",
+                            type: Config.request_type,
                             url: Config.domain + Config.Path + val.uuid,
                             dataType: 'json',
                             success: function (res1) {

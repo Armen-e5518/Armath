@@ -12,7 +12,7 @@ var RunContacts = setInterval(function () {
 
 function GetContactsData(leng) {
     $.ajax({
-        type: "POST",
+        type: Config.request_type,
         url: Config.domain + Config.Path + ContactsConfig.contact_data,
         dataType: 'json',
         success: function (res) {

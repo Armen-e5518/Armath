@@ -1,0 +1,151 @@
+{ 
+    "type": "donate_page",
+    "timestamp": "xxx",
+    "header": {"uuid" : "9cb53795-fbe8-48b4-b9f8-dd988411d089"},
+    "title": {"en-us":"DONATE TO ARMATH",
+              "hy-am": "xxx"
+    },
+    "donation_mechanism": {
+        "donate_to": {
+            "uite" : {
+                "text": {"en-us":"I want UITE to decide where my donation is most needed",
+                         "hy-am": "xxx"
+                }
+            },
+            "armath" : {
+                "text": {"en-us":"I want to donate to specific Region/City/Village/School/Armath Lab",
+                      "hy-am": "xxx"
+                },
+                "all_schools_in_states": {"uuid": "ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1"}
+            }
+        },
+        "payment_option" : {
+            "text": {"en-us":"Donation amount",
+                     "hy-am": "xxx"
+            },
+            "currency_items": ["AMD", "USD", "EUR"],
+            "duration_in_months": [
+                {"text": {"en-us":"I want my donation be automatically done every month.",
+                         "hy-am": "xxx"
+                }},
+                {"text": {"en-us":"I want my donation be automatically done 3 months.",
+                         "hy-am": "xxx"
+                }},
+                {"text": {"en-us":"I want my donation be automatically done 6 months.",
+                         "hy-am": "xxx"
+                }},
+                {"text": {"en-us":"I want my donation be automatically done 1 year.",
+                         "hy-am": "xxx"
+                }}
+            ],
+            "donation_gifts": [
+                {
+                    "assets": {
+                        "imgs": [
+                            {"uuid": "ae8d9b0e-c781-4648-a273-9634ec9c0e77"}
+                        ]
+                    },
+                    "title": {"en-us":"3D Printer",
+                              "hy-am": "xxx"
+                    },
+                    "text": {"en-us":"xxx",
+                             "hy-am": "xxx"
+                    },
+                    "price": {"AMD": 0,
+                              "USD": 0,
+                              "EUR": 0
+                    }
+                },
+                {
+                    "assets": {
+                        "imgs": [
+                            {"uuid": "a24b850b-ee11-4087-a0f3-af6b14208580"}
+                        ]
+                    },
+                    "title": {"en-us":"Furniture",
+                              "hy-am": "xxx"
+                    },
+                    "text": {"en-us":"xxx",
+                             "hy-am": "xxx"
+                    },
+                    "price": {"AMD": 0,
+                              "USD": 0,
+                              "EUR": 0
+                    }
+                },
+                {
+                    "assets": {
+                        "imgs": [
+                            {"uuid": "a9e2af40-3480-443b-82fd-9c0e0d423ffb"}
+                        ]
+                    },
+                    "title": {"en-us":"PCs/Laptops",
+                              "hy-am": "xxx"
+                    },
+                    "text": {"en-us":"xxx",
+                             "hy-am": "xxx"
+                    },
+                    "price": {"AMD": 0,
+                              "USD": 0,
+                              "EUR": 0
+                    }
+                }
+            ]
+        },
+        "payment_method": {
+            "title": {"en-us":"Select payment method",
+                      "hy-am": "xxx"
+            },
+            "method": [
+                {"id": "MasterCard",
+                 "assets": {
+                     "logos": [
+                         {"uuid": "1ef0368b-7147-4db1-9486-bbdda8b98f98"}
+                     ]
+                 }
+                },
+                {"id": "Visa",
+                 "assets": {
+                     "logos": [
+                         {"uuid": "a626b427-2b1d-47bc-8835-d7f65cc42a4d"}
+                     ]
+                 }
+                },
+                {"id" : "Arca",
+                 "assets": {
+                     "logos": [
+                         {"uuid": "fc14e9ba-2bb5-4e7f-813a-040c1a895ca7"}
+                     ]
+                 }
+                },
+                {"id" : "American Express",
+                 "assets": {
+                     "logos": [
+                         {"uuid": "33697661-3b6c-4e2a-a9d9-38ee3d8ae888"}
+                     ]
+                 }
+                }
+            ]
+        }
+    },
+    "personal_info": {
+        "title": {"en-us":"Personal Information",
+                  "hy-am": "xxx"
+        },
+        "name": {"en-us":"Enter your name",
+                 "hy-am": "xxx"
+        },
+        "last_name": {"en-us":"Enter your last name",
+                      "hy-am": "xxx"
+        },
+        "email_address": {"en-us":"Enter your email address",
+                      "hy-am": "xxx"
+        },
+        "comment": {"en-us":"Comments",
+                    "hy-am": "xxx"
+        }
+    },
+    "url": "http://metax.leviathan.am:7071/payment/arca/register?",
+    "save_payment_info": {"uuid": "5f2b6159-c455-4f59-8534-494ed7555aeb"},
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"}
+}

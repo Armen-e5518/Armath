@@ -1,0 +1,84 @@
+{
+    "type": "nairi_operating_systems",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+        "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+        "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"ARAX OS",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "e0237392-cb9b-437a-ba36-9467d3dcc0b7"
+        },
+        {
+            "title": {"en-us":"NairiPi 1.0(2016.04)",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "6c3e9d67-50e0-429e-bfcd-3bd15d72fd70"
+        },
+        {
+            "title": {"en-us":"Ubuntu OS 12.04 Virtual box for Gugarq D",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "74b3d4f1-464d-43f4-88d5-c66c66a58728"
+        },
+        {
+            "title": {"en-us":"Ubuntu OS 12.04 with LinuxCNC software",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "4901d602-60bb-48cd-8219-922de9cf0d37"
+        }
+    ],
+    "nairi_software_packages": {"uuid": "16cff042-36a7-4290-a629-6f34f848a534"}
+}

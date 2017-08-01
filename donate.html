@@ -7,14 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Armath | Donate</title>
-
     <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -26,7 +22,6 @@
     <script src="js/language.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
 <div w3-include-html="common/header.html"></div>
 <div id="wrapper">
     <div class="main">
@@ -40,15 +35,9 @@
                         <span id="id_uite"></span>
                     </label>
                     <div class="post-filter">
-                        <select size="1">
-                            <option value="1">Select Marz</option>
-                        </select>
-                        <select size="1">
-                            <option value="1">Select City / Village</option>
-                        </select>
-                        <select size="1">
-                            <option value="1">Select School</option>
-                        </select>
+                        <select id="id_states"></select>
+                        <select id="id_city_village"></select>
+                        <select id="id_school"></select>
                     </div>
                     <label for="want-uite">
                         <input type="radio" name="donate-way" id="want-uite">
@@ -71,16 +60,9 @@
                 <div class="office-address">
                     <h3 id="id_payment_option_title"></h3>
                     <strong>AMD</strong>
-                    <input type="text" placeholder="Enter amount"> OR choose from the gifts list below
-                    <label for="auto-donation">
-                        <input type="checkbox" id="auto-donation">
-                        <span class="check-mark"></span>
-                        I want my donation be automatically done every month.
-                        <i class="fa fa-question-circle-o" title="Tooltip"></i>
-                    </label>
-                    <div class="sale-for-donation" id="id_donation_gifts">
-
-                    </div>
+                    <input type="text" placeholder="Enter amount"> ??
+                    <div id="id_duration_in_months"></div>
+                    <div class="sale-for-donation" id="id_donation_gifts"></div>
                 </div>
             </div>
         </form>

@@ -1,0 +1,43 @@
+{
+    "type": "nairi_software_packages",
+    "timestamp": "xxx",
+    "title": {"en-us":"Nairi Software Packages",
+             "hy-am": "Ծրագրային փաթեթներ"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "items": [
+        {
+            "title": {"en-us":"Nairi Board",
+                      "hy-am": "Նաիրի սալիկ"
+            },
+            "uuid": "c9a86e67-c326-4291-8cae-ab8f61dbe66e"
+        },
+        {
+            "title": {"en-us":"Operating Systems",
+                      "hy-am": "ՕՀ-ներ"
+            },
+            "uuid": "17535400-c34b-4d4b-bdbc-678aa66a29c1"
+        },
+        {
+            "title": {"en-us":"Designing Integral schems(Qucs)",
+                      "hy-am": "Ինտեգրալ սխեմաների նախագծում (Qucs)"
+            },
+            "uuid": "64f142e9-66a3-4959-8fcf-854fd616590d"
+        },
+        {
+            "title": {"en-us":"Software package for Aghues",
+                      "hy-am": "Աղուես Ծրագրային Փաթեթ"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Software package for Kria",
+                      "hy-am": "Կրիայ Ծրագրային Փաթեթ"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

@@ -1,0 +1,57 @@
+{
+    "type": "nairi_araxOs_educational_videos",
+    "timestamp": "xxx",
+    "title": {"en-us":"AraxOs training videos",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"Lesson1: ARAX OS Installation in Virtua;Box",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson2: Installing VirtualBox on Windows",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson3: Installing OpenOffice, Firefox, Gimp, Scratch on Windows",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Ubuntu for Gugarq D v1.4 Image Copy via Windows",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Ubuntu for Gugarq v1.4 Image Copy via Ubuntu",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"OS Installation on Gugarq E computer",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_araxOs": {"uuid": "869d785c-31c8-416a-9872-bda6c1374be7"},
+    "nairi_educational_videos": {"uuid": "0c4ce38c-f3b9-4926-933b-f393ac1e2dcb"}
+}

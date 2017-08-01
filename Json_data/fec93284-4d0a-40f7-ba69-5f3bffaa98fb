@@ -1,0 +1,21 @@
+{
+    "type": "nairi_electrical engineering",
+    "timestamp": "xxx",
+    "title": {"en-us":"Electrical Engineering",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "nairi_qucs": { "uuid": "c2a6aab2-7a7c-43e7-8cd5-3ad390cbf361"},
+    "educational_manual": {"uuid": "88d36682-802e-49d1-a8dc-e87f47c5457d"},
+    "educational_videos": {"uuid": "f42fab6e-4877-422a-a5c4-3d746dca3425"},
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

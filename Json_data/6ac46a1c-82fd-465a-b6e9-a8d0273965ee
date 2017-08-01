@@ -1,0 +1,55 @@
+{
+    "type": "lab",
+    "timestamp": "2017-05-12T09:12:00.893Z",
+    "name": {"en-us": "YEREVAN SCHOOL #173(Shengavit), ARMATH LAB",
+             "hy-am": "Երևանի #173դպրոց (Շենգավիթ), Արմաթ լաբարատորիա "
+    },
+    "text": {"en-us": "xxshort description herexx",
+             "hy-am": "xxx"
+    },
+    "school": {"uuid": "f2813072-b690-45e3-b83b-6d485ffaecbb"},
+    "sponsor": {"uuid": "f07e8efc-9a61-4529-abf4-066b32283886"},
+    "coach": {"uuid": "a8fabf95-d650-4ee1-b9f2-d61c6aaa9ba9"},
+    "slides": [
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"}
+            ]
+        }
+        },
+        {
+        "title": {"en-us":"xxx",
+                  "hy-am": "xxx"
+        },
+        "text": {"en-us":"xxx",
+                 "hy-am": "xxx"
+        },
+        "assets": {
+            "imgs": [
+                {"uuid": "xxx"}
+            ]
+        }
+        }
+    ],
+    "technical_equipment": [
+        {"uuid": "1746c545-4b40-4e63-8f86-cf5ed0c009aa"},
+        {"uuid": "6b09af47-aafe-4dc2-acef-2d363a40b965"}
+    ],
+    "projects": [
+        {"uuid": "b0b2fab6-2c78-45c0-8061-f2b690fd7032"},
+        {"uuid": "0958ac80-ff96-45cd-9c7b-8d6ac04a97c1"}
+    ],
+    "students": [
+        {"uuid": "476108d7-8b6d-4a42-b4bc-9e0d568c3da3"},
+        {"uuid": "38e37315-65c1-44b5-bbe4-364379d01b04"}
+    ],
+    "all_labs": {"uuid": "6bd5b554-0d0d-4b72-8999-80ff375585ec"},
+    "all_schools_in_states": {"uuid": "ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1"}
+}

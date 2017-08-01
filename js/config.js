@@ -7,6 +7,7 @@ var Config = {
     'img': 'http://metax.leviathan.am:7071/db/get?id=',
     'language': 'en-us',
     'load': false,
+    'request_type':'GET'
 };
 
 if (localStorage.getItem('language')) {

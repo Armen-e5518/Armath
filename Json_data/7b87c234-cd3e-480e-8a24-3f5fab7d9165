@@ -1,0 +1,57 @@
+{
+    "type": "nairi_robotics_educational_manual",
+    "timestamp": "xxx",
+    "title": {"en-us":"Robotics training guides",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"SERob board WIFI configuration",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Nairi board usage guide",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Projects guide: Robots control in Kria-Serob board",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Projects guide: Robots control in Aghues-Nairi board",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Projects guide: Robots control in Kria-Nairi board",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Robotics Introduction",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_robotics": {"uuid": "e11aafe2-b702-48cd-b73c-d1ac83b7f9e2"},
+    "nairi_library": {"uuid": "96839877-cfe2-4c94-95e8-c749b8a1d19e"}
+}

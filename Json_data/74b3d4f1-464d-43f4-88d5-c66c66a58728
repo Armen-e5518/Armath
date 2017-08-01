@@ -1,0 +1,32 @@
+{
+    "type": "nairi_Ubuntu12.04VirtualBox_GugarqD",
+    "timestamp": "xxx",
+    "title": {"en-us":"Ubuntu 12.04VirtualBox for Gugarq D",
+        "hy-am": "xxx"
+    },
+    "text": {"en-us":"Ubuntu for Gugarq D based on Ubuntu (LTS) 12.04 version 1.4։ Download and install Ubuntu 12.04 VirtualBox. Use Ubuntu independent of your computer's current operationg system. The package installes a virtual machine and then the Ubuntu OS.",
+        "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"Ubuntu OS for Gugarq D version 1.4",
+                "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Ubuntu OS 12.04 VirtualBox",
+                "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_operating_systems": {"uuid": "17535400-c34b-4d4b-bdbc-678aa66a29c1"}
+}

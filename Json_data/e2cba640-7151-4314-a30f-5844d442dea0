@@ -1,0 +1,125 @@
+{
+    "type": "nairi_3D_modeling_educational_videos",
+    "timestamp": "xxx",
+    "title": {"en-us":"Learning Bzez",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"Lesson1: Introduction to 3D Printer",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson2: Safety and Operational Rules for 3D printer",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson3: The structure of 3D printer",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson4: 3D printer Application Tools",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson5: Step-by-step Printing",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson6: 3D printer Components",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"Lesson7: Assembly",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"3D printer settings",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_3D_modeling": {"uuid": "57ad9a12-da0f-4aad-9e06-ae1bb89e785d"},
+    "nairi_educational_videos": {"uuid": "0c4ce38c-f3b9-4926-933b-f393ac1e2dcb"}
+}

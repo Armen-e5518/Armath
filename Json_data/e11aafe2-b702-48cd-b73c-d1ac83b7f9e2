@@ -1,0 +1,20 @@
+{
+    "type": "nairi_robotics",
+    "timestamp": "xxx",
+    "title": {"en-us":"Robotics",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "educational_manual": {"uuid": "7b87c234-cd3e-480e-8a24-3f5fab7d9165"},
+    "educational_videos": {"uuid": "53c6abef-9873-4192-a987-1696edfbb935"},
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

@@ -1,0 +1,48 @@
+{
+    "type": "nairi_3D_modeling",
+    "timestamp": "xxx",
+    "title": {"en-us":"3D modeling",
+             "hy-am": "Եռաչափ մոդելավորում"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"NAIRI JOYSTICK",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"3D Models",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "educational_manual": {"uuid": "d399c261-c73c-48fc-970b-146ddc3388ae"},
+    "educational_videos": {"uuid": "e2cba640-7151-4314-a30f-5844d442dea0"},
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

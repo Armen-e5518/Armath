@@ -1,0 +1,18 @@
+{ 
+    "type": "labs_page",
+    "timestamp": "xxx",
+    "header": {"uuid" : "9cb53795-fbe8-48b4-b9f8-dd988411d089"},
+    "all_schools_in_states": {"uuid": "ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1"},
+    "all_labs": {"uuid": "6bd5b554-0d0d-4b72-8999-80ff375585ec"},
+    "all_projects": {"uuid": "ebefd5f2-9aee-4575-baa8-04f4c3cd2260"},
+    "all_students": {"uuid": "c5c89dd8-ab65-4ff5-87ee-8809778fd2f6"},
+    "all_coaches": {"uuid": "b0485918-9b3f-4cdf-a6e8-f73ea7a48b77"},
+    "support_armath": {
+        "title": {"en-us": "Support Armath",
+                  "hy-am": "xxx"
+        },
+        "link": {"uuid": "b6dd08a7-8d8b-448d-9bdf-0e40abcce447"}
+    },
+    "labs_map": {"uuid": "33c639d4-b4f2-47d1-a372-a5a3af5b7a15"},
+    "navigation_items": {"uuid": "13cfeaea-8b63-43d9-a92a-89c698354280"}
+}

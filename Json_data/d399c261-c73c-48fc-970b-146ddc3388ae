@@ -1,0 +1,47 @@
+{
+    "type": "nairi_3D_modeling_educational_manual",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"3D Modeling with OpenSCAD",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"3D printer Basic information",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_3D_modeling": {"uuid": "57ad9a12-da0f-4aad-9e06-ae1bb89e785d"},
+    "nairi_library": {"uuid": "96839877-cfe2-4c94-95e8-c749b8a1d19e"}
+}

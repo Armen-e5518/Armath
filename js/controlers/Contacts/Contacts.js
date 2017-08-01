@@ -21,7 +21,7 @@ w3.includeHTML(function () {
 
 function GetContactsPageData(leng) {
     $.ajax({
-        type: "POST",
+        type: Config.request_type,
         url: Config.domain + Config.Path + ContactsPageConfig.contacts_page_data,
         dataType: 'json',
         success: function (res) {

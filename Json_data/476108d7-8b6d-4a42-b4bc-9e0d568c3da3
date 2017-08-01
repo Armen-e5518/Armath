@@ -1,0 +1,20 @@
+{
+    "type": "student",
+    "timestamp": "2017-05-12T08:58:54.134Z",
+    "name": {"en-us":"Poghos Poghosyan",
+             "hy-am": "Պողոս Պողոսյան"
+    },
+    "date_of_birth": "2004-05-14",
+    "assets": {
+        "imgs": [
+            {"uuid": "xxx"}
+        ]
+    },
+    "class": 4,
+    "skills": ["C++", "Java"],
+    "projects": [
+        {"uuid": "b0b2fab6-2c78-45c0-8061-f2b690fd7032"}
+    ],
+    "lab": {"uuid": "6ac46a1c-82fd-465a-b6e9-a8d0273965ee"},
+    "all_students": {"uuid": "c5c89dd8-ab65-4ff5-87ee-8809778fd2f6"},
+}

@@ -1,0 +1,11 @@
+{ 
+    "type": "latest_news",
+    "timestamp": "xxx",
+    "title": {"en-us": "Armath Latest News",
+              "hy-am": "Արմաթի Նորությունները"
+    },
+    "news_items": [
+        {"uuid":"a14ff309-ccdc-4a42-a303-4144dedf896b"}
+    ],
+    "home_page_content": {"uuid":"c120e3b5-a8d0-4770-842d-13cfad2a960d"}
+}

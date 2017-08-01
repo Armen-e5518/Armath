@@ -1,0 +1,109 @@
+{
+    "type": "nairi_usefull_sites",
+    "timestamp": "xxx",
+    "title": {"en-us":"xxx",
+        "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+        "hy-am": "xxx"
+    },
+    "items": [
+        {
+            "title": {"en-us":"Instructables",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "http://www.instructables.com/"
+        },
+        {
+            "title": {"en-us":"Thingiverse",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "https://www.thingiverse.com/"
+        },
+        {
+            "title": {"en-us":"Hy-IT",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "http://hy-it.org/"
+        },
+        {
+            "title": {"en-us":"I-Gorc",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "http://ggg.i-gorc.am/#1"
+        },
+        {
+            "title": {"en-us":"OpenSourceForU",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "http://opensourceforu.com/"
+        },
+        {
+            "title": {"en-us":"ARDUINO",
+                "hy-am": "xxx"
+            },
+            "text": {"en-us":"xxx",
+                "hy-am": "xxx"
+            },
+            "assets": {
+                "logos": [
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"},
+                    {"uuid": "xxx"}
+                ]
+            },
+            "url": "https://create.arduino.cc/projecthub"
+        }
+    ],
+    "nairi_resources": {"uuid": "2c65d9b3-0039-4570-8c98-04b412d849f8"}
+}

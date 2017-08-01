@@ -1,0 +1,32 @@
+{
+    "type": "nairi_microphone",
+    "timestamp": "xxx",
+    "title": {"en-us":"Microphone",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am":"xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"Microphone Structural Features",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        },
+        {
+            "title": {"en-us":"The preparation description of microphone",
+                      "hy-am":"xxx"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_electrical_engineering_educational_manual": {"uuid": "88d36682-802e-49d1-a8dc-e87f47c5457d"}
+}

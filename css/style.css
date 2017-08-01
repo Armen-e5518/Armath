@@ -27,6 +27,10 @@ body {
     height: 100%;
 }
 
+a {
+	cursor: pointer;
+}
+
 a, button,
 a:hover, button:hover {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -434,6 +438,84 @@ em, i {
 	font-family:"Open Sans";
 }
 
+	.grid-tbl {
+		display:table;
+		width:100%;
+	}
+	
+		.grid-tbl-row {
+			display:table-row;
+		}
+		
+			.grid-tbl-row > div {
+				position: relative;
+			}
+		
+				.grid-tbl-row .armrobotics,
+				.grid-tbl-row .digicode {
+					display:table-cell;
+					width:60%;
+					vertical-align: top;
+					border-right: 9px #fff solid;
+				}
+			
+				.grid-tbl-row .digicode,
+				.grid-tbl-row .technocamp {
+					border-top: 9px #fff solid;
+				}
+				
+				.grid-tbl-row .digicamp.camp-aim {
+					margin-bottom: 9px;
+				}
+				
+			.grid-tbl-cell-60 {
+				display:table-cell;
+				width:60%;
+				vertical-align: top;
+			}
+			
+			.grid-tbl-cell-40 {
+				display:table-cell;
+				width:40%;
+				vertical-align: top;
+			}
+			
+				.grid-tbl-cell-60 > div,
+				.grid-tbl-cell-40 > div {
+					position: relative;
+				}
+				
+				.featured-project {
+					margin-right: 9px;
+					margin-bottom: 9px;
+				}
+				
+				.join-armath {
+					display: inline-block;
+					/*max-width: 277px;*/
+					width:calc(33% - 4px);
+					border-right: 5px #fff solid;
+				}
+				
+				.online-webinar {
+					display: inline-block;
+					/*max-width: 558px;*/
+					width:calc(67% - 5px);
+					border-right: 5px #fff solid;
+				}
+				
+				.gallery,
+				.support-armath {
+					display:table-cell;
+					width: 280px;
+					height:260px;
+					border-bottom: 9px #fff solid;
+				}
+				
+				.gallery {
+					border-right: 9px #fff solid;
+				}
+
 	.company-activities ul {
 		display: grid;
 		grid-gap: 10px;
@@ -455,22 +537,12 @@ em, i {
 				grid-column-end: 4;
 			}
 
-			.join-armath {
-				height: 260px;
-				background-color: #a2007d;
-			}
-
 			.online-webinar {
 				grid-row-start: 3;
 				grid-row-end: 4;
 				grid-column-start: 2;
 				grid-column-end: 4;
 				
-			}
-
-			.support-armath {
-				height: 260px;
-				background-color: #a2007d;
 			}
 
 			.labs-map {
@@ -517,6 +589,15 @@ em, i {
 				grid-row-end: 4;
 				grid-column-start: 4;
 				grid-column-end: 6;
+			}
+			
+			.join-armath {
+				height: 260px;
+				background-color: #a2007d;
+			}
+			.support-armath {
+				height: 260px;
+				background-color: #a2007d;
 			}
 			
 				.typlical-img {
@@ -839,6 +920,9 @@ em, i {
 			
 					.gallery-items a img {
 						width:100%;
+						max-height: 318px;
+						object-fit: cover;
+						object-position: center;						
 					}
 					
 					.gallery-items a span {
@@ -898,14 +982,18 @@ em, i {
 		}
 		
 		.post-layout {
-			display:grid;
+			/*display:grid;
 			grid-template-columns: 3fr 2fr;
 			grid-gap: 50px;
-			align-items: flex-start;
+			align-items: flex-start;*/
+			display:flex;
 		}
 		
 			.post-left-side {
 				margin-bottom:30px;
+				
+				margin-right:50px;
+				flex:3;
 			}
 
 				.post-left-side span {
@@ -1085,7 +1173,11 @@ em, i {
 										.post-left-side .post-item .project-stage-gallery a:hover span {
 											opacity:1;											
 										}
-									
+
+				#id_about_contest ul li {
+					margin-left: 40px;
+					list-style: disc;
+				}
 				.post-left-side.about > p {
 					margin-bottom: 18px;
 					font-size:18px;
@@ -1216,10 +1308,26 @@ em, i {
 						}
 				
 			.post-right-side {
-				display:grid;
+				/*display:grid;
 				grid-template-columns: repeat(2, minmax(1px, 1fr));
-				grid-gap: 10px;
+				grid-gap: 10px;*/
+				
+				flex:2;
 			}
+			
+				.post-right-side > a {
+					float:left;
+					width:calc(50% - 5px);
+					margin-bottom:10px;
+				}
+				
+				.post-right-side > a:nth-of-type(1) {
+					margin-right:5px;
+				}
+				
+				.post-right-side > a:nth-of-type(2) {
+					margin-left:5px;
+				}
 			
 				.inner-page .post-right-side h3 {
 					margin-top: 0;
@@ -1266,9 +1374,10 @@ em, i {
 				}
 				
 				.inner-page .post-right-side .company-activities {
-					margin-top:-10px;
+					/*margin-top:-10px;
 					grid-column-start: 1;
-					grid-column-end: 3;
+					grid-column-end: 3;*/
+					clear:both;
 				}
 				
 					.inner-page .post-right-side .company-activities ul {
@@ -1788,6 +1897,48 @@ footer {
 	
 	.sale-for-donation {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.grid-tbl-row {
+		display:block;
+	}
+	
+		.grid-tbl-row > div {
+			display: block !important;
+			width: 100% !important;
+			border-right: 0 !important;
+			border-bottom: 9px #fff solid;
+			border-top: 0 !important;
+		}
+		.grid-tbl-row .digicamp.camp-aim {
+		    margin-bottom: 0;
+		}
+		
+	.featured-project {
+		margin-right: 0;
+	}
+	
+	.grid-tbl-cell-60 {
+		border-bottom: 0 !important;
+	}
+	
+	.join-armath,
+	.online-webinar,
+	.gallery,
+	.support-armath {
+		display:block;
+		width: 100%;
+		margin-bottom: 9px;
+	}
+	
+	.join-armath,
+	.online-webinar,
+	.gallery {
+		border-right: 0;
+	}
+	
+	.support-armath {
+		border-bottom: 0;
 	}
 }
 

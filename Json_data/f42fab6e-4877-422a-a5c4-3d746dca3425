@@ -1,0 +1,33 @@
+{
+    "type": "nairi_electrical_engineering_educational_videos",
+    "timestamp": "xxx",
+    "title": {"en-us":"Electrical Engineering Educational videos",
+             "hy-am": "xxx"
+    },
+    "text": {"en-us":"xxx",
+             "hy-am": "xxx"
+    },
+    "assets": {
+        "logos": [
+            {"uuid": "xxx"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "items": [
+        {
+            "title": {"en-us":"Qucs",
+                      "hy-am": "xxx"
+            },
+            "uuid": "e9dcf8e4-080b-46de-8e16-438fe585ddc8"
+        },
+        {
+            "title": {"en-us":"New Node ???",
+                      "hy-am": "xxx"
+            },
+            "uuid": "xxx"
+        }
+    ],
+    "nairi_electrical_engineering": {"uuid": "fec93284-4d0a-40f7-ba69-5f3bffaa98fb"},
+    "nairi_educational_videos": {"uuid": "0c4ce38c-f3b9-4926-933b-f393ac1e2dcb"}
+}

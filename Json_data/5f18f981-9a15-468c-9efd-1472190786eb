@@ -1,0 +1,23 @@
+{ 
+    "type": "technical_equipment",
+    "timestamp": "xxx",
+    "title": {"en-us":"Computer Controlled CNC devices",
+              "hy-am": "Համակարգչային կառավարվող շաղափային CNC հաստոց"
+    },
+    "text": {"en-us":"<p>Learning to model and print on advanced computer controlled CNC devices, gives students the opportunity to get acquainted not only with programming, modeling, and engineering basics, but also with the production process.</p>",
+             "hy-am": "<p>Եռաչափ մոդելների ուսուցումը հնարավորություն է ընձեռնում գիտելքիները կիրառել նաև CNC փորագրող գայլիկոնային շաղափային հաստոցի միջոցով։ Այն թույլ է տալիս աշակերտներին ոչ միայն գրել ծրագիր կամ ունենալ փորձ տարրական ճարտարագիտության և մոդելավորման մեջ, այլև կարողանալ ստանալ արտադրական պրոցեսում օգտագործվող իրեր և դետալներ։</p>"
+    },
+    "assets": {
+        "imgs": [
+            {"uuid": "649f6345-0cb9-457c-9a08-85559f204266"},
+            {"uuid": "xxx"},
+            {"uuid": "xxx"}
+        ]
+    },
+    "labs": [
+        {"uuid": "6ac46a1c-82fd-465a-b6e9-a8d0273965ee"}
+    ],
+    "all_tech_equipment":{
+        "uuid": "6578857e-1c09-475f-92ef-8b394f6a22c1"
+    }
+}
