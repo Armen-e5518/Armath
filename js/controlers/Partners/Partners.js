@@ -1,12 +1,11 @@
 var PartnersPageConfig = {
     'partners_page_data': Config.api + 'c74c228d-ab61-4237-b49d-440c315d8d6b',
     'all_partners': Config.api + 'c10b3e3d-218d-4371-90a2-b2541af47bad',
-    'count': 5,
+    'default_count': 5,
 };
 
 var partners_list = [],
-    count_index = 0,
-    start = 4;
+    start = 0;
 
 w3.includeHTML(function () {
     console.log('Run Partners Page');
@@ -18,14 +17,14 @@ w3.includeHTML(function () {
 });
 
 $('#id_load_more').click(function () {
-    for (var i = start; i < start + PartnersPageConfig.count; i++) {
+    for (var i = start; i < start + PartnersPageConfig.default_count; i++) {
         if (partners_list[i]) {
             $('#id_all_partners').append(partners_list[i])
         } else {
             $('#id_load_more').hide();
         }
     }
-    start += PartnersPageConfig.count;
+    start += PartnersPageConfig.default_count;
 });
 
 function GetPartnersPageData(leng) {
@@ -51,23 +50,36 @@ function GetAllPartners(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                res.sponsors.forEach(function (val) {
+                res.sponsors.forEach(function (val, index) {
                     $.ajax({
                         type: Config.request_type,
                         url: Config.domain + Config.Path + Config.api + val.uuid,
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {
-                                $('#id_all_partners').append(
-                                    '<div class="post-item">' +
-                                    ' <img src="' + Config.img + res1.assets.logos[0].uuid + '" alt="">' +
-                                    '<div>' +
-                                    '<h2>' + res1.name[leng] + '</h2>' +
-                                    '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '">Visit website</a></p>' +
-                                    '<p><strong>Number of established Armath Labs:</strong> 32<br><a href="labs.html">View list of Labs</a></p>' +
-                                    '</div>' +
-                                    '</div>'
-                                );
+                                if (index <= PartnersPageConfig.default_count) {
+                                    $('#id_all_partners').append(
+                                        '<div class="post-item">' +
+                                        ' <img src="' + Config.img + res1.assets.logos[0].uuid + '" alt="">' +
+                                        '<div>' +
+                                        '<h2>' + res1.name[leng] + '</h2>' +
+                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '">Visit website</a></p>' +
+                                        '<p><strong>Number of established Armath Labs:</strong> 32<br><a href="labs.html">View list of Labs</a></p>' +
+                                        '</div>' +
+                                        '</div>'
+                                    );
+                                } else {
+                                    partners_list.push(
+                                        '<div class="post-item">' +
+                                        ' <img src="' + Config.img + res1.assets.logos[0].uuid + '" alt="">' +
+                                        '<div>' +
+                                        '<h2>' + res1.name[leng] + '</h2>' +
+                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '">Visit website</a></p>' +
+                                        '<p><strong>Number of established Armath Labs:</strong> 32<br><a href="labs.html">View list of Labs</a></p>' +
+                                        '</div>' +
+                                        '</div>'
+                                    )
+                                }
                             }
                         }
                     });

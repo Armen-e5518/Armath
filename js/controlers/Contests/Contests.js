@@ -1,19 +1,12 @@
 var ContestsPageConfig = {
-
     'contests_page_data': Config.api + localStorage.getItem('uuid'),
     'all_equipment': Config.api + '6578857e-1c09-475f-92ef-8b394f6a22c1',
-
 };
 
 w3.includeHTML(function () {
-
     console.log('Run Contest Page');
-
     GetContestsPageData(Config.language)
-
-
     Config.load = true;
-
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
 });

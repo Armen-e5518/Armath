@@ -1,6 +1,7 @@
 var HeaderConfig = {
     'header_data': Config.api + '9cb53795-fbe8-48b4-b9f8-dd988411d089',
-    'navigation_items': Config.api + '13cfeaea-8b63-43d9-a92a-89c698354280'
+    'navigation_items': Config.api + '13cfeaea-8b63-43d9-a92a-89c698354280',
+    'social_media': Config.api + 'c9d5cce6-0184-4865-bfba-eca09534ded7',
 };
 
 var RunHeader = setInterval(function () {
@@ -8,6 +9,7 @@ var RunHeader = setInterval(function () {
         console.log('Run Header');
         GetNavigationData(Config.language);
         GetHeaderData(Config.language);
+        GetSocialMmedia(Config.language);
         clearInterval(RunHeader)
     }
 }, 500);
@@ -66,4 +68,23 @@ function GetHeaderData(leng) {
 function SetLanguageInHeader() {
     var Leng = $('#id_languages a[data-id="' + Config.language + '"]').html();
     $('#lang .lang').html(Leng)
+}
+
+function GetSocialMmedia(leng) {
+    $.ajax({
+        type: Config.request_type,
+        url: Config.domain + Config.Path + HeaderConfig.social_media,
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                $('#id_head_facebook').attr('href', res.facebook.url);
+                $('#id_head_youtube').attr('href', res.youtube.url);
+                $('#id_head_twitter').attr('href', res.twitter.url);
+
+                $('#id_foo_facebook').attr('href', res.facebook.url);
+                $('#id_foo_youtube').attr('href', res.youtube.url);
+                $('#id_foo_twitter').attr('href', res.twitter.url);
+            }
+        }
+    });
 }
