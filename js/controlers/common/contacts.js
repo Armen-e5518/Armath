@@ -23,8 +23,8 @@ function GetContactsData(leng) {
                 $('#id_building').html(res.building);
                 $('#id_floor').html(res.floor);
                 $('#id_post_code').html(res.post_code);
-                $('#id_phone_num').html(res.post_code);
-                $('#id_mobile_num').html(res.mobile_num);
+                $('#id_phone_num').html(res.phone_num);
+                // $('#id_mobile_num').html(res.mobile_num);
                 $('#id_email_address').html(res.email_address);
 
                 $('#id_c_street').html(res.street[leng]);
@@ -33,8 +33,8 @@ function GetContactsData(leng) {
                 $('#id_c_building').html(res.building);
                 $('#id_c_floor').html(res.floor);
                 $('#id_c_post_code').html(res.post_code);
-                $('#id_c_phone_num').html(res.post_code);
-                $('#id_c_mobile_num').html(res.mobile_num);
+                $('#id_c_phone_num').html(res.phone_num);
+                // $('#id_c_mobile_num').html(res.mobile_num);
                 $('#id_c_email_address').html(res.email_address);
                 $('#id_c_official_site_url').html(res.official_site_url);
                 // $('#id_official_site_url').html(res.official_site_url);

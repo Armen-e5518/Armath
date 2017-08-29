@@ -4,15 +4,10 @@ var AboutPageConfig = {
 };
 
 w3.includeHTML(function () {
-
-
     console.log('Run About Page');
-
     GetAboutPageData(Config.language)
     GetAllEquipment(Config.language)
-
     Config.load = true;
-
     $('#id_about').addClass('active-nav');
     $('#id_foo_about').addClass('active-footer');
 });
@@ -37,10 +32,10 @@ function GetAboutPageData(leng) {
                     var imgs = '';
                     val.assets.imgs.forEach(function (val) {
                         imgs += '<li><a href="' + Config.img + val.uuid + '" data-lightbox="' + index + '"><img src="' + Config.img + val.uuid + '" alt=""></a></li>';
-                    })
+                    });
                     $('#id_phases').append(
                         '<div class="post-item">' +
-                        '<div class="project-stage"><strong>' + (index * 1 + 1) + '.</strong><span>stage</span></div>' +
+                        '<div class="project-stage"><strong>' + (index * 1 + 1) + '</strong><span>' + Config.SpecificNames.stage[leng] + '</span></div>' +
                         '<div>' +
                         '<h2>' + val.title[leng] + '</h2>' +
                         '<p>' + val.text[leng] + '</p>' +

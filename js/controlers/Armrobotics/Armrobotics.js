@@ -8,6 +8,8 @@ w3.includeHTML(function () {
     GetArmroboticsPageData(Config.language)
     GetArmroboticsAllEventsPageData(Config.language)
     Config.load = true;
+    $('#id_other_events').html(Config.SpecificNames.other_events[Config.language])
+
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
 });
@@ -37,7 +39,7 @@ function GetArmroboticsPageData(leng) {
                             '<div> ' +
                             '<h2>' + val.title[leng] + '</h2>' +
                             '<p>' + val.text[leng] + '</p>' +
-                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">View contests</a></p>' +
+                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
                             '</div>' +
                             '</div>'
                         );
@@ -68,7 +70,7 @@ function GetArmroboticsPageData(leng) {
                                             '<div> ' +
                                             '<h2>' + val.title[leng] + '</h2>' +
                                             '<p>' + val.text[leng] + '</p>' +
-                                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">View contests</a></p>' +
+                                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
                                             '</div>' +
                                             '</div>'
                                         )
@@ -99,7 +101,7 @@ function GetArmroboticsAllEventsPageData(leng) {
                         '<div class="description">' +
                         '<h2>' + val.title[leng] + '</h2>' +
                         '<i class="fa fa-angle-right"></i>' +
-                        '<a uuid="' + val.uuid + '" class="contest armath-btn join-webinar">Go to event page</a>' +
+                        '<a uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                         '</div>' +
                         '</li>'
                     )

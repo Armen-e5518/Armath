@@ -10,6 +10,7 @@ var RunHeader = setInterval(function () {
         GetNavigationData(Config.language);
         GetHeaderData(Config.language);
         GetSocialMmedia(Config.language);
+        GetCommonText(Config.language);
         clearInterval(RunHeader)
     }
 }, 500);
@@ -67,7 +68,10 @@ function GetHeaderData(leng) {
 
 function SetLanguageInHeader() {
     var Leng = $('#id_languages a[data-id="' + Config.language + '"]').html();
-    $('#lang .lang').html(Leng)
+    $('#lang .lang').html(Leng);
+    var leg_class = (Leng == 'EN') ? 'language_en' : 'language_am';
+    $('body').removeClass('language_en').removeClass('language_am').addClass(leg_class);
+
 }
 
 function GetSocialMmedia(leng) {
@@ -87,4 +91,17 @@ function GetSocialMmedia(leng) {
             }
         }
     });
+}
+
+function GetCommonText(leng) {
+    $('#id_join_armath span').html(Config.SpecificNames.join_armath[leng])
+    $('#id_support_armath span').html(Config.SpecificNames.support_armath[leng])
+    $('#id_video_title').html(Config.SpecificNames.videos[leng])
+    $('#id_games_title').html(Config.SpecificNames.games[leng])
+    $('#id_load_more').html(Config.SpecificNames.load_more[leng])
+    $('#id_agenda span').html(Config.SpecificNames.agenda[leng])
+    $('#id_donate_text').html(Config.SpecificNames.donate[leng])
+    $('#id_our_address').html(Config.SpecificNames.our_address[leng])
+    $('#id_send').html(Config.SpecificNames.send[leng])
+    $('.class_more').html(Config.SpecificNames.more[leng])
 }

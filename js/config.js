@@ -7,7 +7,8 @@ var Config = {
     'img': 'http://metax.leviathan.am:7071/db/get?id=',
     'language': 'en-us',
     'load': false,
-    'request_type':'GET'
+    'request_type': 'GET',
+    'SpecificNames': {},
 };
 
 if (localStorage.getItem('language')) {
@@ -18,4 +19,17 @@ if (localStorage.getItem('language')) {
 function out(x) {
     console.log(x)
 }
+GetSpecificNames();
 
+function GetSpecificNames() {
+    $.ajax({
+        type: Config.request_type,
+        url: '/leng.json',
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                Config.SpecificNames = res;
+            }
+        }
+    });
+}

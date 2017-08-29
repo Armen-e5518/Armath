@@ -9,6 +9,13 @@ w3.includeHTML(function () {
     GetContestPageData(Config.language)
     GetAllEvents(Config.language)
     Config.load = true;
+
+    $('#id_other_events').html(Config.SpecificNames.other_events[Config.language])
+    $('#id_sponsorship span').html(Config.SpecificNames.sponsorship_package[Config.language])
+    $('#id_rules span').html(Config.SpecificNames.rules[Config.language])
+    $('#id_history_text').html(Config.SpecificNames.history[Config.language])
+    $('#id_jury_title').html(Config.SpecificNames.jury[Config.language])
+
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
 });
@@ -16,6 +23,12 @@ w3.includeHTML(function () {
 $(document).on('click', '.contest', function () {
     localStorage.setItem('uuid', $(this).attr('uuid'));
     var href = location.protocol + "//" + document.domain + '/contest.html';
+    window.location.href = href;
+});
+
+$(document).on('click', '.history', function () {
+    localStorage.setItem('his-uuid', $(this).attr('his-uuid'));
+    var href = location.protocol + "//" + document.domain + '/history.html';
     window.location.href = href;
 });
 
@@ -31,8 +44,22 @@ function GetContestPageData(leng) {
                     $('#id_contest_title').html(res.title[leng]);
                     $('#id_contest_name').html(res.title[leng]);
                     $('#id_contest_text').html(res.text[leng]);
-                    $('#id_sponsorship').attr('href', Config.img + res.sponsorship_package.uuid);
-                    $('#id_rules').attr('href', Config.img + res.rules.uuid);
+                    if (res.assets.imgs.length > 0) {
+                        $('#id_cover_img').attr('src', Config.img + res.assets.imgs[0].uuid);
+                    } else {
+                        $('#id_cover_img').hide();
+                    }
+
+                    if (res.sponsorship_package.uuid) {
+                        $('#id_sponsorship').attr('href', Config.img + res.sponsorship_package.uuid);
+                    } else {
+                        $('#id_sponsorship').hide();
+                    }
+                    if (res.rules.uuid) {
+                        $('#id_rules').attr('href', Config.img + res.rules.uuid);
+                    } else {
+                        $('#id_rules').hide();
+                    }
                     res.jury.forEach(function (val) {
                         $.ajax({
                             type: Config.request_type,
@@ -52,15 +79,16 @@ function GetContestPageData(leng) {
                             }
                         });
                     });
-                    res.history.forEach(function (val) {
+                    res.history.forEach(function (val, index) {
+                        $('#id_history').append('<li class="item_' + index + '"></li>')
                         $.ajax({
                             type: Config.request_type,
                             url: Config.domain + Config.Path + Config.api + val.uuid,
                             dataType: 'json',
                             success: function (res2) {
                                 if (res2) {
-                                    $('#id_history').append(
-                                        '<li><a href="#" data-uuid="' + val.uuid + '">' + res2.date + '</a></li>'
+                                    $('#id_history li.item_' + index).append(
+                                        '<a class="history" his-uuid="' + val.uuid + '">' + res2.date + '</a>'
                                     )
                                 }
                             }
@@ -70,7 +98,16 @@ function GetContestPageData(leng) {
                     $('#id_contest_title').html(res.title[leng]);
                     $('#id_contest_name').html(res.title[leng]);
                     $('#id_contest_text').html(res.text[leng]);
-                    $('#id_sponsorship').attr('href', Config.img + res.sponsorship_package.uuid);
+                    if (res.sponsorship_package.uuid) {
+                        $('#id_sponsorship').attr('href', Config.img + res.sponsorship_package.uuid);
+                    } else {
+                        $('#id_sponsorship').hide();
+                    }
+                    if (res.assets.imgs.length > 0) {
+                        $('#id_cover_img').attr('src', Config.img + res.assets.imgs[0].uuid);
+                    } else {
+                        $('#id_cover_img').hide();
+                    }
                     $('#id_rules').hide();
                     $('#id_jurys').hide();
                     $('#id_jury_title').hide();
@@ -82,7 +119,7 @@ function GetContestPageData(leng) {
                             success: function (res2) {
                                 if (res2) {
                                     $('#id_history').append(
-                                        '<li><a href="#" data-uuid="' + val.uuid + '">' + res2.date + '</a></li>'
+                                        '<li><a class="history" his-uuid="' + val.uuid + '">' + res2.date + '</a></li>'
                                     )
                                 }
                             }
@@ -123,7 +160,7 @@ function GetAllEvents(leng) {
                         '</div>' +
                         '<div class="description">' +
                         '<i class="fa fa-angle-right"></i>' +
-                        '<a uuid= "' + val.uuid + '" class="contest armath-btn join-webinar">Go to event page</a>' +
+                        '<a uuid= "' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                         '</div>' +
                         '</li>'
                     )

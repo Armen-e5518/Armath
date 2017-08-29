@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Armath | Gallery</title>
-
+    <title>Armath | History</title>
     <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="js/swiper/dist/css/swiper.min.css">
     <script src="js/jquery.js"></script>
@@ -33,22 +27,35 @@
 <!-- Navigation -->
 <div w3-include-html="common/header.html"></div>
 <div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading center-align" id="id_gallery_title"></h1>
+    <div class="main digicode-agenda">
+        <h1 class="page-heading center-align" id="id_history_title"></h1>
+        <p id="id_history_text"></p>
+        <p><a href="#" id="id_agenda" target="_blank" style="display:none;"><i class="fa fa-file-pdf-o"></i><span></span></a>
+        </p>
         <div class="gallery-area">
-            <ul class="gallery-filter" id="id_gallery_items"></ul>
+            <h1 class="page-heading center-align" id="id_history_gallery_title"></h1>
+            <!--<p id="id_history_gallery_text"></p>-->
             <div class="gallery-items" id="id_images"></div>
+            <hr>
             <div class="center-align">
-                <!--<a href="#" class="btn">Load more</a>-->
+                <a id="id_load_more" style="display: none" class="btn"></a>
             </div>
+
+            <h1 class="page-heading center-align" id="id_video_title" style="display:none;"></h1>
+            <div class="gallery-items" id="id_videos"></div>
+
+            <h1 class="page-heading center-align" style="display: none" id="id_games_title"></h1>
+            <div class="gallery-items" id="id_games"></div>
         </div>
     </div>
     <div w3-include-html="common/footer.html"></div>
 </div>
-<script src="js/controlers/Gallery/Gallery.js"></script>
+<script src="js/controlers/History/History.js"></script>
 <script src="js/controlers/common/header.js"></script>
 <script src="js/controlers/common/footer.js"></script>
+<script src="js/controlers/common/map.js"></script>
 <script src="js/controlers/common/contacts.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+

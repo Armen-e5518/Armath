@@ -1,7 +1,7 @@
 var PartnersPageConfig = {
     'partners_page_data': Config.api + 'c74c228d-ab61-4237-b49d-440c315d8d6b',
     'all_partners': Config.api + 'c10b3e3d-218d-4371-90a2-b2541af47bad',
-    'default_count': 5,
+    'default_count': 6,
 };
 
 var partners_list = [],
@@ -51,20 +51,30 @@ function GetAllPartners(leng) {
         success: function (res) {
             if (res) {
                 res.sponsors.forEach(function (val, index) {
+                    if (index <= PartnersPageConfig.default_count) {
+                        $('#id_all_partners').append('<div class="block_' + index + '"></div>');
+                    }
+                    // console.log(index);
                     $.ajax({
                         type: Config.request_type,
                         url: Config.domain + Config.Path + Config.api + val.uuid,
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {
+                                // console.log(index);
+                                // console.log(res1);
                                 if (index <= PartnersPageConfig.default_count) {
-                                    $('#id_all_partners').append(
+                                    $('#id_all_partners div.block_' + index + '').append(
                                         '<div class="post-item">' +
                                         ' <img src="' + Config.img + res1.assets.logos[0].uuid + '" alt="">' +
                                         '<div>' +
                                         '<h2>' + res1.name[leng] + '</h2>' +
-                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '">Visit website</a></p>' +
-                                        '<p><strong>Number of established Armath Labs:</strong> 32<br><a href="labs.html">View list of Labs</a></p>' +
+                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '" target="_blank">' + Config.SpecificNames.visit_website[leng] + '</a></p>' +
+                                        '<p>' +
+                                        '<strong>' + Config.SpecificNames.number_labs[leng] + ':</strong> ' +
+                                        res1.labs.length + '<br>' +
+                                        // '<a href="labs.html">View list of Labs</a>' +
+                                        '</p>' +
                                         '</div>' +
                                         '</div>'
                                     );
@@ -74,8 +84,12 @@ function GetAllPartners(leng) {
                                         ' <img src="' + Config.img + res1.assets.logos[0].uuid + '" alt="">' +
                                         '<div>' +
                                         '<h2>' + res1.name[leng] + '</h2>' +
-                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '">Visit website</a></p>' +
-                                        '<p><strong>Number of established Armath Labs:</strong> 32<br><a href="labs.html">View list of Labs</a></p>' +
+                                        '<p>' + res1.text[leng] + '<br><a href="' + res1.official_site_url + '" target="_blank">' + Config.SpecificNames.visit_website[leng] + '</a></p>' +
+                                        '<p>' +
+                                        '<strong>' + Config.SpecificNames.number_labs[leng] + ':</strong> ' +
+                                        res1.labs.length + '<br>' +
+                                        // '<a href="labs.html">View list of Labs</a>' +
+                                        '</p>' +
                                         '</div>' +
                                         '</div>'
                                     )

@@ -71,7 +71,7 @@ function GetAllEvents(leng) {
                                 '<div class="description">' +
                                 '<h2>' + val.title[leng] + '</h2>' +
                                 '<p>' + val.text[leng] + '</p>' +
-                                '<a ' + href + ' uuid="' + val.uuid + '" class="contest armath-btn join-webinar">Goto Event Page</a>' +
+                                '<a ' + href + ' uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                                 '</div>' +
                                 '</div>'
                             )
@@ -85,7 +85,7 @@ function GetAllEvents(leng) {
                                 '<div class="description">' +
                                 '<h2>' + val.title[leng] + '</h2>' +
                                 '<p>' + val.text[leng] + '</p>' +
-                                '<a uuid="' + val.uuid + '"  class="contest armath-btn join-webinar">Goto Event Page</a>' +
+                                '<a uuid="' + val.uuid + '"  class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                                 '</div>' +
                                 '</div>'
                             )

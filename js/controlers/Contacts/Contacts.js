@@ -12,7 +12,6 @@ w3.includeHTML(function () {
     $('#id_foo_contacts').addClass('active-footer');
 });
 
-
 function GetContactsPageData(leng) {
     $.ajax({
         type: Config.request_type,
@@ -20,8 +19,9 @@ function GetContactsPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                var logo = (leng == 'en-us') ? 0 : 1;
                 $('#id_contacts_title').html(res.title[leng]);
-                $('#id_uite_logo').attr('src', Config.img + res.assets.logos[0].uuid);
+                $('#id_uite_logo').attr('src', Config.img + res.assets.logos[logo].uuid);
                 $('#id_message_title').html(res.send_us_a_message.title[leng]);
                 $('#id_first_name').attr('placeholder', res.send_us_a_message.enter_name[leng]);
                 $('#id_last_name').attr('placeholder', res.send_us_a_message.enter_last_name[leng]);

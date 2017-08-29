@@ -12,6 +12,7 @@ w3.includeHTML(function () {
     GetLabsMapData(Config.language);
     GetLatestNewsData(Config.language);
     Config.load = true;
+    $('#id_donate_now').html(Config.SpecificNames.donate_now[Config.language]);
     $('#id_home').addClass('active-nav');
     $('#id_foo_home').addClass('active-footer');
 });
@@ -23,13 +24,34 @@ function GetHomeData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                // $('#id_events_title').html(res.events.title[leng]);
-                // $('#id_events_text').html(res.events.text[leng]);
                 $('#id_join_armath').html(res.join_armath.title[leng]);
+                $('#id_or_title').html(res.online_resources.title[leng]);
                 $('#id_gallery_title').html(res.gallery.title[leng]);
                 $('#id_support_armath_title').html(res.support_armath.title[leng]);
-                $('#id_events_image').css('background', 'URL(' + Config.img + res.events.assets.imgs[0].uuid + ')');
+                // $('#id_events_image').css('background', 'URL(' + Config.img + res.events.assets.imgs[0].uuid + ')');
                 $('#id_galley_image').css('background', 'URL(' + Config.img + res.gallery.assets.imgs[0].uuid + ')');
+                $('#id_or_img').css('background', 'URL(' + Config.img + res.online_resources.assets.imgs[0].uuid + ')');
+                $('#id_join_armath_img').css('background', 'URL(' + Config.img + res.join_armath.assets.imgs[0].uuid + ')');
+                res.events.assets.imgs.forEach(function (val) {
+                    $('#id_events_slider').append(
+                        '<div class="swiper-slide" style="background:url(' + Config.img + val.uuid + ');">' +
+                        '<h1 class="events-title">' + res.events.title[leng] + '</h1>' +
+                        '<div class="description">' +
+                        '<a href="events.html" class="armath-btn join-webinar">' + Config.SpecificNames.more[Config.language] + '</a>' +
+                        '</div>' +
+                        '</div>'
+                    )
+                });
+                var swiper2 = new Swiper('.featured-project', {
+                    pagination: '.swiper-pagination',
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    slidesPerView: 1,
+                    paginationClickable: true,
+                    loop: true,
+                    speed: 400,
+                    autoplay: 3000
+                });
             }
         }
     });
@@ -62,11 +84,11 @@ function GetSliderData(leng) {
                         '<div class="slide-info"> ' +
                         '<p class="slide-title">' + val.title[leng] + '</p>' +
                         '<p class="slide-text">' + val.text[leng] + '</p>' +
-                        '<a href="about.html" class="more-info armath-btn">Learn More</a>' +
+                        '<a href="about.html" class="more-info armath-btn">' + Config.SpecificNames.more[Config.language] + '</a>' +
                         '</div>' +
                         '</div>'
                     )
-                })
+                });
                 var swiper = new Swiper('.header-slide', {
                     pagination: '.swiper-pagination',
                     nextButton: '.swiper-button-next',
@@ -97,13 +119,13 @@ function GetLatestNewsData(leng) {
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {
-                                $('#id_lastest_news_title').append(
+                                $('#id_lastest_news_lists').append(
                                     '<div class="stories-info">' +
                                     '<div class="story-img">' +
                                     '<a href="#"><img src="' + Config.img + res1.assets.imgs[0].uuid + '" alt=""></a>' +
                                     '</div>' +
                                     '<div class="story-body">' +
-                                    '<h4><a href="#"><span class="news-date">' + res1.timestamp + '</span> ' + res1.title[leng] + '</a></h4>' +
+                                    '<h4><a href="#"><span class="news-date"></span> ' + res1.title[leng] + '</a></h4>' +
                                     '<p>' + res1.publication_date + ' </p>' +
                                     '</div>' +
                                     '</div>'

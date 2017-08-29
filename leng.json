@@ -1,0 +1,94 @@
+{
+  "stage": {
+    "en-us": "stage",
+    "hy-am": "փուլ"
+  },
+  "all": {
+    "en-us": "All",
+    "hy-am": "Ամբողջը"
+  },
+  "number_labs": {
+    "en-us": "Number of established Armath Labs",
+    "hy-am": "Հիմնած Արմաթ լաբորատորիաների քանակը"
+  },
+  "visit_website": {
+    "en-us": "Visit website",
+    "hy-am": "Այցելել կայք"
+  },
+  "go_to_event_page": {
+    "en-us": "Go to event page",
+    "hy-am": "Դիտել ավելին"
+  },
+  "view_contests": {
+    "en-us": "View contests",
+    "hy-am": "Տեսնել ավելին"
+  },
+  "other_events": {
+    "en-us": "Other events",
+    "hy-am": "Այլ միջոցառումներ"
+  },
+  "join_armath": {
+    "en-us": "Join armath",
+    "hy-am": "Միացիր Արմաթին"
+  },
+  "support_armath": {
+    "en-us": "Support armath",
+    "hy-am": "Աջակցիր Արմաթին"
+  },
+  "jury": {
+    "en-us": "Jury",
+    "hy-am": "Ժուրի"
+  },
+  "history": {
+    "en-us": "History",
+    "hy-am": "Պատմություն"
+  },
+  "sponsorship_package": {
+    "en-us": "Sponsorship package",
+    "hy-am": "Հովանավորչական փաթեթ"
+  },
+  "rules": {
+    "en-us": "Rules 2017",
+    "hy-am": "Կանոնակարգ 2017"
+  },
+  "games": {
+    "en-us": "Games",
+    "hy-am": "Լավագույն խաղեր"
+  },
+  "videos": {
+    "en-us": "Videos",
+    "hy-am": "Տեսանյութեր"
+  },
+  "load_more": {
+    "en-us": "Load more",
+    "hy-am": "Տեսնել ավելին"
+  },
+  "more": {
+    "en-us": "More",
+    "hy-am": "Աելին"
+  },
+  "donate_now": {
+    "en-us": "Donate now",
+    "hy-am": "Նվիրաբերել"
+  },
+  "agenda": {
+    "en-us": "Agenda",
+    "hy-am": "Օրակարգ"
+  },
+  "donate": {
+    "en-us": "Donate",
+    "hy-am": "Նվիրաբերել"
+  },
+  "our_address": {
+    "en-us": "Our address",
+    "hy-am": "Մեր հասցեն"
+  },
+  "join_us": {
+    "en-us": "Join us",
+    "hy-am": "Միացիր մեզ"
+  },
+  "send": {
+    "en-us": "Send",
+    "hy-am": "Ուղարկել"
+  }
+}

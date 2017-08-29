@@ -36,7 +36,7 @@ function GetGalleryPageData(leng) {
         success: function (res) {
             if (res) {
                 $('#id_gallery_title').html(res.title[leng]);
-                $('#id_gallery_items').html('<li><a  class="active">All</a></li>');
+                $('#id_gallery_items').html('<li><a  class="active">' + Config.SpecificNames.all[leng] + '</a></li>');
                 $('#id_images').html('');
                 res.gallery_items.forEach(function (val, index) {
                     $('#id_gallery_items').append('<li data-id = "' + val.uuid + '"><a >' + val.title[leng] + '</a></li>');
