@@ -88,6 +88,10 @@ function GetSocialMmedia(leng) {
                 $('#id_foo_facebook').attr('href', res.facebook.url);
                 $('#id_foo_youtube').attr('href', res.youtube.url);
                 $('#id_foo_twitter').attr('href', res.twitter.url);
+
+                $('#id_facebook').attr('href', res.facebook.url);
+                $('#id_youtube').attr('href', res.youtube.url);
+                $('#id_twitter').attr('href', res.twitter.url);
             }
         }
     });
@@ -104,4 +108,8 @@ function GetCommonText(leng) {
     $('#id_our_address').html(Config.SpecificNames.our_address[leng])
     $('#id_send').html(Config.SpecificNames.send[leng])
     $('.class_more').html(Config.SpecificNames.more[leng])
+    $('#id_search').html(Config.SpecificNames.search[leng])
+    $('#id_our_contacts').html(Config.SpecificNames.our_contacts[leng])
+    $('#id_tel').html(Config.SpecificNames.tel[leng])
+    $('#id_e_mail').html(Config.SpecificNames.email[leng])
 }

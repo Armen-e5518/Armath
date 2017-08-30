@@ -20,12 +20,15 @@ w3.includeHTML(function () {
     })
     $('#id_regions').change(function () {
         var uuid = $(this).val();
-        GetSchoolsByUuid(Config.language, uuid)
+        $('#id_load_more').hide();
+        GetSchoolsByUuid(Config.language, uuid);
     })
 });
 
 $('#id_search').click(function () {
-    GetSchoolsSearch(Config.language);
+    if (!$('#id_regions').val()) {
+        GetSchoolsSearch(Config.language);
+    }
 });
 
 $('#id_load_more').click(function () {
@@ -73,12 +76,27 @@ function GetRegionsByState(leng, uuid) {
             if (res) {
                 schools_array = [];
                 $('#id_regions').html('<option value=""></option>');
-                res.all_schools.forEach(function (val) {
-                    $('#id_regions').append(
-                        '<option value="' + val.schools[0].uuid + '">' + val.region[leng] + '</option>'
-                    )
-                    val.schools.forEach(function (val) {
-                        schools_array.push(val.uuid)
+                res.all_schools.forEach(function (val, i_all) {
+                    var schools = [];
+                    val.schools.forEach(function (school, i_school) {
+                        $.ajax({
+                            type: Config.request_type,
+                            url: Config.domain + Config.Path + Config.api + school.uuid,
+                            dataType: 'json',
+                            success: function (res) {
+                                if (res) {
+                                    if (res.hasOwnProperty('lab')) {
+                                        schools_array.push(school.uuid)
+                                        schools.push(school.uuid)
+                                        if (i_school == val.schools.length - 1) {
+                                            $('#id_regions').append(
+                                                '<option value="' + schools + '">' + val.region[leng] + '</option>'
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        });
                     })
                 })
             }
@@ -88,21 +106,73 @@ function GetRegionsByState(leng, uuid) {
 
 function GetSchoolsByUuid(leng, uuid) {
     if (uuid) {
-        $.ajax({
-            type: Config.request_type,
-            url: Config.domain + Config.Path + Config.api + uuid,
-            dataType: 'json',
-            success: function (res) {
-                if (res) {
-                    schools_array = [];
-                    schools_array.push(uuid);
-                    $('#id_load_more').hide();
-                    $('#id_schools').html(
-                        GetHtml(res.name[leng])
-                    );
+        $('#id_schools').html('');
+        schools_array = [];
+        var uuids = uuid.split(',');
+        uuids.forEach(function (val, index) {
+            $.ajax({
+                type: Config.request_type,
+                url: Config.domain + Config.Path + Config.api + val,
+                dataType: 'json',
+                success: function (res) {
+                    if (res) {
+                        if (res.hasOwnProperty('lab')) {
+                            if (index <= count) {
+                                $.ajax({
+                                    type: Config.request_type,
+                                    url: Config.domain + Config.Path + Config.api + res.lab.uuid,
+                                    dataType: 'json',
+                                    success: function (res_l) {
+                                        var coach,
+                                            tel,
+                                            programs = '',
+                                            img,
+                                            name;
+                                        if (res_l) {
+                                            name = res_l.name[leng];
+                                            img = res_l.slides[0].assets.imgs[0].uuid;
+                                            $.ajax({
+                                                type: Config.request_type,
+                                                url: Config.domain + Config.Path + Config.api + res_l.coaches[0].uuid,
+                                                dataType: 'json',
+                                                success: function (res_c) {
+                                                    if (res_c) {
+                                                        coach = res_c.name[leng];
+                                                        tel = res_c.phone_number;
+                                                        if (res_l.technical_equipments.length > 0) {
+                                                            res_l.technical_equipments.forEach(function (val_p, index) {
+                                                                $.ajax({
+                                                                    type: Config.request_type,
+                                                                    url: Config.domain + Config.Path + Config.api + val_p.uuid,
+                                                                    dataType: 'json',
+                                                                    success: function (res_p) {
+                                                                        if (res_p) {
+                                                                            programs += '<li data-id="' + val_p.uuid + '">' + res_p.title[leng] + '</li>'
+                                                                            if (res_l.technical_equipments.length - 1 == index) {
+                                                                                $('#id_schools').append(
+                                                                                    GetHtml(res_l.name[leng], val, coach, tel, programs, name, img)
+                                                                                );
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                });
+                                                            })
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    }
+                                });
+                            } else {
+                                schools_array.push(val);
+                                $('#id_load_more').show();
+                            }
+                        }
+                    }
                 }
-            }
-        });
+            });
+        })
     } else {
         GetRegionsByState(Config.language, $('#id_states').val())
     }
@@ -110,25 +180,72 @@ function GetSchoolsByUuid(leng, uuid) {
 
 function GetSchoolsSearch(leng) {
     $('#id_schools').html('')
-    schools_array.forEach(function (val, index) {
-        if (index <= count) {
-            $.ajax({
-                type: Config.request_type,
-                url: Config.domain + Config.Path + Config.api + val,
-                dataType: 'json',
-                success: function (res) {
-                    if (res) {
-                        $('#id_schools').append(
-                            GetHtml(res.name[leng])
-                        );
+    if (schools_array.length > 0) {
+        schools_array.forEach(function (val, index) {
+            if (index <= count) {
+                $.ajax({
+                    type: Config.request_type,
+                    url: Config.domain + Config.Path + Config.api + val,
+                    dataType: 'json',
+                    success: function (res) {
+                        if (res) {
+                            $.ajax({
+                                type: Config.request_type,
+                                url: Config.domain + Config.Path + Config.api + res.lab.uuid,
+                                dataType: 'json',
+                                success: function (res_l) {
+                                    var coach,
+                                        tel,
+                                        programs = '',
+                                        img,
+                                        name;
+                                    if (res_l) {
+                                        name = res_l.name[leng];
+                                        img = res_l.slides[0].assets.imgs[0].uuid;
+                                        $.ajax({
+                                            type: Config.request_type,
+                                            url: Config.domain + Config.Path + Config.api + res_l.coaches[0].uuid,
+                                            dataType: 'json',
+                                            success: function (res_c) {
+                                                if (res_c) {
+                                                    coach = res_c.name[leng];
+                                                    tel = res_c.phone_number;
+                                                    if (res_l.technical_equipments.length > 0) {
+                                                        res_l.technical_equipments.forEach(function (val_p, index) {
+                                                            $.ajax({
+                                                                type: Config.request_type,
+                                                                url: Config.domain + Config.Path + Config.api + val_p.uuid,
+                                                                dataType: 'json',
+                                                                success: function (res_p) {
+                                                                    if (res_p) {
+                                                                        programs += '<li data-id="' + val_p.uuid + '">' + res_p.title[leng] + '</li>'
+                                                                        if (res_l.technical_equipments.length - 1 == index) {
+                                                                            $('#id_schools').append(
+                                                                                GetHtml(res_l.name[leng], val, coach, tel, programs, name, img)
+                                                                            );
+                                                                        }
+                                                                    }
+                                                                }
+                                                            });
+                                                        })
+                                                    }
+                                                }
+                                            }
+                                        });
+                                    }
+                                }
+                            });
+                        }
                     }
-                }
-            });
-        } else {
-            schools_array.splice(0, count);
-            $('#id_load_more').show();
-        }
-    })
+                });
+            } else {
+                schools_array.splice(0, count);
+                $('#id_load_more').show();
+            }
+        })
+    } else {
+        $('#id_load_more').hide();
+    }
 }
 
 function GetSchoolsLoad(leng) {
@@ -142,35 +259,72 @@ function GetSchoolsLoad(leng) {
             dataType: 'json',
             success: function (res) {
                 if (res) {
-                    $('#id_schools').append(
-                        GetHtml(res.name[leng])
-                    );
+                    $.ajax({
+                        type: Config.request_type,
+                        url: Config.domain + Config.Path + Config.api + res.lab.uuid,
+                        dataType: 'json',
+                        success: function (res_l) {
+                            var coach,
+                                tel,
+                                programs = '',
+                                img,
+                                name;
+                            if (res_l) {
+                                name = res_l.name[leng];
+                                img = res_l.slides[0].assets.imgs[0].uuid;
+                                $.ajax({
+                                    type: Config.request_type,
+                                    url: Config.domain + Config.Path + Config.api + res_l.coaches[0].uuid,
+                                    dataType: 'json',
+                                    success: function (res_c) {
+                                        if (res_c) {
+                                            coach = res_c.name[leng];
+                                            tel = res_c.phone_number;
+                                            if (res_l.technical_equipments.length > 0) {
+                                                res_l.technical_equipments.forEach(function (val_p, index) {
+                                                    $.ajax({
+                                                        type: Config.request_type,
+                                                        url: Config.domain + Config.Path + Config.api + val_p.uuid,
+                                                        dataType: 'json',
+                                                        success: function (res_p) {
+                                                            if (res_p) {
+                                                                programs += '<li data-id="' + val_p.uuid + '">' + res_p.title[leng] + '</li>'
+                                                                if (res_l.technical_equipments.length - 1 == index) {
+                                                                    $('#id_schools').append(
+                                                                        GetHtml(res_l.name[leng], val, coach, tel, programs, name, img)
+                                                                    );
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                })
+                                            }
+                                        }
+                                    }
+                                });
+                            }
+                        }
+                    });
                 }
             }
         });
     })
 }
 
-function GetHtml(name) {
-    return '<div class="post-item">' +
-        '<img src="img/labs/labs-img.jpg" alt="">' +
+function GetHtml(name, id, coach, tel, programs, name, img) {
+    return '<div class="post-item" data-id="' + id + '">' +
+        '<img src="' + Config.img + img + '" alt="">' +
         '<div>' +
         '<h2>' + name + '</h2>' +
         '<p>' +
         // '<strong>Address:</strong> Cereteli str. 65<br>' +
-        // '<strong>Coach:</strong> Karapet Manukyan, <a href="tel:055155144">Tel.: 055155144</a><br>' +
+        '<strong>' + Config.SpecificNames.coach[Config.language] + ':</strong> ' + coach + ', <a href="tel:' + tel + '">' + Config.SpecificNames.tel[Config.language] + ': ' + tel + '</a><br>' +
         // '<strong>Number of students:</strong> 68' +
         '</p>' +
         '<p>' +
-        // '<strong>Equipment / programs</strong>' +
+        '<strong>' + Config.SpecificNames.equipment_programs[Config.language] + '</strong>' +
         '</p>' +
-        '<ul class="facility-options">' +
-        // '<li><a href="#">3D printer</a></li>' +
-        // '<li><a href="#">CNC</a></li>' +
-        // '<li><a href="#">robotics kit</a></li>' +
-        // '<li><a href="#">electronic laboratory</a></li>' +
-        // '<li><a href="#">Scratch</a></li>' +
-        // '<li><a href="#">Aghues</a></li>' +
+        '<ul class="facility-options">' + programs +
         '</ul>' +
         '</div>' +
         '</div>'

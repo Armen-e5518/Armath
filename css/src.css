@@ -4,3 +4,6 @@
 .company-activities .company-logo img{
     width: 80px;
 }
+.e-active{
+    border: 1px red solid;
+}

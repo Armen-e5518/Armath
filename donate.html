@@ -35,9 +35,9 @@
                         <span id="id_armath"></span>
                     </label>
                     <div class="post-filter">
-                        <select id="id_states"></select>
-                        <select id="id_city_village"></select>
-                        <select id="id_school"></select>
+                        <select class="required" id="id_states"></select>
+                        <select class="required" id="id_regions"></select>
+                        <select class="required" id="id_schools"></select>
                     </div>
                     <label for="want-uite">
                         <input type="radio" name="donate-way" id="want-uite">
@@ -45,24 +45,25 @@
                         <span id="id_uite"></span>
                     </label>
                     <hr>
-                    <h3 id="id_payment_method_title"></h3>
-                    <span id="id_payment_methods"></span>
-                    <hr>
+                    <!--<h3 id="id_payment_method_title"></h3>-->
+                    <!--<span id="id_payment_methods"></span>-->
+                    <!--<hr>-->
                     <h3 id="id_personal_info_title"></h3>
-                    <input type="text" id="id_personal_info_first_name" placeholder="">
-                    <input type="text" id="id_personal_info_last_name" placeholder="">
-                    <input type="text" id="id_personal_info_email_name" placeholder="">
+                    <input type="text" class="required" id="id_personal_info_first_name" placeholder="">
+                    <input type="text" class="required" id="id_personal_info_last_name" placeholder="">
+                    <input type="text" class="required" id="id_personal_info_email_name" placeholder="">
                     <textarea id="id_personal_info_comment" placeholder=""></textarea>
                     <div class="center-align">
-                        <a href="#" class="btn" id="id_donate_text"></a>
+                        <a class="btn" id="id_donate_text"></a>
                     </div>
                 </div>
                 <div class="office-address">
                     <h3 id="id_payment_option_title"></h3>
                     <strong>AMD</strong>
-                    <input type="text" placeholder="Enter amount">
-                    <div id="id_duration_in_months"></div>
-                    <div class="sale-for-donation" id="id_donation_gifts"></div>
+                    <input type="number" id="id_amount" placeholder="">
+                    <a class="btn" id="id_give_gift"></a>
+                    <!--<div id="id_duration_in_months"></div>-->
+                    <div class="sale-for-donation hide-m" id="id_donation_gifts" style="display: none"></div>
                 </div>
             </div>
         </form>

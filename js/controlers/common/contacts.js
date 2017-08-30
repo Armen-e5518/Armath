@@ -1,5 +1,5 @@
 var ContactsConfig = {
-    'contact_data': Config.api +'7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b',
+    'contact_data': Config.api + '7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b',
 };
 
 var RunContacts = setInterval(function () {
@@ -36,7 +36,8 @@ function GetContactsData(leng) {
                 $('#id_c_phone_num').html(res.phone_num);
                 // $('#id_c_mobile_num').html(res.mobile_num);
                 $('#id_c_email_address').html(res.email_address);
-                $('#id_c_official_site_url').html(res.official_site_url);
+                $('#id_c_official_site_url span').html(res.official_site_url);
+                $('#id_c_official_site_url').attr('href', res.official_site_url);
                 // $('#id_official_site_url').html(res.official_site_url);
             }
         }

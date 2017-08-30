@@ -65,7 +65,7 @@
   },
   "more": {
     "en-us": "More",
-    "hy-am": "Աելին"
+    "hy-am": "Ավելին"
   },
   "donate_now": {
     "en-us": "Donate now",
@@ -90,5 +90,37 @@
   "send": {
     "en-us": "Send",
     "hy-am": "Ուղարկել"
+  },
+  "search": {
+    "en-us": "Search",
+    "hy-am": "Փնտրել"
+  },
+  "our_contacts": {
+    "en-us": "Our contacts",
+    "hy-am": "Կապը մեզ հետ"
+  },
+  "tel": {
+    "en-us": "tel.",
+    "hy-am": "Հեռ."
+  },
+  "email": {
+    "en-us": "Email",
+    "hy-am": "Էլ. հասցե"
+  },
+  "coach": {
+    "en-us": "Coach",
+    "hy-am": "Մարզիչ"
+  },
+  "equipment_programs": {
+    "en-us": "Equipment / programs",
+    "hy-am": "Սարքավորում / ծրագրեր"
+  },
+  "give_gift": {
+    "en-us": "Give a Gift",
+    "hy-am": "Ընտրել Նվեր"
+  },
+  "enter_amount": {
+    "en-us": "Enter amount",
+    "hy-am": "Մուտքագրեք գումարը"
   }
 }
