@@ -1,7 +1,6 @@
 var ContactsPageConfig = {
     'contacts_page_data': Config.api + '2757a4a0-5d30-4587-a149-3cd2d2980710',
     'social_media': Config.api + 'c9d5cce6-0184-4865-bfba-eca09534ded7',
-    'url': 'http://metax.leviathan.am:7071/sendemail'
 };
 
 w3.includeHTML(function () {
@@ -61,7 +60,7 @@ function GetSocialMmedia(leng) {
 }
 
 function SendData() {
-    if ($('.e-active').length == 0 && ContactsPageConfig.url) {
+    if ($('.e-active').length == 0 && Config.contact_url) {
         var data = {};
         data.firstname = $('#id_first_name').val();
         data.lastname = $('#id_last_name').val();
@@ -69,7 +68,7 @@ function SendData() {
         data.message = $('#id_message').val();
         $.ajax({
             type: "POST",
-            url: ContactsPageConfig.url,
+            url: Config.contact_url,
             data: data,
             dataType: 'json',
             success: function (res) {

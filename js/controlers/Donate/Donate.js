@@ -1,7 +1,7 @@
 var DonatePageConfig = {
     'donate_page_data': Config.api + 'b6dd08a7-8d8b-448d-9bdf-0e40abcce447',
     'all_schools_in_states': Config.api + 'ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1',
-    'payment_url': '',
+    'payment_url': ''
 };
 
 w3.includeHTML(function () {
@@ -272,8 +272,7 @@ function Validation() {
     if (!isNumeric($('#id_amount').val())) {
         $('#id_amount').addClass('e-active')
     }
-
-    if ($('.e-active')) {
+    if ($('.e-active').length > 0) {
         var top = $('.e-active:first').offset().top;
         $('body').scrollTop(top-10)
     }

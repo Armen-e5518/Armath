@@ -1,15 +1,16 @@
 var Config = {
     // 'domain': location.protocol + "//" + document.domain,
-    'domain': 'http://metax.leviathan.am:7071',
+    'domain': 'https://metax.leviathan.am:7071',
     'api': 'get?id=',
     // 'Path': '/data/Json_data/',
     'Path': '/db/',
-    'img': 'http://metax.leviathan.am:7071/db/get?id=',
+    'img': 'https://metax.leviathan.am:7071/db/get?id=',
     'language': 'en-us',
     'load': false,
     'request_type': 'GET',
     'SpecificNames': {},
-    'order_url': 'http://metax.leviathan.am:7071/payment/arca/status?orderId='
+    'order_url': 'https://metax.leviathan.am:7071/payment/arca/status?orderId=',
+    'contact_url': 'https://metax.leviathan.am:7071/sendemail'
 };
 
 GetSpecificNames();
