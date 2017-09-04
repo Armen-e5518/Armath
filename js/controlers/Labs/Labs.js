@@ -1,6 +1,7 @@
 var LabsPageConfig = {
     'labs_page_data': Config.api + 'bd9fdd77-92c3-4247-919c-d266c6aa3ee5',
     'all_schools_in_states': Config.api + 'ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1',
+    'all_labs': Config.api + '6bd5b554-0d0d-4b72-8999-80ff375585ec',
 };
 
 var count = 5,
@@ -10,10 +11,13 @@ w3.includeHTML(function () {
     console.log('Run Labs Page');
     GetLabstPageData(Config.language)
     GetStates(Config.language)
+    GetLabsDefault(Config.language)
     Config.load = true;
     $('#id_labs').addClass('active-nav');
     $('#id_foo_labs').addClass('active-footer');
-
+    setTimeout(function () {
+        $('#id_regions').html('<option value="">' + Config.SpecificNames.region[Config.language] + '</option>');
+    },200)
     $('#id_states').change(function () {
         var uuid = $(this).val();
         GetRegionsByState(Config.language, uuid)
@@ -27,6 +31,7 @@ w3.includeHTML(function () {
 
 $('#id_search').click(function () {
     if (!$('#id_regions').val()) {
+        $('#id_schools').html('');
         GetSchoolsSearch(Config.language);
     }
 });
@@ -56,7 +61,7 @@ function GetStates(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                $('#id_states').html(' <option value=""> </option>');
+                $('#id_states').html(' <option value="">' + Config.SpecificNames.province[leng] + ' </option>');
                 res.all_schools_in_states.forEach(function (val) {
                     $('#id_states').append(
                         '<option value="' + val.schools_in_state.uuid + '">' + val.state_name[leng] + '</option>'
@@ -75,7 +80,7 @@ function GetRegionsByState(leng, uuid) {
         success: function (res) {
             if (res) {
                 schools_array = [];
-                $('#id_regions').html('<option value=""></option>');
+                $('#id_regions').html('<option value="">' + Config.SpecificNames.region[leng] + '</option>');
                 res.all_schools.forEach(function (val, i_all) {
                     var schools = [];
                     val.schools.forEach(function (school, i_school) {
@@ -182,7 +187,7 @@ function GetSchoolsSearch(leng) {
     $('#id_schools').html('')
     if (schools_array.length > 0) {
         schools_array.forEach(function (val, index) {
-            if (index <= count) {
+            if (index < count) {
                 $.ajax({
                     type: Config.request_type,
                     url: Config.domain + Config.Path + Config.api + val,
@@ -238,10 +243,12 @@ function GetSchoolsSearch(leng) {
                         }
                     }
                 });
-            } else {
+            }
+            if (index == count) {
                 schools_array.splice(0, count);
                 $('#id_load_more').show();
             }
+
         })
     } else {
         $('#id_load_more').hide();
@@ -252,6 +259,7 @@ function GetSchoolsLoad(leng) {
     if (schools_array.length == 0) {
         $('#id_load_more').hide();
     }
+    console.log(schools_array)
     schools_array.splice(0, count).forEach(function (val, index) {
         $.ajax({
             type: Config.request_type,
@@ -309,6 +317,35 @@ function GetSchoolsLoad(leng) {
             }
         });
     })
+}
+
+function GetLabsDefault(leng) {
+    $.ajax({
+        type: Config.request_type,
+        url: Config.domain + Config.Path + LabsPageConfig.all_labs,
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                res.labs.forEach(function (val, index) {
+                    $.ajax({
+                        type: Config.request_type,
+                        url: Config.domain + Config.Path + Config.api + val.uuid,
+                        dataType: 'json',
+                        success: function (res_s) {
+                            if (res_s) {
+                                schools_array.push(res_s.school.uuid);
+                                if (res.labs.length - 1 == index) {
+                                    GetSchoolsLoad(Config.language);
+                                    $('#id_load_more').show();
+                                }
+                            }
+                        }
+                    });
+                })
+            }
+        }
+    });
+
 }
 
 function GetHtml(name, id, coach, tel, programs, name, img) {

@@ -26,8 +26,8 @@ function GetAboutPageData(leng) {
                 $('#id_equipment_text').html(res.all_tech_equipment.text[leng]);
                 $('#id_project_action_plan_title').html(res.project_action_plan.title[leng]);
                 $('#id_project_action_plan_text').html(res.project_action_plan.text[leng]);
-                $('#id_join_armath_title').html(res.join_armath.title[leng]);
-                $('#id_support_armath_title').html(res.support_armath.title[leng]);
+                $('#id_join_armath_title span').html(res.join_armath.title[leng]);
+                $('#id_support_armath_title span').html(res.support_armath.title[leng]);
                 res.project_action_plan.phases.forEach(function (val, index) {
                     var imgs = '';
                     val.assets.imgs.forEach(function (val) {

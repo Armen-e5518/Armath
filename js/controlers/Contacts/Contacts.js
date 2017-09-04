@@ -1,6 +1,7 @@
 var ContactsPageConfig = {
     'contacts_page_data': Config.api + '2757a4a0-5d30-4587-a149-3cd2d2980710',
     'social_media': Config.api + 'c9d5cce6-0184-4865-bfba-eca09534ded7',
+    'url': 'http://metax.leviathan.am:7071/sendemail'
 };
 
 w3.includeHTML(function () {
@@ -10,6 +11,17 @@ w3.includeHTML(function () {
     Config.load = true;
     $('#id_contacts').addClass('active-nav');
     $('#id_foo_contacts').addClass('active-footer');
+    $('#id_send').click(function () {
+        $('.e-active').removeClass('e-active');
+        Validation();
+        setTimeout(function () {
+            SendData();
+        }, 500)
+    });
+    $('.form-area').click(function () {
+        // $('.e-active').removeClass('e-active');
+        // Validation();
+    })
 });
 
 function GetContactsPageData(leng) {
@@ -46,4 +58,49 @@ function GetSocialMmedia(leng) {
             }
         }
     });
+}
+
+function SendData() {
+    if ($('.e-active').length == 0 && ContactsPageConfig.url) {
+        var data = {};
+        data.firstname = $('#id_first_name').val();
+        data.lastname = $('#id_last_name').val();
+        data.email = $('#id_user_email').val();
+        data.message = $('#id_message').val();
+        $.ajax({
+            type: "POST",
+            url: ContactsPageConfig.url,
+            data: data,
+            dataType: 'json',
+            success: function (res) {
+                console.log(res)
+                if (res) {
+                    if(res.success == 1){
+                        $('#id_thanks').show();
+                        $('.contact-us').hide();
+                    }else {
+                        $('#id_m_error').show();
+                        $('.contact-us').hide();
+                    }
+                }
+            }
+        })
+        ;
+    }
+}
+
+function Validation() {
+    $('.required').each(function () {
+        if (!$(this).val()) {
+            $(this).addClass('e-active')
+        }
+    });
+    if (!validateEmail($('#id_user_email').val())) {
+        $('#id_user_email').addClass('e-active')
+    }
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
 }

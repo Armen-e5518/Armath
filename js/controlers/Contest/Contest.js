@@ -10,12 +10,13 @@ w3.includeHTML(function () {
     GetAllEvents(Config.language)
     Config.load = true;
 
-    $('#id_other_events').html(Config.SpecificNames.other_events[Config.language])
-    $('#id_sponsorship span').html(Config.SpecificNames.sponsorship_package[Config.language])
-    $('#id_rules span').html(Config.SpecificNames.rules[Config.language])
-    $('#id_history_text').html(Config.SpecificNames.history[Config.language])
-    $('#id_jury_title').html(Config.SpecificNames.jury[Config.language])
-
+    setTimeout(function () {
+        $('#id_other_events').html(Config.SpecificNames.other_events[Config.language])
+        $('#id_sponsorship span').html(Config.SpecificNames.sponsorship_package[Config.language])
+        $('#id_rules span').html(Config.SpecificNames.rules[Config.language])
+        $('#id_history_text').html(Config.SpecificNames.history[Config.language])
+        $('#id_jury_title').html(Config.SpecificNames.jury[Config.language])
+    },200)
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
 });
@@ -34,7 +35,6 @@ $(document).on('click', '.history', function () {
 
 function GetContestPageData(leng) {
     if (ContestPageConfig.contest_page_data) {
-        out(ContestPageConfig.contest_page_data)
         $.ajax({
             type: Config.request_type,
             url: Config.domain + Config.Path + ContestPageConfig.contest_page_data,

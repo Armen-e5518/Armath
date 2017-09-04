@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/js/config.js" description="console.log(Dev)&#10;Dev.change(function () {&#10;    cons..." line="16" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18d6a79a-a54e-4008-809e-7b4448af6c9c" name="Default" comment="End version">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/donation_processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controlers/News/News.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controlers/Processing/Processing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/00a98de4-9e09-4fca-97bf-865a83e96d9b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/0194501c-f562-4f2e-b18b-3feedc7ffd74" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/04d45f52-c7bd-48e9-8145-e9bbd38275a6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/0958ac80-ff96-45cd-9c7b-8d6ac04a97c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/09a09b8d-b5b4-4804-837e-a352768a874e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/0c4ce38c-f3b9-4926-933b-f393ac1e2dcb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/10957794-8827-4af3-80cd-59a5021e5570" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/1095bbaa-7e32-44a9-8ba4-a651530b5d62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/118735dd-bfcc-4150-a741-2388bf1211c5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/11e657f0-9237-416b-99d3-d277cde44153" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/121bf87f-3698-431c-a45d-b4fd6dbe3577" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/131797ed-65ac-4414-b662-f43457cfe0a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/13cfeaea-8b63-43d9-a92a-89c698354280" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/16cff042-36a7-4290-a629-6f34f848a534" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/1746c545-4b40-4e63-8f86-cf5ed0c009aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/17535400-c34b-4d4b-bdbc-678aa66a29c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/185a0109-c08e-4e5c-8968-34bad4df2b68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/1f5092f0-924f-462f-b3a5-eeb9810cff59" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/1f5a5503-d951-4920-bf90-b7b5cfb745b1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/2757a4a0-5d30-4587-a149-3cd2d2980710" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/29e6bf69-146c-4fdb-84d8-7b2e4420160f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/2c65d9b3-0039-4570-8c98-04b412d849f8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/2ff1033f-17bd-4153-9fee-fe06c5d1b21e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/3277eb7e-5122-4ad3-96e8-d7bb05076fdd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/33c639d4-b4f2-47d1-a372-a5a3af5b7a15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/340f0e68-188c-457a-a5f9-daab80100fe4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/38e37315-65c1-44b5-bbe4-364379d01b04" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/396d4157-e90a-4814-820c-0c12e8542538" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/3b74635d-0e50-477a-bb63-c73d13f93c49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/3f1c3bfc-ce14-4a31-8e45-63bdb0112a45" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/40084cb1-1183-4fd1-9b4c-3509b21926ca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/420280b7-42ea-4a6e-a3a5-5c7fcc84ebef" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/42ab276a-ece7-4fde-8add-c6994b448b09" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/4389da4c-0ccb-467e-93ea-9a0fd415996e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/44f26c09-563d-46d4-8a6a-b8438eab0aac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/458652d4-2d0c-406b-9ec1-f5f157dbf181" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/458a3547-ee0c-49ce-9512-2d335004aece" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/476108d7-8b6d-4a42-b4bc-9e0d568c3da3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/4901d602-60bb-48cd-8219-922de9cf0d37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/508735a5-dca7-4e95-8c98-ba8a68dcfb23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/53c6abef-9873-4192-a987-1696edfbb935" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/55ef7b86-7d58-489a-8591-e23bfccda692" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/5697cd89-02d2-437d-850c-62d1867152c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/57ad9a12-da0f-4aad-9e06-ae1bb89e785d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/5ada11f7-2ab6-4987-bdda-527ddc568816" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/5b97fa6c-bbec-4f34-b6e0-cde24a586e3f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/5d6e7c0c-cae0-4eb0-9fa1-2e0a2a5d563c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/5f18f981-9a15-468c-9efd-1472190786eb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/624631ec-f8b0-4f56-83a9-82a7ffa204bf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/62557c26-7ee7-411a-afbc-4369c3e77346" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/64f142e9-66a3-4959-8fcf-854fd616590d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6578857e-1c09-475f-92ef-8b394f6a22c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/66789bc8-3d19-494b-8835-7ac43215c911" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/667f0814-22bc-4738-b7ae-c2c038d6e902" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6ac46a1c-82fd-465a-b6e9-a8d0273965ee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6aee4f4c-7871-4530-a76a-62c8226a54b1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6b09af47-aafe-4dc2-acef-2d363a40b965" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6bd5b554-0d0d-4b72-8999-80ff375585ec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6c3e9d67-50e0-429e-bfcd-3bd15d72fd70" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/6db6c23a-8edc-43db-b4d9-ab15c761d3b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/7099711d-d4d1-4be8-b74c-b2ce4ff8598b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/70f01646-b2fb-4eef-aa88-9194aff97e5b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/71c4a09e-f9a8-4046-9983-d5d4b8699db8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/721596fb-b07b-4c68-94d1-feae77c35a7a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/72bb3144-d0a3-48c7-b644-7c08c2e94034" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/732566ac-a3f7-459e-bce9-f4d6b2ed6f64" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/74b3d4f1-464d-43f4-88d5-c66c66a58728" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/75444226-77f2-4e44-b4a9-d11ff3a87ad2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/7b87c234-cd3e-480e-8a24-3f5fab7d9165" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/7f38cdb9-cf98-4e0b-b4b3-3cd38ff7bd1b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/7f3ff581-18fb-41c9-b388-0446aa525c02" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/861ee3f8-d604-4cd2-bbb8-d1b2d585b9a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/869d785c-31c8-416a-9872-bda6c1374be7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/87675599-2065-4b7f-8063-d080621dff2a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/886a8f95-a18d-4ea8-87b3-ce56f0d60d50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/88d36682-802e-49d1-a8dc-e87f47c5457d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/92853b8c-acf6-4c08-ba99-f6957d996379" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/93ecd4d0-daf3-4430-a520-db623a2826c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/95cadc2a-32fb-46b5-b28f-704d31a35af5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/96839877-cfe2-4c94-95e8-c749b8a1d19e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/9cb53795-fbe8-48b4-b9f8-dd988411d089" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/a14ff309-ccdc-4a42-a303-4144dedf896b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/a3722982-4d2a-4b40-b45a-38736c32177a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/a46ca097-042e-4e69-a895-a90f638d354d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/a4f4c911-d723-46df-8924-b98325636f96" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/ac36f3af-7ffd-475c-bc02-3b322dc4ae25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b0b2fab6-2c78-45c0-8061-f2b690fd7032" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b6dd08a7-8d8b-448d-9bdf-0e40abcce447" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b79f78fb-f8af-4dee-b4d0-59b6dc9951bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b95572bd-9700-4313-bcfe-c66f175216b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b95b3a19-206e-4be5-a235-f43580b00194" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/b993568a-ce26-4794-a296-623db4089715" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/bd9fdd77-92c3-4247-919c-d266c6aa3ee5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/bfec58de-1eb9-4254-b067-72661ea08ed9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/c120e3b5-a8d0-4770-842d-13cfad2a960d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/c2a6aab2-7a7c-43e7-8cd5-3ad390cbf361" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/c74c228d-ab61-4237-b49d-440c315d8d6b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/c9a86e67-c326-4291-8cae-ab8f61dbe66e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/c9d5cce6-0184-4865-bfba-eca09534ded7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/cdfe901f-c61f-485d-908e-fc17d1df10b6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/d1354af6-1e68-4b5f-be8f-29ccb21baa1d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/d1b4c42c-1d2d-4d7b-a6fc-c50057eeb002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/d399c261-c73c-48fc-970b-146ddc3388ae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/d96ac52e-4ea9-4a27-a022-292522782c8a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/ddcea34b-fa4b-4a05-8b01-0e6eaddc192b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/e0237392-cb9b-437a-ba36-9467d3dcc0b7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/e11aafe2-b702-48cd-b73c-d1ac83b7f9e2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/e2cba640-7151-4314-a30f-5844d442dea0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/e9dcf8e4-080b-46de-8e16-438fe585ddc8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/eab53333-26a8-4f86-bcfd-ae768cba8f58" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/efa95803-3258-425e-a1b9-5f9e84753357" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/eff0defa-98a4-4e98-a53b-8f8b58e3064d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f07e8efc-9a61-4529-abf4-066b32283886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f1511ba0-9222-41c8-a99e-0a1405423000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f2813072-b690-45e3-b83b-6d485ffaecbb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f2b16140-19c4-4374-b855-406162feed6a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f42fab6e-4877-422a-a5c4-3d746dca3425" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f7fd0067-bb0c-447a-808f-03aa6980162a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f81a09ba-57c5-4f33-9e8e-8fdaf190cb48" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/f9525c08-7992-4ebb-8c8a-7283130b5744" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/fcc90652-9e5c-4035-98c3-aff4d36da2ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/fec93284-4d0a-40f7-ba69-5f3bffaa98fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Json_data/spec_for_data_content.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contest1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controlers/Contests/Contests.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/footer.html" afterPath="$PROJECT_DIR$/common/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/header.html" afterPath="$PROJECT_DIR$/common/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/src.css" afterPath="$PROJECT_DIR$/css/src.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/donate.html" afterPath="$PROJECT_DIR$/donate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/About/About.js" afterPath="$PROJECT_DIR$/js/controlers/About/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Contacts/Contacts.js" afterPath="$PROJECT_DIR$/js/controlers/Contacts/Contacts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Contest/Contest.js" afterPath="$PROJECT_DIR$/js/controlers/Contest/Contest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Donate/Donate.js" afterPath="$PROJECT_DIR$/js/controlers/Donate/Donate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Gallery/Gallery.js" afterPath="$PROJECT_DIR$/js/controlers/Gallery/Gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Home/Home.js" afterPath="$PROJECT_DIR$/js/controlers/Home/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/Labs/Labs.js" afterPath="$PROJECT_DIR$/js/controlers/Labs/Labs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controlers/common/header.js" afterPath="$PROJECT_DIR$/js/controlers/common/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leng.json" afterPath="$PROJECT_DIR$/leng.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Armath2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gallery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controlers/Gallery/Gallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controlers/common/contacts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leng.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leng.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="145" column="6" lean-forward="false" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="donate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/donate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="93" lean-forward="false" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controlers/common/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Donate.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/controlers/Donate/Donate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="277" column="34" lean-forward="false" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!block;n#GetStates#0" expanded="false" />
+                <element signature="n#!!block;n#GetRegionsByState#0" expanded="false" />
+                <element signature="n#!!block;n#GetSchoolsByRegions#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Processing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controlers/Processing/Processing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controlers/Contest/Contest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+              <folding>
+                <marker date="1504275709213" expanded="true" signature="7298:7359" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="package_json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lab</find>
+      <find>res.</find>
+      <find>technical_equipment</find>
+      <find>GetHtml</find>
+      <find>id_personal_info_email_name</find>
+      <find>labs</find>
+      <find>ajax</find>
+      <find>id_amount</find>
+      <find>id_donation_full_budget_img</find>
+      <find>schools_array</find>
+      <find>donate</find>
+      <find>id_schools</find>
+      <find>donate_now</find>
+      <find>id_regions</find>
+      <find>placeholder</find>
+      <find>id_states</find>
+      <find>id_join_armath_title</find>
+      <find>load</find>
+      <find>splice</find>
+      <find>give_gift</find>
+      <find>amount</find>
+      <find>id_currency</find>
+      <find>amd</find>
+      <find>SpecificNames</find>
+      <find>pric</find>
+      <find>url</find>
+      <find>out(</find>
+      <find>out(</find>
+      <find>amou</find>
+      <find>num</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>id_labs</replace>
+      <replace>data-id</replace>
+      <replace>Config.request_type</replace>
+      <replace>attr</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/data/Json_data</dir>
+      <dir>$PROJECT_DIR$/js/controlers</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/Json_data/131797ed-65ac-4414-b662-f43457cfe0a9" />
+        <option value="$PROJECT_DIR$/data/Json_data/4389da4c-0ccb-467e-93ea-9a0fd415996e" />
+        <option value="$PROJECT_DIR$/1.json" />
+        <option value="$PROJECT_DIR$/data/Json_data/b6dd08a7-8d8b-448d-9bdf-0e40abcce447" />
+        <option value="$PROJECT_DIR$/data/info.txt" />
+        <option value="$PROJECT_DIR$/Json_data/fcc90652-9e5c-4035-98c3-aff4d36da2ed" />
+        <option value="$PROJECT_DIR$/contest1.html" />
+        <option value="$PROJECT_DIR$/srv.html" />
+        <option value="$PROJECT_DIR$/info.txt" />
+        <option value="/home/miqayel/Desktop/lightbox2-master/examples/index.html" />
+        <option value="$PROJECT_DIR$/events.html" />
+        <option value="$PROJECT_DIR$/js/controlers/common/footer.js" />
+        <option value="$PROJECT_DIR$/js/controlers/common/map.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Contests/Contests.js" />
+        <option value="$PROJECT_DIR$/digicode_agenda_view.html" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/js/controlers/Partners/Partners.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Events/Events.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Armrobotics/Armrobotics.js" />
+        <option value="$PROJECT_DIR$/contests.html" />
+        <option value="$PROJECT_DIR$/view.html" />
+        <option value="$PROJECT_DIR$/event-armrobotics.html" />
+        <option value="$PROJECT_DIR$/partners.html" />
+        <option value="$PROJECT_DIR$/js/controlers/History/History.js" />
+        <option value="$PROJECT_DIR$/contest.html" />
+        <option value="$PROJECT_DIR$/history.html" />
+        <option value="$PROJECT_DIR$/labs.html" />
+        <option value="$PROJECT_DIR$/js/controlers/common/contacts.js" />
+        <option value="$PROJECT_DIR$/aaa.html" />
+        <option value="$PROJECT_DIR$/css/src.css" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/js/controlers/About/About.js" />
+        <option value="$PROJECT_DIR$/common/header.html" />
+        <option value="$PROJECT_DIR$/common/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
+        <option value="$PROJECT_DIR$/js/controlers/Contacts/Contacts.js" />
+        <option value="$PROJECT_DIR$/js/controlers/News/News.js" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/leng.json" />
+        <option value="$PROJECT_DIR$/donation_processing.html" />
+        <option value="$PROJECT_DIR$/js/controlers/Home/Home.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Labs/Labs.js" />
+        <option value="$PROJECT_DIR$/js/controlers/common/header.js" />
+        <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Processing/Processing.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Contest/Contest.js" />
+        <option value="$PROJECT_DIR$/js/controlers/Gallery/Gallery.js" />
+        <option value="$PROJECT_DIR$/donate.html" />
+        <option value="$PROJECT_DIR$/js/controlers/Donate/Donate.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1919" />
+    <option name="width" value="1602" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Armath2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Armath2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Armath2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Armath2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../YiiForm/forms" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/events1.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/controlers" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/js/controlers/Events" />
+      <recent name="$PROJECT_DIR$/js/controlers/Home" />
+      <recent name="$PROJECT_DIR$/js/controlers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18d6a79a-a54e-4008-809e-7b4448af6c9c" name="Default" comment="" />
+      <created>1497507742902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497507742902</updated>
+      <workItem from="1497507745962" duration="27373000" />
+      <workItem from="1497842233414" duration="12676000" />
+      <workItem from="1497927090692" duration="14399000" />
+      <workItem from="1498018133872" duration="9022000" />
+      <workItem from="1498108890718" duration="6252000" />
+      <workItem from="1498124367380" duration="3239000" />
+      <workItem from="1498190265810" duration="9296000" />
+      <workItem from="1499158450733" duration="2767000" />
+      <workItem from="1499240214074" duration="6396000" />
+      <workItem from="1499311287295" duration="5070000" />
+      <workItem from="1499676254094" duration="835000" />
+      <workItem from="1499678099770" duration="379000" />
+      <workItem from="1499764336817" duration="1078000" />
+      <workItem from="1500008011550" duration="6958000" />
+      <workItem from="1500261071768" duration="15110000" />
+      <workItem from="1500430862206" duration="2025000" />
+      <workItem from="1501040035436" duration="2003000" />
+      <workItem from="1501044031981" duration="654000" />
+      <workItem from="1501053660011" duration="1305000" />
+      <workItem from="1501130972474" duration="22793000" />
+      <workItem from="1501472278829" duration="15050000" />
+      <workItem from="1501579427651" duration="1110000" />
+      <workItem from="1501642838010" duration="26466000" />
+      <workItem from="1502048596465" duration="13866000" />
+      <workItem from="1502151234354" duration="6290000" />
+      <workItem from="1502221772637" duration="20000" />
+      <workItem from="1502305855325" duration="22506000" />
+      <workItem from="1503902809393" duration="10330000" />
+      <workItem from="1503929897444" duration="3347000" />
+      <workItem from="1503994389231" duration="5207000" />
+      <workItem from="1504012670705" duration="70416000" />
+      <workItem from="1504092366382" duration="52757000" />
+    </task>
+    <task id="LOCAL-00001" summary="'About','Partners'">
+      <created>1498124566290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498124566290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="api init">
+      <created>1499240613057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499240613057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="json update">
+      <created>1499241850761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1499241850761</updated>
+    </task>
+    <task id="LOCAL-00004" summary="json Donate page">
+      <created>1499331154656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499331154656</updated>
+    </task>
+    <task id="LOCAL-00005" summary="json Donate page .">
+      <created>1499331186205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499331186205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new data and Post Get">
+      <created>1501572687173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501572687173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new data">
+      <created>1501751595852</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1501751595861</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new data v2">
+      <created>1503994524755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503994524755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new data v2">
+      <created>1504103433514</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504103433514</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="376995000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1919" y="0" width="1602" height="875" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2001287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536522" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536522" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23101673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22651222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'About','Partners'" />
+    <MESSAGE value="api init" />
+    <MESSAGE value="json update" />
+    <MESSAGE value="json Donate page" />
+    <MESSAGE value="json Donate page ." />
+    <MESSAGE value="new data and Post Get" />
+    <MESSAGE value="new data" />
+    <MESSAGE value="new data v2" />
+    <MESSAGE value="End version" />
+    <option name="LAST_COMMIT_MESSAGE" value="End version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/controlers/Labs/Labs.js</url>
+          <line>186</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/controlers/Donate/Donate.js</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/controlers/common/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Contests/Contests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="190" column="28" lean-forward="false" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/swiper/src/js/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="190" column="36" lean-forward="false" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-armrobotics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="102" lean-forward="false" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/common/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="71" column="80" lean-forward="false" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/src.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="107" lean-forward="false" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="67" column="100" lean-forward="false" selection-start-line="67" selection-start-column="100" selection-end-line="67" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="884" column="37" lean-forward="false" selection-start-line="884" selection-start-column="37" selection-end-line="884" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/about-company/ab1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gallery/gallery-img-3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="47" column="102" lean-forward="false" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donation_processing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="41" column="100" lean-forward="false" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/About/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Armrobotics/Armrobotics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <marker date="1502375567785" expanded="true" signature="4716:4771" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Contacts/Contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Events/Events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="152" lean-forward="false" selection-start-line="87" selection-start-column="152" selection-end-line="87" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/History/History.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <marker date="1504272630709" expanded="true" signature="2187:2233" ph="..." />
+            <marker date="1504272630709" expanded="true" signature="3928:3989" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Labs/Labs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#GetLabstPageData#0" expanded="false" />
+            <element signature="n#!!block;n#GetStates#0" expanded="false" />
+            <element signature="n#!!block;n#GetHtml#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/News/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Partners/Partners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/language.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="93" lean-forward="false" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/common/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/common/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leng.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="145" column="6" lean-forward="false" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Processing/Processing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Contest/Contest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <marker date="1504275709213" expanded="true" signature="7298:7359" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Gallery/Gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controlers/Donate/Donate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="277" column="34" lean-forward="false" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#GetStates#0" expanded="false" />
+            <element signature="n#!!block;n#GetRegionsByState#0" expanded="false" />
+            <element signature="n#!!block;n#GetSchoolsByRegions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

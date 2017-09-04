@@ -65,7 +65,7 @@ em, i {
 }
 
 .top-navigation {
-	padding: 18px 10px 10px 10px;
+	padding: 18px 0 10px 0;
     display: table;
     width: 100%;
     margin-bottom: 15px;
@@ -505,6 +505,7 @@ em, i {
 					/*max-width: 277px;*/
 					width:calc(33% - 0px);
 					border-right: 5px #fff solid;
+					background-size: cover !important;
 				}
 				
 				.online-webinar {
@@ -789,7 +790,7 @@ em, i {
  		.stories-list {
 		    position: relative;
 		    z-index: 1;
-		    height: 540px;
+		    height: 527px;
 		    overflow-y: auto;
 		}
 		
@@ -806,12 +807,12 @@ em, i {
 		}
  
 		/* Handle */
-		.lastest-news::-webkit-scrollbar-thumb {
+		.lastest-news ::-webkit-scrollbar-thumb {
 			border-radius: 4px;
-			background: #a7a7a7;
+			background: rgba(162, 0, 125,0.8);
 		}
 		.lastest-news	::-webkit-scrollbar-thumb:window-inactive {
-			background: #a9a9a9;
+			background: rgba(162, 0, 125,0.8);
 			border-radius: 4px;
 		}
 
@@ -854,10 +855,10 @@ em, i {
 
 		.story-body h4 {
 		    font-weight: 700;
-		    margin-bottom: 10px;
+		    margin-bottom: 4px;
 		    margin-top: 0;
 		    color: #fff;
-		    font-size: 18px;
+		    font-size: 17px;
 		    line-height: 28px;
 		    overflow: hidden;
 		    text-overflow: ellipsis;
@@ -875,15 +876,19 @@ em, i {
 			}
 			
 			.story-body p {
-				font-weight: 300;
-			    line-height: 24px;
-			    font-size: 18px;
+			    font-weight: 300;
+			    line-height: 21px;
+    			    font-size: 16px;
 			    overflow: hidden;
 			    text-overflow: ellipsis;
 			    display: -webkit-box;
-			    -webkit-line-clamp: 8;
+			    -webkit-line-clamp: 4;
 			    -webkit-box-orient: vertical;
 			}
+			
+			.story-body p:empty {
+		    display: none;
+		}
 			
 .inner-page #wrapper {
 	border-top:1px #efefef solid;
@@ -900,6 +905,7 @@ em, i {
 			color:#000;
 			margin-top: 0;
 			margin-bottom: 20px;
+			line-height: 45px;
 		}
 
 			.page-heading a {
@@ -1086,6 +1092,14 @@ em, i {
 			.main .btn:hover {
 				background:#a2007d;
 			}
+			
+			#id_give_gift {
+			    line-height: 34px;
+			    height: 36px;
+			    vertical-align: bottom;
+			    border-radius: 4px;
+			    margin-left: 30px;
+			}
 
 		.events-intro-text {
 			margin-top:28px;
@@ -1225,9 +1239,10 @@ em, i {
 									margin-right:7px;
 									margin-bottom:5px;
 									line-height:23px;
-									background:#f8f8f8;
-									border-radius:4px;
-									transition:all .5s;
+									background: #e0e0e0;
+									border-radius: 4px;
+									transition: all .5s;
+									padding: 0 6px;
 								}
 						
 								.post-left-side .post-item .facility-options li:hover {
@@ -1309,6 +1324,14 @@ em, i {
 					margin-bottom: 18px;
 					font-size:18px;
 				}
+				
+				.post-left-side.about > p:first-child {
+					margin-bottom: 0;
+				}
+				
+				.post-left-side p:empty {
+					display:none;
+				}
 									
 					.post-left-side.about > p a {
 						text-decoration:underline;
@@ -1336,6 +1359,17 @@ em, i {
 						width:100%;
 					}
 					
+					#id_news_img {
+						float: left;
+						margin-right: 29px;
+						margin-bottom: 1px;
+						    max-width: 400px;
+					}
+					
+					#id_news_date {
+					    font-size: 20px;
+					}
+
 					.post-left-side.about .post-item img {
 						max-width:330px;
 						width:100%;
@@ -1476,7 +1510,7 @@ em, i {
 				.inner-page .post-right-side [class $= "-btn"] {
 					height:58px;
 					line-height:58px;
-					font-size:22px;
+					font-size:21px;
 					font-weight:500;
 					color:#fff;
 					text-indent:20px;
@@ -1514,7 +1548,7 @@ em, i {
 				    white-space: nowrap;
 				    overflow: hidden;
 				    text-overflow: ellipsis;
-				    width: 91%;
+				    width: 95%;
     				    display: block;
 				}
 				
@@ -1636,7 +1670,6 @@ footer {
 
 			.address-list li em {
 				padding-right: 5px;
-				text-transform: uppercase;
 			}
 
 			.social-icons li {
@@ -1677,14 +1710,21 @@ footer {
 					color: #a2007d;
 				}
 				
-		.contact-us {
+		.contact-us,
+		.donate-block {
 			display:grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: repeat(2, minmax(1px, 1fr));
 			grid-gap: 100px;
 			margin-top:50px;
 			width:100%;
 			font-size:18px;
 			line-height:30px;
+		}
+		
+		.contact-us.donate-form {
+			grid-template-columns: repeat(1, minmax(1px, 1fr));
+			grid-gap: 25px;
+			margin-top: 0px;
 		}
 		
 			.contact-us p a {
@@ -1696,9 +1736,11 @@ footer {
 				text-decoration:none;
 			}
 			
-			.contact-us h3 {
+			.contact-us h3,
+			.d-title {
 				font-size:18px;
 				font-weight:700;
+				line-height: 22px;
 			}
 			
 				.office-address .social-icons {
@@ -1734,7 +1776,7 @@ footer {
 				.form-area textarea {
 					width:100%;
 					margin-bottom:20px;
-					background:#efefef;
+					background:#e0e0e0;
 					border:0;
 					border-radius:4px;
 					font-weight:300;
@@ -1787,14 +1829,32 @@ footer {
 						margin-right:10px;
 						width:24px;
 						height:24px;
-						background:#efefef;
+						background:#e0e0e0;
 						border-radius:100%;
 						vertical-align: middle;
 						position:relative;
+						border: 1px solid transparent;
+					}
+					
+					.form-area  label.e-active .check-mark {
+					    border-color: #af001d;
+					}
+					
+					.e-active {
+					    border: 1px #af001d solid !important;
+					}
+					
+					.form-area label.e-active {
+					    border: 1px transparent solid !important;
 					}
 					
 					.contact-us .form-area label img {
 						margin-right:62px;
+					}
+					
+					.donate-form .office-address {
+					    border-bottom: 1px solid #efefef;
+					    padding-bottom: 40px;
 					}
 					
 					.contact-us .form-area label img[alt="American Express"] {
@@ -1818,8 +1878,13 @@ footer {
 					}
 					
 				.contact-us .office-address strong {
-					font-size:24px;
+					font-size:21px;
 					font-weight:400;
+				}
+				
+				#id_amount {
+				    padding-left: 10px;
+				    max-width: 230px;
 				}
 					
 				.contact-us .office-address input[type="text"] {
@@ -1847,17 +1912,66 @@ footer {
 						font-size:24px;
 					}
 					
+					#id_payment_option_title {
+					    margin-top: 0;
+					}
+					
+					.d-img {
+					    margin: 15px 0 20px;
+					}
+					
+						.d-img img {
+						    max-width: 100%;
+						}
+						
+					.d-doc {
+					    margin-top: 13px;
+					}
+						
+					#id_donation_full_budget_doc:hover {
+					    text-decoration: underline;
+					}
+					
+					#id_thanks,
+					#id_d_thanks,
+					#id_d_errore {
+					    font-size: 30px;
+					    text-align: center;
+					    margin-top: 60px;
+					}
+					
+					#id_thanks,
+					#id_d_thanks {
+					    color: #25cbd3;
+					}
+					
+					#id_d_errore {
+					    color: #303030;
+					}
+					
+					.p-info {
+					    text-align: center;
+					    margin-top: 60px;
+					    font-size: 22px;
+					}
+					
+					#id_name_v, #id_amount_v, #id_order_v, #id_currency {
+					    font-weight: 600;
+					    color: #25cbd3;
+					}
+					
 				.sale-for-donation {
 					margin-top: 38px;
 					display: grid;
+					grid-gap: 15px;
 					grid-template-columns:repeat(3, 1fr);
 				}
 			
 						.sale-for-donation > label {
 							display:block;
 							margin-top:0;
-							margin-bottom:14px;
-							border:3px transparent solid;
+							margin-bottom:0;
+							border:2px #f5f5f5 solid;
 							border-radius:8px;
 							padding:10px;
 							color:#000;
@@ -1865,7 +1979,7 @@ footer {
 						}
 			
 						.sale-for-donation > label:hover {
-							border-color:#efefef;
+							border-color:#e0e0e0;
 						}
 				
 							.sale-for-donation .product-preview {
@@ -1874,7 +1988,7 @@ footer {
 								height:168px;
 								/*background:#0077b5;*/
 								border-radius:8px;
-								margin-bottom:6px;
+								margin: 0 auto 6px;
 							}
 								
 									.sale-for-donation .product-preview img {
@@ -1886,13 +2000,25 @@ footer {
 										max-height: 100%;
 									}
 									
+									.sale-for-donation span:empty {
+									    display: none;
+									}
+									
 									.sale-for-donation .product-title,
 									.sale-for-donation .product-price {
 										display:block;
 										position:relative;
-										font-size:18px;
 										font-weight:700;
-										line-height:25px;
+										line-height:20px;
+									}
+									
+									.sale-for-donation .product-title {
+										font-size: 15px;
+   										margin-bottom: 7px;
+									}
+									
+									.sale-for-donation .product-price {
+										font-size:18px;
 									}
 										
 										.sale-for-donation .product-title .check-mark {
@@ -1925,11 +2051,31 @@ footer {
 				height:inherit;
 				border:0;
 			}
+			
+			.back-bt {
+			    background-color: #25cbd3;
+			    color: #fff;
+			    padding: 8px 24px;
+			    font-size: 18px;
+			}
 				
 @media (max-width:1400px) {
 	.inner-page #wrapper .main {
 		padding-left:10px;
 		padding-right:10px;
+	}
+				
+	.sale-for-donation {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.top-navigation {
+	    padding: 18px 10px 10px 10px;
+	}
+	
+	.inner-page .post-right-side [class $= "-btn"] {
+	    font-size: 20px;
+	    text-indent: 11px;
 	}
 }
 
@@ -1940,7 +2086,7 @@ footer {
 	
 	.navbar-inverse .navbar-nav>li>a {
 	    font-size: 15px;
-	    margin-left: 13px;
+	    margin-left: 12px;
 	}
 	
 	.navbar-inverse .navbar-brand {
@@ -1966,21 +2112,32 @@ footer {
 		display: block;
 	}
 	
+	.post-left-side {
+	    margin-right: 0;
+	}
+	
 		.post-layout .typlical-img {
 			background-position: center !important;
 			height: 415px !important;
 		}
+		
+		.contact-us {
+		    grid-gap: 70px;
+		}
+
 }
 
 @media (max-width:1200px) {
 	.all-webinar {
 		position: static;
 	}
+	
 }
 
 @media (max-width:1075px) {
 	.page-heading {
 	    font-size: 32px;
+	    line-height: 38px;
 	}
 	
 	.events-intro-text {
@@ -2071,10 +2228,6 @@ footer {
 		grid-column-end: 4;
 	}
 	
-	.sale-for-donation {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	
 	.grid-tbl-row {
 		display:block;
 	}
@@ -2115,6 +2268,19 @@ footer {
 	
 	.support-armath {
 		border-bottom: 0;
+	}
+	
+	.contact-us, .donate-block {
+	    grid-template-columns: repeat(1, minmax(1px, 1fr));
+	    grid-gap: 50px;
+	}
+	
+	.sale-for-donation {
+	    grid-template-columns: repeat(3, 1fr);
+	}
+	
+	.inner-page #wrapper .main {
+	    padding-top: 30px;
 	}
 }
 
@@ -2197,13 +2363,14 @@ footer {
 	}
 
 	.story-body h4 {
-	    font-size: 17px;
-	    line-height: 21px;
+	       font-size: 16px;
+    		line-height: 19px;
 	}
 
 	.story-body p {
-	    line-height: 22px;
+	    line-height: 20px;
 	    font-size: 15px;
+	    margin-bottom: 4px;
 	}
 
 	.slide-info {
@@ -2234,19 +2401,39 @@ footer {
 	.gallery-items {
 		grid-template-columns: repeat(2, minmax(1px, auto));
 	}
+	
+	.sale-for-donation {
+	    grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.page-heading {
+	    font-size: 26px;
+	    line-height: 34px;
+	}
+	
+	#id_thanks, #id_d_thanks, #id_d_errore {
+	    font-size: 25px;
+	    margin-top: 20px;
+	}
+	
+	.p-info {
+	    margin-top: 50px;
+	    font-size: 18px;
+	}
 }
 
 @media (max-width:568px) {
 	.navbar-brand {
 	    background-image:url(../img/mob-logo.png);
-	    height: 39px;
+	    height: 30px;
 	    width: 185px;
     	padding: 0;
 	background-repeat: no-repeat;
+	    margin-top: 7px;
 	}
 
 	.top-navigation {
-	    padding: 3px 10px 0 10px;
+	    padding: 10px 10px 0 10px;
 	    margin-bottom: 0;
 	}
 
@@ -2352,7 +2539,7 @@ footer {
 
 	.story-body h4 {
 	    font-size: 16px;
-	    margin-bottom: 0;
+	    margin-bottom: 3px;
 	}
 
 	.address-list li, .footer-list li a {
@@ -2386,7 +2573,7 @@ footer {
 		.inner-page .post-right-side [class $= "-btn"] {
 		    height: 50px;
 		    line-height: 50px;
-		    font-size: 16px;
+		    font-size: 15px;
 		}
 		
 		.inner-page .post-right-side [class $= "-btn"]:after {
@@ -2397,6 +2584,18 @@ footer {
 		    width: 90%;
 		}
 	
+	.page-heading {
+	    font-size: 24px;
+	}
+	
+	.post-left-side.about > p, #id_history_text p, #id_history_text {
+	    font-size: 16px;
+	}
+	
+	.events-intro-text {
+	    font-size: 17px;
+	}
+
 }
 
 @media (max-width:480px) {
@@ -2490,8 +2689,27 @@ footer {
 	}
 	
 	
-	.gallery-items {
+	.gallery-items,
+	.sale-for-donation {
 		grid-template-columns: 1fr;;
+	}
+	
+	.donate-form .office-address {
+	    text-align: center;
+	}
+	
+	#id_give_gift {
+	    margin-left: 0;
+	    margin-top: 15px;
+	}
+	
+	.contact-us .office-address label {
+	    text-align: center;
+	}
+	
+	.contact-us, .donate-block {
+	    font-size: 16px;
+	    line-height: 25px;
 	}
 }
 
@@ -2536,6 +2754,18 @@ footer {
 	.story-body p {
 	    line-height: 19px;
 	    font-size: 13px;
+	}
+	
+	.inner-page .post-right-side [class $= "-btn"] {
+	    height: 45px;
+	    line-height: 44px;
+	    font-size: 12px;
+	}
+	
+	.inner-page .post-right-side [class $= "-btn"]:after {
+	    font-size: 19px;
+	    top: 0;
+	    right: 10px;
 	}
 
 }

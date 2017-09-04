@@ -9,17 +9,14 @@ var Config = {
     'load': false,
     'request_type': 'GET',
     'SpecificNames': {},
+    'order_url': 'http://metax.leviathan.am:7071/payment/arca/status?orderId='
 };
+
+GetSpecificNames();
 
 if (localStorage.getItem('language')) {
     Config.language = localStorage.getItem('language');
 }
-
-
-function out(x) {
-    console.log(x)
-}
-GetSpecificNames();
 
 function GetSpecificNames() {
     $.ajax({
@@ -32,4 +29,7 @@ function GetSpecificNames() {
             }
         }
     });
+}
+function NumberFormat(num) {
+    return num.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
 }

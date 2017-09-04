@@ -64,7 +64,6 @@ function GetImagesByCategory(ob, leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                out(res.items.length);
                 if (res.items.length == 1) {
                     GetImagesByCategory2(uuid, Config.language, true)
                 } else {

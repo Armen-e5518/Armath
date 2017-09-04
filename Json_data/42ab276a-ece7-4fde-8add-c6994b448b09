@@ -1,8 +1,0 @@
-{ 
-    "type": "web_site_skeleton",
-    "timestamp": "xxx",
-    "header": {"uuid": "9cb53795-fbe8-48b4-b9f8-dd988411d089"},
-    "content": {"uuid": "c120e3b5-a8d0-4770-842d-13cfad2a960d"},
-    "footer": {"uuid": "458652d4-2d0c-406b-9ec1-f5f157dbf181"},
-    "all_tech_equipment": {"uuid": "6578857e-1c09-475f-92ef-8b394f6a22c1"}
-}

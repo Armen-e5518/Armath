@@ -109,7 +109,7 @@
   },
   "coach": {
     "en-us": "Coach",
-    "hy-am": "Մարզիչ"
+    "hy-am": "Խմբակավար"
   },
   "equipment_programs": {
     "en-us": "Equipment / programs",
@@ -122,5 +122,61 @@
   "enter_amount": {
     "en-us": "Enter amount",
     "hy-am": "Մուտքագրեք գումարը"
+  },
+  "armath_laboratory": {
+    "en-us": "The full budget for one Armath laboratory",
+    "hy-am": "Մեկ Արմաթ լաբորատորիայի ամբողջական բյուջե"
+  },
+  "armath": {
+    "en-us": "Armath",
+    "hy-am": "Արմաթ"
+  },
+  "province": {
+    "en-us": "Province",
+    "hy-am": "Մարզ"
+  },
+  "region": {
+    "en-us": "Region",
+    "hy-am": "Համայնք"
+  },
+  "school": {
+    "en-us": "School",
+    "hy-am": "Դպրոց"
+  },
+  "amd": {
+    "en-us": "AMD",
+    "hy-am": "Դր"
+  },
+  "back": {
+    "en-us": "Back",
+    "hy-am": "Վերադառնալ"
+  },
+  "thanks": {
+    "en-us": "Thank you for your message",
+    "hy-am": "Շնորհակալություն հաղորդագրության համար"
+  },
+  "m_error": {
+    "en-us": "Message not sent. Please try again.",
+    "hy-am": "Հաղորդագրությունն ուղարկված չէ, խնդրում ենք նորից փորձել։"
+  },
+  "d_thanks": {
+    "en-us": "Thank you for the supporting to the future technological Armenia creation!",
+    "hy-am": "Շնորհակալություն ապագա տեխնոլոգիական Հայաստանի ստեղծմանը նպաստելու համար"
+  },
+  "d_error": {
+    "en-us": "Sorry, your transaction is cancelled. Money is not transferred. Please try later.",
+    "hy-am": "Ներեցեք, գործարքը մերժվեց: Գումար չի փոխանցվել: Փորձեք ավելի ուշ:"
+  },
+  "name": {
+    "en-us": "Name, surname",
+    "hy-am": "Անուն, ազգանուն"
+  },
+  "amount": {
+    "en-us": "Amount",
+    "hy-am": "Գումար"
+  },
+  "o_number": {
+    "en-us": "Order number",
+    "hy-am": "Գործարքի համար"
   }
 }

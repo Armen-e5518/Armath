@@ -34,16 +34,18 @@
 <div id="wrapper">
     <div class="main">
         <h1 class="page-heading center-align" id="id_contacts_title"></h1>
+        <h1 id="id_thanks" style="display: none"></h1>
+        <h1 id="id_m_error" style="display: none"></h1>
         <div class="contact-us">
             <div class="form-area">
                 <h3 id="id_message_title"></h3>
                 <form>
-                    <input type="text" id="id_first_name" placeholder="Your first name">
-                    <input type="text" id="id_last_name" placeholder="Your last name">
-                    <input type="text" id="id_user_email" placeholder="Your email address">
-                    <textarea id="id_message" placeholder="Message"></textarea>
+                    <input type="text" class="required" id="id_first_name" placeholder="Your first name">
+                    <input type="text" class="required" id="id_last_name" placeholder="Your last name">
+                    <input type="text" class="required" id="id_user_email" placeholder="Your email address">
+                    <textarea id="id_message" class="required"  placeholder="Message"></textarea>
                     <div class="center-align">
-                        <a href="#" class="btn" id="id_send">send</a>
+                        <a class="btn" id="id_send"></a>
                     </div>
                 </form>
             </div>
@@ -57,16 +59,16 @@
                     <span id="id_c_city"></span>
                     <span id="id_c_post_code"></span>
                     <span id="id_c_country"></span><br>
-                    Email: <a><span id="id_c_email_address"></span></a><br>
-                    Phone:<span id="id_c_phone_num"></span><br>
+                    <span id="id_c_tel"></span> <a><span id="id_c_email_address"></span></a><br>
+                    <span id="id_e_c_mail"></span><span id="id_c_phone_num"></span><br>
                     <!--Mobile: <span id="id_c_mobile_num"></span><br>-->
                     <a href="" target="_blank" id="id_c_official_site_url"><span></span></a>
                 </p>
                 <h3 id="id_join_us"></h3>
                 <ul class="social-icons">
-                    <li><a id="id_facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a id="id_twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a id="id_youtube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" id="id_facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" id="id_twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" id="id_youtube"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
