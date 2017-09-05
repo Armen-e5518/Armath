@@ -22,10 +22,10 @@ w3.includeHTML(function () {
                         $('#id_amount_v').html(NumberFormat(res.Amount))
                         $('#id_order_v').html(res.OrderNumber);
                         if (res.currency == "051") {
-                            $('#id_currency').html(Config.SpecificNames.amd[Config.language])
+                            $('#id_currency').html('AMD')
                         }
                         if (res.currency == "840") {
-                            $('#id_currency').html("$")
+                            $('#id_currency').html("USD")
                         }
                     } else {
                         $('#id_d_errore').show();

@@ -3,10 +3,10 @@ var DonatePageConfig = {
     'all_schools_in_states': Config.api + 'ff3d7ca6-bf0d-49b5-a39d-fa97cc8769f1',
     'payment_url': ''
 };
-
+var currency = 'AMD';
 w3.includeHTML(function () {
     console.log('Run Donate Page');
-    GetDonatePageData(Config.language, 'AMD');
+    GetDonatePageData(Config.language, currency);
     GetStates(Config.language);
     Config.load = true;
     $('#id_donate').addClass('active-nav');
@@ -30,21 +30,24 @@ w3.includeHTML(function () {
     $('#id_amount').change(function () {
         $('.product-title input').prop('checked', false)
     });
+    $('#id_currency').change(function () {
+        currency = $("#id_currency option:selected").attr('data-id')
+        GetGiftsByCurrency(currency);
+        SetAmountValue()
+    });
+
+    $(document).on('change', '.product-title input', function () {
+        SetAmountValue()
+    });
+
     $('#id_amount').click(function () {
         $('#id_donation_gifts').hide().addClass('hide-m').removeClass('show-m');
         $('#id_give_gift').show();
         $(this).val('')
         $('.product-title input').prop('checked', false)
     });
-    $(document).on('change', '.product-title input', function () {
-        var amount = 0;
-        $('.product-title input').each(function () {
-            if ($(this).is(':checked')) {
-                amount += $(this).closest('label').find('.product-price').attr('data-price') * 1
-            }
-        });
-        $('#id_amount').val(amount);
-    });
+
+
     $('#id_give_gift').click(function () {
         $('#id_donation_gifts').show().addClass('show-m').removeClass('hide-m');
         $('#id_give_gift').hide();
@@ -97,7 +100,7 @@ function GetDonatePageData(leng, price) {
                         '<label>' +
                         '<span class="product-preview"><img src="' + Config.img + val.assets.imgs[0].uuid + '" alt=""></span> ' +
                         '<span class="product-title"><input class="gifts" value="' + val.uuid + '" type="checkbox"><em class="check-mark"></em><span>' + val.title[leng] + '</span></span>' +
-                        '<span class="product-price" data-price = ' + val.price[price] + '>' + NumberFormat(val.price[price]) + ' ' + Config.SpecificNames.amd[leng] + '</span>' +
+                        '<span class="product-price" data-price-USD="' + val.price['USD'] + '" data-price-AMD = ' + val.price[price] + '>' + NumberFormat(val.price[price]) + ' ' + price + '</span>' +
                         '<span class="product-desc">' + val.text[leng] + '</span>' +
                         '</label>'
                     )
@@ -113,6 +116,12 @@ function GetDonatePageData(leng, price) {
                 })
             }
         }
+    });
+}
+
+function GetGiftsByCurrency(currency) {
+    $('.product-price').each(function () {
+        $(this).html(NumberFormat($(this).attr('data-price-' + currency)) + ' ' + currency)
     });
 }
 
@@ -186,6 +195,7 @@ function SendData() {
         var data = {};
         var goods = [];
         data.amount = parseInt($('#id_amount').val());
+        data.currency_tipe = $('#id_currency option:selected').val();
         data.province = $('#id_states option:selected').text();
         data.community = $('#id_regions option:selected').text();
         data.school = $('#id_schools option:selected').text();
@@ -248,7 +258,7 @@ function Validation() {
         if (!$('#id_amount').val()) {
             $('#id_amount').addClass('e-active')
         }
-        if (!$('#id_amount').val() * 1 > 0) {
+        if ($('#id_amount').val() * 1 < 0) {
             $('#id_amount').addClass('e-active')
         }
     }
@@ -274,7 +284,7 @@ function Validation() {
     }
     if ($('.e-active').length > 0) {
         var top = $('.e-active:first').offset().top;
-        $('body').scrollTop(top-10)
+        $('body').scrollTop(top - 10)
     }
 }
 
@@ -285,4 +295,14 @@ function validateEmail(email) {
 
 function isNumeric(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function SetAmountValue() {
+    var amount = 0;
+    $('.product-title input').each(function () {
+        if ($(this).is(':checked')) {
+            amount += $(this).closest('label').find('.product-price').attr('data-price-' + currency) * 1
+        }
+    });
+    $('#id_amount').val(amount);
 }

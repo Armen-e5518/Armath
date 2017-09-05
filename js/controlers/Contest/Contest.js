@@ -9,13 +9,12 @@ w3.includeHTML(function () {
     GetContestPageData(Config.language)
     GetAllEvents(Config.language)
     Config.load = true;
-
     setTimeout(function () {
-        $('#id_other_events').html(Config.SpecificNames.other_events[Config.language])
-        $('#id_sponsorship span').html(Config.SpecificNames.sponsorship_package[Config.language])
-        $('#id_rules span').html(Config.SpecificNames.rules[Config.language])
-        $('#id_history_text').html(Config.SpecificNames.history[Config.language])
-        $('#id_jury_title').html(Config.SpecificNames.jury[Config.language])
+        $('#id_other_events').html(Config.SpecificNames.other_events[Config.language]);
+        $('#id_sponsorship span').html(Config.SpecificNames.sponsorship_package[Config.language]);
+        $('#id_rules span').html(Config.SpecificNames.rules[Config.language]);
+        $('#id_history_text').html(Config.SpecificNames.history[Config.language]);
+        $('#id_jury_title').html(Config.SpecificNames.jury[Config.language]);
     },200)
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
