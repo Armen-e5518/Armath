@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Armath | About Armath</title>
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="js/swiper/dist/css/swiper.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/w3.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/lightbox.js"></script>
+</head>
+<body class="inner-page">
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading" id="id_about_title"></h1>
+            <div class="post-layout">
+                <div class="post-left-side about">
+                    <!--<p><img src="img/about-company/about-armath-featured-img.jpg" class="featured-img" alt=""></p>-->
+                    <p id="id_video"></p>
+                    <!--<iframe width="640" height="480" src="https://www.youtube.com/embed/o38ePT23lbY" frameborder="0" allowfullscreen></iframe>-->
+                    <p id="id_about_text"></p>
+                    <h2 id="id_equipment_title"></h2>
+                    <p id="id_equipment_text"></p>
+                    <div id="id_all_equipment"></div>
+                    <h2 id="id_project_action_plan_title"></h2>
+                    <p id="id_project_action_plan_text"></p>
+                    <div id="id_phases"></div>
+                </div>
+                <div class="post-right-side">
+                    <a href="labs.html" class="join-armath-btn" id="id_join_armath_title"><span></span></a>
+                    <a href="donate.html" class="support-armath-btn" id="id_support_armath_title"><span></span></a>
+                    <div class="company-activities" id="id_map"></div>
+                </div>
+            </div>
 
-		<title>Armath | About Armath</title>
-
-		<!-- <link rel="shortcut icon" href="img/favicon.png"> -->
-
-		<!-- Bootstrap Core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Style CSS -->
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/lightbox.css" rel="stylesheet">
-		<!-- Custom Fonts -->
-		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-		 <!-- Link Swiper's CSS -->
-		<link rel="stylesheet" href="js/swiper/dist/css/swiper.min.css">
-
-		<script src="js/jquery.js"></script>
-		<script src="js/w3.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/language.js"></script>
-		<script src="js/lightbox.js"></script>
-	</head>
-	<body class="inner-page">
-        <!-- Navigation -->
-		<div w3-include-html="common/header.html"></div>
-		<div id="wrapper">
-			<div class="main">
-				<h1 class="page-heading" id="id_about_title"></h1>
-				<div class="post-layout">
-					<div class="post-left-side about">
-						<!--<p><img src="img/about-company/about-armath-featured-img.jpg" class="featured-img" alt=""></p>-->
-						<p id="id_video" ></p>
-						<!--<iframe width="640" height="480" src="https://www.youtube.com/embed/o38ePT23lbY" frameborder="0" allowfullscreen></iframe>-->
-						<p id="id_about_text"></p>
-						<h2 id="id_equipment_title"></h2>
-						<p id="id_equipment_text"></p>
-						<div id="id_all_equipment"></div>
-						<h2 id="id_project_action_plan_title"></h2>
-						<p id="id_project_action_plan_text"></p>
-						<div id="id_phases"></div>
-					</div>
-					<div class="post-right-side">
-						<a href="labs.html" class="join-armath-btn" id="id_join_armath_title"><span></span></a>
-						<a href="donate.html" class="support-armath-btn" id="id_support_armath_title"><span></span></a>
-						<div class="company-activities" id="id_map"></div>
-					</div>
-				</div>
-				
-			</div>
-			<div w3-include-html="common/footer.html"></div>
-		</div>
-
-		<script src="js/controlers/About/About.js"></script>
-		<script src="js/controlers/common/header.js"></script>
-		<script src="js/controlers/common/footer.js"></script>
-		<script src="js/controlers/common/map.js"></script>
-		<script src="js/controlers/common/contacts.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+        </div>
+        <div w3-include-html="common/footer.html"></div>
+    </div>
+</div>
+<script src="js/controlers/About/About.js"></script>
+<script src="js/controlers/common/header.js"></script>
+<script src="js/controlers/common/footer.js"></script>
+<script src="js/controlers/common/map.js"></script>
+<script src="js/controlers/common/contacts.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

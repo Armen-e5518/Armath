@@ -30,20 +30,27 @@
     <script src="js/lightbox.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading center-align" id="id_gallery_title"></h1>
-        <div class="gallery-area">
-            <ul class="gallery-filter" id="id_gallery_items"></ul>
-            <div class="gallery-items" id="id_images"></div>
-            <div class="center-align">
-                <!--<a href="#" class="btn">Load more</a>-->
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <!--<video width="400" height="300" controls>-->
+            <!--<source src="https://metax.leviathan.am:7071/db/get?id=50d5ebba-5543-4537-a852-3d9d9457f999" type="video/mp4">-->
+            <!--</video>-->
+            <h1 class="page-heading center-align" id="id_gallery_title"></h1>
+            <div class="gallery-area">
+                <ul class="gallery-filter" id="id_gallery_items"></ul>
+                <div class="gallery-items" id="id_images"></div>
+                <div class="center-align">
+                    <!--<a href="#" class="btn">Load more</a>-->
+                </div>
             </div>
         </div>
+        <div w3-include-html="common/footer.html"></div>
     </div>
-    <div w3-include-html="common/footer.html"></div>
 </div>
 <script src="js/controlers/Gallery/Gallery.js"></script>
 <script src="js/controlers/common/header.js"></script>

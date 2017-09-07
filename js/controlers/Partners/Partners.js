@@ -34,6 +34,7 @@ function GetPartnersPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_tartners_title').html(res.title[leng]);
                 $('#id_tartners_text').html(res.text[leng]);
                 $('#id_join_armath').html(res.join_armath.title[leng]);
@@ -54,15 +55,12 @@ function GetAllPartners(leng) {
                     if (index <= PartnersPageConfig.default_count) {
                         $('#id_all_partners').append('<div class="block_' + index + '"></div>');
                     }
-                    // console.log(index);
                     $.ajax({
                         type: Config.request_type,
                         url: Config.domain + Config.Path + Config.api + val.uuid,
                         dataType: 'json',
                         success: function (res1) {
                             if (res1) {
-                                // console.log(index);
-                                // console.log(res1);
                                 if (index <= PartnersPageConfig.default_count) {
                                     $('#id_all_partners div.block_' + index + '').append(
                                         '<div class="post-item">' +

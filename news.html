@@ -31,30 +31,34 @@
     <script src="js/lightbox.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main news-p">
-        <h1 class="page-heading" id="id_news_title"></h1>
-        <p id=id_news_date></p>
-        <div class="post-layout">
-            <div class="post-left-side about">
-                <p><img id="id_news_img" src="" class="featured-img" alt=""></p>
-                <p id="id_video"></p>
-                <p id="id_news_text"></p>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main news-p">
+            <h1 class="page-heading" id="id_news_title"></h1>
+            <p id=id_news_date></p>
+            <div class="post-layout">
+                <div class="post-left-side about">
+                    <p><img id="id_news_img" src="" class="featured-img" alt=""></p>
+                    <p id="id_video"></p>
+                    <p id="id_news_text"></p>
+                </div>
+                <div class="post-right-side">
+                    <a href="labs.html" class="join-armath-btn" id="id_join_armath"><span></span></a>
+                    <a href="donate.html" class="support-armath-btn" id="id_support_armath"><span></span></a>
+                    <div class="company-activities" id="id_map"></div>
+                </div>
             </div>
-            <div class="post-right-side">
-                <a href="labs.html" class="join-armath-btn" id="id_join_armath"><span></span></a>
-                <a href="donate.html" class="support-armath-btn" id="id_support_armath"><span></span></a>
-                <div class="company-activities" id="id_map"></div>
-            </div>
+            <a href="index.html#id_lastest_news_title" class="back-bt">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <span id="id_back">Back</span>
+            </a>
         </div>
-        <a href="index.html#id_lastest_news_title" class="back-bt">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span id="id_back">Back</span>
-        </a>
+        <div w3-include-html="common/footer.html"></div>
     </div>
-    <div w3-include-html="common/footer.html"></div>
 </div>
 <script src="js/controlers/News/News.js"></script>
 <script src="js/controlers/common/header.js"></script>

@@ -47,6 +47,7 @@ function GetLabstPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_support_armath_title').html(res.title[leng]);
                 $('#id_support_armath_text').html(res.text[leng]);
             }

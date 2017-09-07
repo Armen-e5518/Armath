@@ -17,6 +17,7 @@ function GetNewsPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_news_title').html(res.title[leng]);
                 $('#id_news_text').html(res.text[leng]);
                 $('#id_news_date').html(res.publication_date);

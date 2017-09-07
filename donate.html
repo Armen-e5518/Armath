@@ -22,74 +22,79 @@
     <script src="js/language.js"></script>
 </head>
 <body class="inner-page">
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading center-align" id="id_donate_title"></h1>
-        <form>
-            <div class="donate-block">
-                <div class="contact-us donate-form">
-                    <div class="office-address">
-                        <h3 id="id_payment_option_title"></h3>
-                        <input type="text" id="id_amount" placeholder="">
-                        <strong id="">
-                            <select class="required" id="id_currency">
-                                <option data-id="AMD" value="051">AMD</option>
-                                <option data-id="USD" value="840">USD</option>
-                            </select>
-                        </strong>
-                        <a class="btn" id="id_give_gift"></a>
-                        <!--<div id="id_duration_in_months"></div>-->
-                        <div class="sale-for-donation hide-m" id="id_donation_gifts" style="display: none"></div>
-                    </div>
-                    <div class="form-area">
-                        <label for="want-armath-Lab">
-                            <input type="radio" name="donate-way" id="want-armath-Lab">
-                            <span class="check-mark"></span>
-                            <span id="id_armath"></span>
-                        </label>
-                        <div class="post-filter">
-                            <select class="required" id="id_states"></select>
-                            <select class="required" id="id_regions"></select>
-                            <select class="required" id="id_schools"></select>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading center-align" id="id_donate_title"></h1>
+            <form>
+                <div class="donate-block">
+                    <div class="contact-us donate-form">
+                        <div class="office-address">
+                            <h3 id="id_payment_option_title"></h3>
+                            <input type="text" id="id_amount" placeholder="">
+                            <strong id="">
+                                <select class="required" id="id_currency">
+                                    <option data-id="AMD" value="051">AMD</option>
+                                    <option data-id="USD" value="840">USD</option>
+                                </select>
+                            </strong>
+                            <a class="btn" id="id_give_gift"></a>
+                            <!--<div id="id_duration_in_months"></div>-->
+                            <div class="sale-for-donation hide-m" id="id_donation_gifts" style="display: none"></div>
                         </div>
-                        <label for="want-uite">
-                            <input type="radio" name="donate-way" id="want-uite">
-                            <span class="check-mark"></span>
-                            <span id="id_uite"></span>
-                        </label>
-                        <hr>
-                        <!--<h3 id="id_payment_method_title"></h3>-->
-                        <!--<span id="id_payment_methods"></span>-->
-                        <!--<hr>-->
-                        <h3 id="id_personal_info_title"></h3>
-                        <input type="text" class="required" id="id_personal_info_first_name" placeholder="">
-                        <input type="text" class="required" id="id_personal_info_last_name" placeholder="">
-                        <input type="text" class="required" id="id_personal_info_email_name" placeholder="">
-                        <textarea id="id_personal_info_comment" placeholder=""></textarea>
-                        <div class="center-align">
-                            <a class="btn" id="id_donate_text"></a>
+                        <div class="form-area">
+                            <label for="want-armath-Lab">
+                                <input type="radio" name="donate-way" id="want-armath-Lab">
+                                <span class="check-mark"></span>
+                                <span id="id_armath"></span>
+                            </label>
+                            <div class="post-filter">
+                                <select class="required" id="id_states"></select>
+                                <select class="required" id="id_regions"></select>
+                                <select class="required" id="id_schools"></select>
+                            </div>
+                            <label for="want-uite">
+                                <input type="radio" name="donate-way" id="want-uite">
+                                <span class="check-mark"></span>
+                                <span id="id_uite"></span>
+                            </label>
+                            <hr>
+                            <!--<h3 id="id_payment_method_title"></h3>-->
+                            <!--<span id="id_payment_methods"></span>-->
+                            <!--<hr>-->
+                            <h3 id="id_personal_info_title"></h3>
+                            <input type="text" class="required" id="id_personal_info_first_name" placeholder="">
+                            <input type="text" class="required" id="id_personal_info_last_name" placeholder="">
+                            <input type="text" class="required" id="id_personal_info_email_name" placeholder="">
+                            <textarea id="id_personal_info_comment" placeholder=""></textarea>
+                            <div class="center-align">
+                                <a class="btn" id="id_donate_text"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="d-img"><img id="id_donation_full_budget_img" src="" alt=""></div>
+                        <div class="d-title" id="id_donation_full_budget_title"></div>
+                        <div class="d-doc">
+                            <p>
+                                <a href="" id="id_donation_full_budget_doc" target="_blank">
+                                    <i class="fa fa-file-pdf-o"></i>
+                                    <span></span>
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="info">
-                    <div class="d-img"><img id="id_donation_full_budget_img" src="" alt=""></div>
-                    <div class="d-title" id="id_donation_full_budget_title"></div>
-                    <div class="d-doc">
-                        <p>
-                            <a href="" id="id_donation_full_budget_doc" target="_blank">
-                                <i class="fa fa-file-pdf-o"></i>
-                                <span></span>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </form>
-        <div id="id_form_pay" style="display: none"></div>
+            </form>
+            <div id="id_form_pay" style="display: none"></div>
 
+        </div>
+        <div w3-include-html="common/footer.html"></div>
     </div>
-    <div w3-include-html="common/footer.html"></div>
 </div>
 <script src="js/controlers/Donate/Donate.js"></script>
 <script src="js/controlers/common/header.js"></script>

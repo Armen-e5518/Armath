@@ -19,6 +19,7 @@ function GetAboutPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_about_title').html(res.title[leng]);
                 $('#id_about_text').html(res.text[leng]);
                 $('#id_video').html(res.assets.video_url);

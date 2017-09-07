@@ -31,21 +31,26 @@
     <script src="js/lightbox.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading" style="display:none;" id="id_d_thanks"></h1>
-        <h1 class="page-heading" style="display: none" id="id_d_errore"></h1>
-        <div class="p-info" style="display: none">
-            <p><span id="id_name_p"></span>: <span  id="id_name_v"></span></p>
-            <p><span id="id_amount_p"></span>: <span id="id_amount_v"></span>  <span id="id_currency"></span></p>
-            <p><span id="id_order_p"></span>: <span id="id_order_v"></span></p>
-        </div>
-    </div>
-    <div w3-include-html="common/footer.html"></div>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
 </div>
-
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading" style="display:none;" id="id_d_thanks"></h1>
+            <h1 class="page-heading" style="display: none" id="id_d_error"></h1>
+            <p id="id_error_mess"></p>
+            <p id="id_error_code"></p>
+            <div class="p-info" style="display: none">
+                <p><span id="id_name_p"></span>: <span id="id_name_v"></span></p>
+                <p><span id="id_amount_p"></span>: <span id="id_amount_v"></span> <span id="id_currency"></span></p>
+                <p><span id="id_order_p"></span>: <span id="id_order_v"></span></p>
+            </div>
+        </div>
+        <div w3-include-html="common/footer.html"></div>
+    </div>
+</div>
 <script src="js/controlers/Processing/Processing.js"></script>
 <script src="js/controlers/common/header.js"></script>
 <script src="js/controlers/common/footer.js"></script>

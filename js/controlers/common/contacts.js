@@ -8,7 +8,7 @@ var RunContacts = setInterval(function () {
         GetContactsData(Config.language)
         clearInterval(RunContacts)
     }
-}, 500);
+}, 1000);
 
 function GetContactsData(leng) {
     $.ajax({

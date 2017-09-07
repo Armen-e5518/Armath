@@ -27,27 +27,27 @@
     <script src="js/language.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
-
-<div w3-include-html="common/header.html"></div>
-
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading center-align" id="id_event_title"></h1>
-        <div class="events-intro-text center-align" id="id_event_text"></div>
-        <section class="company-info">
-            <div class="company-activities">
-				<div class="grid-tbl" >
-					<div class="grid-tbl-row" id="id_all_events_1"></div>
-					<div class="grid-tbl-row" id="id_all_events_2"></div>
-				</div>
-            </div>
-        </section>
-    </div>
-    <div w3-include-html="common/footer.html"></div>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
 </div>
-<!-- jQuery -->
-
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading center-align" id="id_event_title"></h1>
+            <div class="events-intro-text center-align" id="id_event_text"></div>
+            <section class="company-info">
+                <div class="company-activities">
+                    <div class="grid-tbl">
+                        <div class="grid-tbl-row" id="id_all_events_1"></div>
+                        <div class="grid-tbl-row" id="id_all_events_2"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div w3-include-html="common/footer.html"></div>
+    </div>
+</div>
 <script src="js/controlers/Events/Events.js"></script>
 <script src="js/controlers/common/header.js"></script>
 <script src="js/controlers/common/footer.js"></script>

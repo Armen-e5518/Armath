@@ -44,13 +44,14 @@ function GetHistoryPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_history_title').html(res.title[leng]);
                 $('#id_history_text').html(res.text[leng]);
                 $('#id_history_gallery_title').html(res.gallery.title[leng]);
                 $('#id_history_gallery_text').html(res.gallery.text[leng]);
                 res.gallery.assets.imgs.forEach(function (val, index) {
                     if (index < default_count) {
-                        if(res.gallery.assets.imgs.length == 1){
+                        if (res.gallery.assets.imgs.length == 1) {
                             $('#id_images').addClass('one-image')
                         }
                         $('#id_images').append(
@@ -74,17 +75,16 @@ function GetHistoryPageData(leng) {
                 if (res.type == 'camp_history') {
                     $('#id_agenda').show().attr('href', Config.img + res.agenda.uuid);
                     if (res.gallery.assets.videos.length > 0) {
-                        // res.gallery.assets.videos.forEach(function (val) {
-                        //     $('#id_images').append(
-                        //         '<a class="gallery_item" >' +
-                        //         '<video width="100%" height="100%" controls>' +
-                        //         '<source src="' + Config.img + val.uuid + '" type="video/mp4">' +
-                        //         '</video>' +
-                        //         '<span>Events_projects<em>view</em></span>' +
-                        //         '<small>Firstname LastName</small>' +
-                        //         '</a>'
-                        //     )
-                        // })
+                        $('#id_video_title').show();
+                        res.gallery.assets.videos.forEach(function (val) {
+                            $('#id_videos').append(
+                                '<a class="gallery_item video-item" >' +
+                                '<video class="video-js" controls >'+
+                                '<source src="' + Config.img + val.uuid + '" type="video/mp4">'+
+                                '</video>'+
+                                '</a>'
+                            )
+                        })
                     }
 
                 } else {

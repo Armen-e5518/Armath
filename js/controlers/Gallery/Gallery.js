@@ -35,6 +35,7 @@ function GetGalleryPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_gallery_title').html(res.title[leng]);
                 $('#id_gallery_items').html('<li><a  class="active">' + Config.SpecificNames.all[leng] + '</a></li>');
                 $('#id_images').html('');

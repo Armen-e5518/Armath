@@ -12,11 +12,11 @@ w3.includeHTML(function () {
     $('#id_foo_events').addClass('active-footer');
     $('#id_events').addClass('active-nav');
 });
-$(document).on('click', '.contest', function () {
-    localStorage.setItem('uuid', $(this).attr('uuid'));
-    var href = location.protocol + "//" + document.domain + '/contest.html';
-    window.location.href = href;
-});
+// $(document).on('click', '.contest', function () {
+//     localStorage.setItem('uuid', $(this).attr('uuid'));
+//     var href = location.protocol + "//" + document.domain + '/contest.html';
+//     window.location.href = href;
+// });
 
 function GetEventData(leng) {
     $.ajax({
@@ -25,6 +25,7 @@ function GetEventData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_event_title').html(res.title[leng]);
                 $('#id_event_text').html(res.text[leng]);
             }
@@ -49,16 +50,19 @@ function GetAllEvents(leng) {
                                 break;
                             case 1:
                                 my_class = 'digicamp camp-aim';
-                                href = '';
+                                href = 'href = "contest.html#' + val.title['en-us'] + '"';
                                 break;
                             case 2:
                                 my_class = 'digicamp open-game';
+                                href = 'href = "contest.html#' + val.title['en-us'] + '"';
                                 break;
                             case 3:
                                 my_class = 'digicamp digicode';
+                                href = 'href = "contest.html#' + val.title['en-us'] + '"';
                                 break;
                             case 4:
                                 my_class = 'digicamp technocamp';
+                                href = 'href = "contest.html#' + val.title['en-us'] + '"';
                                 break;
                         }
                         if (index < 3) {
@@ -85,7 +89,7 @@ function GetAllEvents(leng) {
                                 '<div class="description">' +
                                 '<h2>' + val.title[leng] + '</h2>' +
                                 '<p>' + val.text[leng] + '</p>' +
-                                '<a uuid="' + val.uuid + '"  class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
+                                '<a ' + href + ' uuid="' + val.uuid + '"  class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                                 '</div>' +
                                 '</div>'
                             )

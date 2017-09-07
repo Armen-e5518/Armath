@@ -31,6 +31,12 @@ function GetSpecificNames() {
         }
     });
 }
+
 function NumberFormat(num) {
     return num.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
+}
+
+function PageLoad() {
+    $('#id_body').show();
+    $('#id_loader').hide()
 }

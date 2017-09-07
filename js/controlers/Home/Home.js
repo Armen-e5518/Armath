@@ -31,6 +31,7 @@ function GetHomeData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_join_armath').html(res.join_armath.title[leng]);
                 $('#id_or_title').html(res.online_resources.title[leng]);
                 $('#id_gallery_title').html(res.gallery.title[leng]);

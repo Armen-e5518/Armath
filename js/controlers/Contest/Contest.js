@@ -1,13 +1,22 @@
 var ContestPageConfig = {
-    'contest_page_data': Config.api + localStorage.getItem('uuid'),
+    'contest_page_data': '',
     'all_equipment': Config.api + '6578857e-1c09-475f-92ef-8b394f6a22c1',
-    'all_events': Config.api + 'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb'
+    'all_events': Config.api + 'b79f78fb-f8af-4dee-b4d0-59b6dc9951bb',
+    'robotics_contest': Config.api + '131797ed-65ac-4414-b662-f43457cfe0a9',
+    'event': Config.api + 'bfec58de-1eb9-4254-b067-72661ea08ed9'
 };
+var hash = (window.location.hash.substr(1)) ? window.location.hash.substr(1) : false;
+console.log(hash);
 
 w3.includeHTML(function () {
     console.log('Run Contest Page');
-    GetContestPageData(Config.language)
-    GetAllEvents(Config.language)
+    if (hash) {
+        GetUuidByHash(Config.language)
+    }
+});
+function Run() {
+    GetContestPageData(Config.language);
+    GetAllEvents(Config.language);
     Config.load = true;
     setTimeout(function () {
         $('#id_other_events').html(Config.SpecificNames.other_events[Config.language]);
@@ -15,10 +24,10 @@ w3.includeHTML(function () {
         $('#id_rules span').html(Config.SpecificNames.rules[Config.language]);
         $('#id_history_text').html(Config.SpecificNames.history[Config.language]);
         $('#id_jury_title').html(Config.SpecificNames.jury[Config.language]);
-    },200)
+    }, 200)
     $('#id_events').addClass('active-nav');
     $('#id_foo_events').addClass('active-footer');
-});
+}
 
 $(document).on('click', '.contest', function () {
     localStorage.setItem('uuid', $(this).attr('uuid'));
@@ -36,9 +45,10 @@ function GetContestPageData(leng) {
     if (ContestPageConfig.contest_page_data) {
         $.ajax({
             type: Config.request_type,
-            url: Config.domain + Config.Path + ContestPageConfig.contest_page_data,
+            url: Config.domain + Config.Path + Config.api + ContestPageConfig.contest_page_data,
             dataType: 'json',
             success: function (res) {
+                PageLoad();
                 if (res && res.type == 'contest') {
                     $('#id_contest_title').html(res.title[leng]);
                     $('#id_contest_name').html(res.title[leng]);
@@ -164,6 +174,67 @@ function GetAllEvents(leng) {
                         '</li>'
                     )
                 })
+            }
+        }
+    });
+}
+
+function GetUuidByHash(leng) {
+    $.ajax({
+        type: Config.request_type,
+        url: Config.domain + Config.Path + ContestPageConfig.all_events,
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                res.events.forEach(function (val, index) {
+                    if (val.title['en-us'] == hash) {
+                        ContestPageConfig.contest_page_data = val.uuid;
+                        Run()
+                    } else {
+                        if (res.events.length - 1 == index) {
+                            $.ajax({
+                                type: Config.request_type,
+                                url: Config.domain + Config.Path + ContestPageConfig.robotics_contest,
+                                dataType: 'json',
+                                success: function (res) {
+                                    if (res) {
+                                        res.contests.forEach(function (val, index) {
+                                            if (val.title['en-us'] == hash) {
+                                                ContestPageConfig.contest_page_data = val.contest.uuid;
+                                                Run()
+                                            } else {
+                                                if (res.contests.length - 1 == index) {
+                                                    $.ajax({
+                                                        type: Config.request_type,
+                                                        url: Config.domain + Config.Path + ContestPageConfig.event,
+                                                        dataType: 'json',
+                                                        success: function (res) {
+                                                            if (res) {
+                                                                res.contests.forEach(function (val, index) {
+                                                                    if (val.title['en-us'] == hash) {
+                                                                        ContestPageConfig.contest_page_data = val.contest.uuid;
+                                                                        Run()
+                                                                    } else {
+                                                                        if (res.contests.length - 1 == index) {
+
+                                                                        }
+                                                                    }
+                                                                })
+
+                                                            }
+                                                        }
+                                                    });
+                                                }
+                                            }
+                                        })
+
+                                    }
+                                }
+                            });
+                        }
+                    }
+                })
+
             }
         }
     });

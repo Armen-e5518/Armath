@@ -26,40 +26,43 @@
     <script src="js/language.js"></script>
 
 </head>
-<body class="inner-page">
-<!-- Navigation -->
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading" id="id_contest_title"></h1>
-        <div class="post-layout">
-            <div class="post-left-side about">
-                <p><img src="" id="id_cover_img" class="featured-img" alt=""></p>
-                <h2 id="id_contest_name"></h2>
-                <p id="id_contest_text"></p>
-                <p><a href="#" id="id_sponsorship" target="_blank"><i class="fa fa-file-pdf-o"></i><span></span></a></p>
-                <p><a href="#" id="id_rules" target="_blank"><i class="fa fa-file-pdf-o"></i><span></span></a></p>
-                <h2 id="id_jury_title"></h2>
-                <div class="jury-staff" id="id_jurys"></div>
-                <div class="history-archive">
-                    <h2 id="id_history_text"></h2>
-                    <ul id="id_history"></ul>
-                </div>
-            </div>
-            <div class="post-right-side">
-                <h3 id="id_other_events"></h3>
-                <div class="company-activities">
-                    <ul id="id_all_events"></ul>
-                </div>
-                <a href="about.html" id="id_join_armath" class="join-armath-btn"><span></span></a>
-                <a href="donate.html" id="id_support_armath" class="support-armath-btn"><span></span></a>
-            </div>
-        </div>
-
-    </div>
-    <div w3-include-html="common/footer.html"></div>
+<body class="inner-page" >
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
 </div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading" id="id_contest_title"></h1>
+            <div class="post-layout">
+                <div class="post-left-side about">
+                    <p><img src="" id="id_cover_img" class="featured-img" alt=""></p>
+                    <h2 id="id_contest_name"></h2>
+                    <p id="id_contest_text"></p>
+                    <p><a href="#" id="id_sponsorship" target="_blank"><i class="fa fa-file-pdf-o"></i><span></span></a></p>
+                    <p><a href="#" id="id_rules" target="_blank"><i class="fa fa-file-pdf-o"></i><span></span></a></p>
+                    <h2 id="id_jury_title"></h2>
+                    <div class="jury-staff" id="id_jurys"></div>
+                    <div class="history-archive">
+                        <h2 id="id_history_text"></h2>
+                        <ul id="id_history"></ul>
+                    </div>
+                </div>
+                <div class="post-right-side">
+                    <h3 id="id_other_events"></h3>
+                    <div class="company-activities">
+                        <ul id="id_all_events"></ul>
+                    </div>
+                    <a href="about.html" id="id_join_armath" class="join-armath-btn"><span></span></a>
+                    <a href="donate.html" id="id_support_armath" class="support-armath-btn"><span></span></a>
+                </div>
+            </div>
 
+        </div>
+        <div w3-include-html="common/footer.html"></div>
+    </div>
+</div>
 <script src="js/controlers/Contest/Contest.js"></script>
 <script src="js/controlers/common/header.js"></script>
 <script src="js/controlers/common/footer.js"></script>

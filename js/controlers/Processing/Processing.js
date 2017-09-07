@@ -14,7 +14,7 @@ w3.includeHTML(function () {
             dataType: 'json',
             success: function (res) {
                 if (res) {
-                    console.log(res.currency)
+                    PageLoad();
                     if (res.ErrorMessage == 'Success') {
                         $('#id_d_thanks').show();
                         $('.p-info').show();
@@ -28,10 +28,12 @@ w3.includeHTML(function () {
                             $('#id_currency').html("USD")
                         }
                     } else {
-                        $('#id_d_errore').show();
+                        $('#id_d_error').show();
+                        $('#id_error_code').html('Error Code - ' +res.ErrorCode);
+                        $('#id_error_mess').html(res.ErrorMessage);
                     }
                 } else {
-                    $('#id_d_errore').show();
+                    $('#id_d_error').show();
                 }
             }
         });

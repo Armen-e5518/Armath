@@ -14,11 +14,11 @@ w3.includeHTML(function () {
     $('#id_foo_events').addClass('active-footer');
 });
 
-$(document).on('click', '.contest', function () {
-    localStorage.setItem('uuid', $(this).attr('uuid'));
-    var href = location.protocol + "//" + document.domain + '/contest.html';
-    window.location.href = href;
-});
+// $(document).on('click', '.contest', function () {
+//     localStorage.setItem('uuid', $(this).attr('uuid'));
+//     var href = location.protocol + "//" + document.domain + '/contest.html';
+//     window.location.href = href;
+// });
 
 
 function GetArmroboticsPageData(leng) {
@@ -28,6 +28,7 @@ function GetArmroboticsPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 $('#id_armrobotics_title').html(res.title[leng]);
                 $('#id_about_contest').html(res.about_contest.text[leng]);
                 $('#id_armrobotics_img').attr('src', Config.img + res.about_contest.assets.imgs[0].uuid);
@@ -39,7 +40,7 @@ function GetArmroboticsPageData(leng) {
                             '<div> ' +
                             '<h2>' + val.title[leng] + '</h2>' +
                             '<p>' + val.text[leng] + '</p>' +
-                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
+                            '<p><a class="contest" href="contest.html#' + val.title['en-us'] + '"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
                             '</div>' +
                             '</div>'
                         );
@@ -70,7 +71,7 @@ function GetArmroboticsPageData(leng) {
                                             '<div> ' +
                                             '<h2>' + val.title[leng] + '</h2>' +
                                             '<p>' + val.text[leng] + '</p>' +
-                                            '<p><a class="contest" href="contest.html"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
+                                            '<p><a class="contest" href="contest.html#' + val.title['en-us'] + '"  uuid="' + val.contest.uuid + '">' + Config.SpecificNames.view_contests[leng] + '</a></p>' +
                                             '</div>' +
                                             '</div>'
                                         )
@@ -101,7 +102,7 @@ function GetArmroboticsAllEventsPageData(leng) {
                         '<div class="description">' +
                         '<h2>' + val.title[leng] + '</h2>' +
                         '<i class="fa fa-angle-right"></i>' +
-                        '<a uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
+                        '<a  href="contest.html#' + val.title['en-us'] + '"  uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                         '</div>' +
                         '</li>'
                     )

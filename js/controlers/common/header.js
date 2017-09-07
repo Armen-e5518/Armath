@@ -3,7 +3,8 @@ var HeaderConfig = {
     'navigation_items': Config.api + '13cfeaea-8b63-43d9-a92a-89c698354280',
     'social_media': Config.api + 'c9d5cce6-0184-4865-bfba-eca09534ded7',
 };
-
+var Logo,
+    Logo_mobile;
 var RunHeader = setInterval(function () {
     if (Config.load) {
         console.log('Run Header');
@@ -53,8 +54,10 @@ function GetHeaderData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                $('#id_header_logo').css('background-image', 'URL(' + Config.img + res.assets.logos[0].uuid + ')');
-
+                Logo = res.assets.logos[leng];
+                Logo_mobile = res.assets.mobile_logos[leng];
+                SetLogo();
+                // $('#id_header_logo').css('background-image', 'URL(' + Config.img + res.assets.logos[leng] + ')');
                 // $('#id_search').attr('placeholder', res.search_item.text[leng]);
                 $('#id_login_text').html(res.login_item.text[leng]);
                 res.languages.forEach(function (val) {
@@ -64,6 +67,23 @@ function GetHeaderData(leng) {
             }
         }
     });
+}
+
+function SetLogo() {
+    var w = window.innerWidth;
+    window.onresize = function (event) {
+        w = window.innerWidth;
+        if (w < 568) {
+            $('#id_header_logo').css('background-image', 'URL(' + Config.img + Logo_mobile + ')');
+        } else {
+            $('#id_header_logo').css('background-image', 'URL(' + Config.img + Logo + ')');
+        }
+    };
+    if (w < 568) {
+        $('#id_header_logo').css('background-image', 'URL(' + Config.img + Logo_mobile + ')');
+    } else {
+        $('#id_header_logo').css('background-image', 'URL(' + Config.img + Logo + ')');
+    }
 }
 
 function SetLanguageInHeader() {

@@ -30,6 +30,7 @@ function GetContactsPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 var logo = (leng == 'en-us') ? 0 : 1;
                 $('#id_contacts_title').html(res.title[leng]);
                 $('#id_uite_logo').attr('src', Config.img + res.assets.logos[logo].uuid);
@@ -74,10 +75,10 @@ function SendData() {
             success: function (res) {
                 console.log(res)
                 if (res) {
-                    if(res.success == 1){
+                    if (res.success == 1) {
                         $('#id_thanks').show();
                         $('.contact-us').hide();
-                    }else {
+                    } else {
                         $('#id_m_error').show();
                         $('.contact-us').hide();
                     }

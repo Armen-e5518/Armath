@@ -79,9 +79,9 @@ em, i {
 	}
 
 	.navbar-brand {
-	    background-image:url(../img/logo.png);
 	    height: 117px;
-	    width: 162px;
+	    width: 164px;
+	    background-size: cover;
 	}
 
 	.top-navigation .top-nav-logo {
@@ -1593,7 +1593,14 @@ em, i {
 #id_video iframe {
     max-width: 100%;
     width: 100%;
-}					
+}	
+
+#id_loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}				
 
 /*----footer----*/
 
@@ -1935,19 +1942,23 @@ footer {
 					
 					#id_thanks,
 					#id_d_thanks,
-					#id_d_errore {
+					#id_d_errore,
+					#id_error_mess,
+					#id_error_code {
 					    font-size: 30px;
 					    text-align: center;
 					    margin-top: 60px;
 					}
-					
+										
 					#id_thanks,
 					#id_d_thanks {
 					    color: #25cbd3;
 					}
 					
-					#id_d_errore {
+					#id_d_errore,
+					#id_d_error {
 					    color: #303030;
+					    text-align: center;
 					}
 					
 					.p-info {
@@ -2301,8 +2312,8 @@ footer {
 	}
 
 	.navbar-inverse .navbar-collapse {
-	    border-top: 2px solid #25cbd3;
-	    margin-top: 15px;
+	    border-top: none;
+	    /*margin-top: 15px;*/
 	}
 
 	.navbar-nav .choose-lang.open .dropdown-menu {
@@ -2424,11 +2435,10 @@ footer {
 
 @media (max-width:568px) {
 	.navbar-brand {
-	    background-image:url(../img/mob-logo.png);
 	    height: 30px;
 	    width: 185px;
-    	padding: 0;
-	background-repeat: no-repeat;
+    	    padding: 0;
+	    background-repeat: no-repeat;
 	    margin-top: 7px;
 	}
 
@@ -2599,7 +2609,22 @@ footer {
 	
 	#id_give_gift {
 	    margin-left: 0;
-	    margin-top: 15px;
+	}
+	
+	#id_amount {
+	    margin-bottom: 15px;
+	    max-width: 241px;
+	    width: 100%;
+	    margin-left: 7px;
+	    margin-right: auto;
+	}
+	
+	#id_name_v, #id_amount_v, #id_order_v, #id_currency {
+	    vertical-align: middle;
+	}
+		
+	.donate-form .office-address {
+	    text-align: center;
 	}
 
 }
@@ -2698,10 +2723,6 @@ footer {
 	.gallery-items,
 	.sale-for-donation {
 		grid-template-columns: 1fr;;
-	}
-	
-	.donate-form .office-address {
-	    text-align: center;
 	}
 		
 	.contact-us .office-address label {

@@ -72,6 +72,7 @@ function GetDonatePageData(leng, price) {
         dataType: 'json',
         success: function (res) {
             if (res) {
+                PageLoad();
                 DonatePageConfig.payment_url = res.url;
                 $('#id_donate_title').html(res.title[leng]);
                 $('#id_uite').html(res.donation_mechanism.donate_to.uite.text[leng]);
@@ -195,7 +196,7 @@ function SendData() {
         var data = {};
         var goods = [];
         data.amount = parseInt($('#id_amount').val());
-        data.currency_tipe = $('#id_currency option:selected').val();
+        data.currency_type = $('#id_currency option:selected').val();
         data.province = $('#id_states option:selected').text();
         data.community = $('#id_regions option:selected').text();
         data.school = $('#id_schools option:selected').text();
@@ -258,7 +259,7 @@ function Validation() {
         if (!$('#id_amount').val()) {
             $('#id_amount').addClass('e-active')
         }
-        if ($('#id_amount').val() * 1 < 0) {
+        if ($('#id_amount').val() * 1 <= 0) {
             $('#id_amount').addClass('e-active')
         }
     }
@@ -274,11 +275,9 @@ function Validation() {
             $('#id_donation_gifts label').addClass('e-active')
         }
     }
-
     if (!validateEmail($('#id_personal_info_email_name').val())) {
         $('#id_personal_info_email_name').addClass('e-active')
     }
-
     if (!isNumeric($('#id_amount').val())) {
         $('#id_amount').addClass('e-active')
     }
@@ -305,4 +304,7 @@ function SetAmountValue() {
         }
     });
     $('#id_amount').val(amount);
+    if (amount == 0) {
+        $('#id_amount').val('');
+    }
 }

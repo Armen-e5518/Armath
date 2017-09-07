@@ -27,35 +27,39 @@
 
 </head>
 <body class="inner-page">
-<div w3-include-html="common/header.html"></div>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading" id="id_support_armath_title"></h1>
+            <div class="post-layout">
+                <div class="post-left-side">
+                    <span class="gray-txt" id="id_support_armath_text"> </span>
+                    <div class="post-filter">
+                        <select id="id_states"></select>
+                        <select id="id_regions"></select>
+                        <!--<input type="text" placeholder="Enter keyword">-->
+                        <button id="id_search"></button>
+                    </div>
+                    <div id="id_schools"></div>
+                    <br>
+                    <div class="center-align">
+                        <a class="btn" id="id_load_more" style="display: none"></a>
+                    </div>
+                </div>
+                <div class="post-right-side">
+                    <a href="labs.html" id="id_join_armath" class="join-armath-btn"><span></span></a>
+                    <a href="donate.html" id="id_support_armath" class="support-armath-btn"><span></span></a>
+                    <div class="company-activities" id="id_map"></div>
+                </div>
+            </div>
 
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading" id="id_support_armath_title"></h1>
-        <div class="post-layout">
-            <div class="post-left-side">
-                <span class="gray-txt" id="id_support_armath_text"> </span>
-                <div class="post-filter">
-                    <select id="id_states"></select>
-                    <select id="id_regions"></select>
-                    <!--<input type="text" placeholder="Enter keyword">-->
-                    <button id="id_search"></button>
-                </div>
-                <div id="id_schools"></div>
-                <br>
-                <div class="center-align">
-                    <a  class="btn" id="id_load_more" style="display: none"></a>
-                </div>
-            </div>
-            <div class="post-right-side">
-                <a href="labs.html" id="id_join_armath" class="join-armath-btn"><span></span></a>
-                <a href="donate.html" id="id_support_armath" class="support-armath-btn"><span></span></a>
-                <div class="company-activities" id="id_map"></div>
-            </div>
         </div>
-
+        <div w3-include-html="common/footer.html"></div>
     </div>
-    <div w3-include-html="common/footer.html"></div>
 </div>
 <script src="js/controlers/Labs/Labs.js"></script>
 <script src="js/controlers/common/header.js"></script>

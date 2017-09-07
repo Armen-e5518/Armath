@@ -29,55 +29,59 @@
     <script src="js/language.js"></script>
 </head>
 <body class="inner-page">
-<!-- Navigation -->
-<div w3-include-html="common/header.html"></div>
-<div id="wrapper">
-    <div class="main">
-        <h1 class="page-heading center-align" id="id_contacts_title"></h1>
-        <h1 id="id_thanks" style="display: none"></h1>
-        <h1 id="id_m_error" style="display: none"></h1>
-        <div class="contact-us">
-            <div class="form-area">
-                <h3 id="id_message_title"></h3>
-                <form>
-                    <input type="text" class="required" id="id_first_name" placeholder="Your first name">
-                    <input type="text" class="required" id="id_last_name" placeholder="Your last name">
-                    <input type="text" class="required" id="id_user_email" placeholder="Your email address">
-                    <textarea id="id_message" class="required"  placeholder="Message"></textarea>
-                    <div class="center-align">
-                        <a class="btn" id="id_send"></a>
-                    </div>
-                </form>
+<div id="id_loader">
+    <img src="img/loader.svg" alt="loader">
+</div>
+<div id="id_body" style="display: none">
+    <div w3-include-html="common/header.html"></div>
+    <div id="wrapper">
+        <div class="main">
+            <h1 class="page-heading center-align" id="id_contacts_title"></h1>
+            <h1 id="id_thanks" style="display: none"></h1>
+            <h1 id="id_m_error" style="display: none"></h1>
+            <div class="contact-us">
+                <div class="form-area">
+                    <h3 id="id_message_title"></h3>
+                    <form>
+                        <input type="text" class="required" id="id_first_name" placeholder="Your first name">
+                        <input type="text" class="required" id="id_last_name" placeholder="Your last name">
+                        <input type="text" class="required" id="id_user_email" placeholder="Your email address">
+                        <textarea id="id_message" class="required" placeholder="Message"></textarea>
+                        <div class="center-align">
+                            <a class="btn" id="id_send"></a>
+                        </div>
+                    </form>
+                </div>
+                <div class="office-address">
+                    <p><img width="250px" id="id_uite_logo" alt=""></p>
+                    <h3><br><span id="id_our_address"></span></h3>
+                    <p>
+                        <span id="id_c_street"></span>
+                        <span id="id_c_building"></span>
+                        <span id="id_c_floor"></span><br>
+                        <span id="id_c_city"></span>
+                        <span id="id_c_post_code"></span>
+                        <span id="id_c_country"></span><br>
+                        <span id="id_c_tel"></span> <a><span id="id_c_email_address"></span></a><br>
+                        <span id="id_e_c_mail"></span><span id="id_c_phone_num"></span><br>
+                        <!--Mobile: <span id="id_c_mobile_num"></span><br>-->
+                        <a href="" target="_blank" id="id_c_official_site_url"><span></span></a>
+                    </p>
+                    <h3 id="id_join_us"></h3>
+                    <ul class="social-icons">
+                        <li><a target="_blank" id="id_facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" id="id_twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" id="id_youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="office-address">
-                <p><img width="250px" id="id_uite_logo" alt=""></p>
-                <h3><br><span id="id_our_address"></span></h3>
-                <p>
-                    <span id="id_c_street"></span>
-                    <span id="id_c_building"></span>
-                    <span id="id_c_floor"></span><br>
-                    <span id="id_c_city"></span>
-                    <span id="id_c_post_code"></span>
-                    <span id="id_c_country"></span><br>
-                    <span id="id_c_tel"></span> <a><span id="id_c_email_address"></span></a><br>
-                    <span id="id_e_c_mail"></span><span id="id_c_phone_num"></span><br>
-                    <!--Mobile: <span id="id_c_mobile_num"></span><br>-->
-                    <a href="" target="_blank" id="id_c_official_site_url"><span></span></a>
-                </p>
-                <h3 id="id_join_us"></h3>
-                <ul class="social-icons">
-                    <li><a target="_blank" id="id_facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" id="id_twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" id="id_youtube"><i class="fa fa-youtube"></i></a></li>
-                </ul>
+            <div class="office-location-on-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.325674258048!2d44.490176815842624!3d40.2018179793907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd69f575cca5%3A0xa6857519e9c372a9!2zMyBIYWtvYiBIYWtvYnlhbiBTdCwgWWVyZXZhbiAwMDMzLCDQkNGA0LzQtdC90LjRjw!5e0!3m2!1sru!2s!4v1497354226503"
+                        allowfullscreen></iframe>
             </div>
         </div>
-        <div class="office-location-on-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.325674258048!2d44.490176815842624!3d40.2018179793907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd69f575cca5%3A0xa6857519e9c372a9!2zMyBIYWtvYiBIYWtvYnlhbiBTdCwgWWVyZXZhbiAwMDMzLCDQkNGA0LzQtdC90LjRjw!5e0!3m2!1sru!2s!4v1497354226503"
-                    allowfullscreen></iframe>
-        </div>
+        <div w3-include-html="common/footer.html"></div>
     </div>
-    <div w3-include-html="common/footer.html"></div>
 </div>
 <script src="js/controlers/Contacts/Contacts.js"></script>
 <script src="js/controlers/common/header.js"></script>
