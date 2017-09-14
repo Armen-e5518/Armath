@@ -12,6 +12,7 @@ var RunHeader = setInterval(function () {
         GetHeaderData(Config.language);
         GetSocialMmedia(Config.language);
         GetCommonText(Config.language);
+        GetCommonImages();
         clearInterval(RunHeader)
     }
 }, 500);
@@ -143,4 +144,22 @@ function GetCommonText(leng) {
     $('#id_name_p').html(Config.SpecificNames.name[leng])
     $('#id_amount_p').html(Config.SpecificNames.amount[leng])
     $('#id_order_p').html(Config.SpecificNames.o_number[leng])
+}
+
+function GetCommonImages() {
+    $.ajax({
+        type: Config.request_type,
+        url: Config.domain + Config.Path + Config.api + Config.images,
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                $("link[rel='shortcut icon']").attr('href', Config.img + res.favicon_ico)
+                $("#id_burger_menu").attr('src', Config.img + res.burger_menu);
+                $(".lb-cancel").css('background', 'URL(' + Config.img + res.loading_gif + ') no-repeat');
+                $(".lb-nav a.lb-prev").css('background', 'URL(' + Config.img + res.prev + ') left 48% no-repeat');
+                $(".lb-nav a.lb-next").css('background', 'URL(' + Config.img + res.next + ') right 48% no-repeat');
+                $(".lb-data .lb-close").css('background', 'URL(' + Config.img + res.close + ') top right no-repeat');
+            }
+        }
+    });
 }

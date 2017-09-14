@@ -14,6 +14,7 @@ w3.includeHTML(function () {
         GetUuidByHash(Config.language)
     }
 });
+
 function Run() {
     GetContestPageData(Config.language);
     GetAllEvents(Config.language);
@@ -30,16 +31,17 @@ function Run() {
 }
 
 $(document).on('click', '.contest', function () {
-    localStorage.setItem('uuid', $(this).attr('uuid'));
-    var href = location.protocol + "//" + document.domain + '/contest.html';
+    var h = $(this).attr('href');
+    var href = location.protocol + "//" + document.domain + '/' + h;
     window.location.href = href;
+    location.reload();
 });
 
-$(document).on('click', '.history', function () {
-    localStorage.setItem('his-uuid', $(this).attr('his-uuid'));
-    var href = location.protocol + "//" + document.domain + '/history.html';
-    window.location.href = href;
-});
+// $(document).on('click', '.history', function () {
+//     localStorage.setItem('his-uuid', $(this).attr('his-uuid'));
+//     var href = location.protocol + "//" + document.domain + '/history.html';
+//     window.location.href = href;
+// });
 
 function GetContestPageData(leng) {
     if (ContestPageConfig.contest_page_data) {
@@ -89,6 +91,7 @@ function GetContestPageData(leng) {
                         });
                     });
                     res.history.forEach(function (val, index) {
+                        console.log(val.title['en-us'])
                         $('#id_history').append('<li class="item_' + index + '"></li>')
                         $.ajax({
                             type: Config.request_type,
@@ -97,7 +100,7 @@ function GetContestPageData(leng) {
                             success: function (res2) {
                                 if (res2) {
                                     $('#id_history li.item_' + index).append(
-                                        '<a class="history" his-uuid="' + val.uuid + '">' + res2.date + '</a>'
+                                        '<a class="history" href="history.html#' + UrlReplace(val.title['en-us']) + '" his-uuid="' + val.uuid + '">' + res2.date + '</a>'
                                     )
                                 }
                             }
@@ -128,7 +131,7 @@ function GetContestPageData(leng) {
                             success: function (res2) {
                                 if (res2) {
                                     $('#id_history').append(
-                                        '<li><a class="history" his-uuid="' + val.uuid + '">' + res2.date + '</a></li>'
+                                        '<li><a class="history" href="history.html#' + UrlReplace(val.title['en-us']) + '" his-uuid="' + val.uuid + '">' + res2.date + '</a></li>'
                                     )
                                 }
                             }
@@ -158,7 +161,8 @@ function GetAllEvents(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                res.events.forEach(function (val) {
+                res.events.forEach(function (val, index) {
+                    var href = (index == 0) ? 'event-armrobotics.html' : "contest.html#" + val.title['en-us'];
                     $('#id_all_events').append(
                         '<li class="open-game">' +
                         '<div class="typlical-img" style="background: URL(' + Config.img + val.assets.imgs[0].uuid + ')"></div>' +
@@ -168,8 +172,7 @@ function GetAllEvents(leng) {
                         '</a>' +
                         '</div>' +
                         '<div class="description">' +
-                        '<i class="fa fa-angle-right"></i>' +
-                        '<a uuid= "' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
+                        '<a href="' + href + '" uuid= ' + val.uuid + '" class="contest armath-btn join-webinar"><i class="fa fa-angle-right"></i>' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
                         '</div>' +
                         '</li>'
                     )
@@ -189,9 +192,10 @@ function GetUuidByHash(leng) {
                 res.events.forEach(function (val, index) {
                     if (val.title['en-us'] == hash) {
                         ContestPageConfig.contest_page_data = val.uuid;
+                        console.log(val.uuid)
                         Run()
                     } else {
-                        if (res.events.length - 1 == index) {
+                        if (res.events.length - 1 == index && !ContestPageConfig.contest_page_data) {
                             $.ajax({
                                 type: Config.request_type,
                                 url: Config.domain + Config.Path + ContestPageConfig.robotics_contest,
@@ -201,9 +205,10 @@ function GetUuidByHash(leng) {
                                         res.contests.forEach(function (val, index) {
                                             if (val.title['en-us'] == hash) {
                                                 ContestPageConfig.contest_page_data = val.contest.uuid;
+                                                console.log(val.uuid)
                                                 Run()
                                             } else {
-                                                if (res.contests.length - 1 == index) {
+                                                if (res.contests.length - 1 == index && !ContestPageConfig.contest_page_data) {
                                                     $.ajax({
                                                         type: Config.request_type,
                                                         url: Config.domain + Config.Path + ContestPageConfig.event,
@@ -213,28 +218,27 @@ function GetUuidByHash(leng) {
                                                                 res.contests.forEach(function (val, index) {
                                                                     if (val.title['en-us'] == hash) {
                                                                         ContestPageConfig.contest_page_data = val.contest.uuid;
+                                                                        console.log(val.uuid)
                                                                         Run()
                                                                     } else {
-                                                                        if (res.contests.length - 1 == index) {
-
+                                                                        if (res.contests.length - 1 == index && !ContestPageConfig.contest_page_data) {
+                                                                            var href = location.protocol + "//" + document.domain + '/events.html';
+                                                                            window.location.href = href;
                                                                         }
                                                                     }
                                                                 })
-
                                                             }
                                                         }
                                                     });
                                                 }
                                             }
                                         })
-
                                     }
                                 }
                             });
                         }
                     }
                 })
-
             }
         }
     });

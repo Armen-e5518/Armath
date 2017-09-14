@@ -40,6 +40,7 @@ function GetHomeData(leng) {
                 $('#id_galley_image').css('background', 'URL(' + Config.img + res.gallery.assets.imgs[0].uuid + ')');
                 $('#id_or_img').css('background', 'URL(' + Config.img + res.online_resources.assets.imgs[0].uuid + ')');
                 $('#id_join_armath_img').css('background', 'URL(' + Config.img + res.join_armath.assets.imgs[0].uuid + ')');
+                $('#id_lastest-news').css('background', 'URL(' + Config.img + res.latest_news.assets.imgs[0].uuid + ')');
                 res.events.assets.imgs.forEach(function (val) {
                     $('#id_events_slider').append(
                         '<div class="swiper-slide" style="background:url(' + Config.img + val.uuid + ');">' +

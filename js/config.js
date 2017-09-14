@@ -10,7 +10,9 @@ var Config = {
     'request_type': 'GET',
     'SpecificNames': {},
     'order_url': 'https://metax.leviathan.am:7071/payment/arca/status?orderId=',
-    'contact_url': 'https://metax.leviathan.am:7071/sendemail'
+    'contact_url': 'https://metax.leviathan.am:7071/sendemail',
+    'title_url': 'fca58498-436c-4bed-b71c-8f34684ab9b5',
+    'images' : "9704ecd1-95dc-4e95-b757-a3075fa1d0f8"
 };
 
 GetSpecificNames();
@@ -22,7 +24,7 @@ if (localStorage.getItem('language')) {
 function GetSpecificNames() {
     $.ajax({
         type: Config.request_type,
-        url: '/leng.json',
+        url: 'leng.json',
         dataType: 'json',
         success: function (res) {
             if (res) {
@@ -39,4 +41,15 @@ function NumberFormat(num) {
 function PageLoad() {
     $('#id_body').show();
     $('#id_loader').hide()
+}
+
+String.prototype.replaceAll = function (target, replacement) {
+    return this.split(target).join(replacement);
+};
+
+function UrlReplace(url) {
+    url = url.replaceAll('/', '-')
+    url = url.replaceAll('\\', '-')
+    url = url.replaceAll('"', '-')
+    return url.replaceAll(' ', '-')
 }

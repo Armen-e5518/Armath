@@ -8,14 +8,17 @@ w3.includeHTML(function () {
     Config.load = true;
     $('#id_gallery').addClass('active-nav');
     $('#id_foo_gallery').addClass('active-footer');
+
     $(document).on('click', '.gallery_item', function () {
         $('#id_gallery_items li a').removeClass('active');
         $('#id_gallery_items li[data-id="' + $(this).attr('data-id') + '"] a').addClass('active');
         GetImagesByCategory($(this), Config.language)
     })
+
     $(document).on('click', '.gallery_item_2', function () {
         GetImagesByCategory2($(this), Config.language)
     })
+
     $(document).on('click', '#id_gallery_items li', function () {
         var uuid = $(this).attr('data-id');
         $('#id_gallery_items li a').removeClass('active');
@@ -77,6 +80,7 @@ function GetImagesByCategory(ob, leng) {
         }
     });
 }
+
 function GetImagesByCategory2(ob, leng, no_big_data) {
     if (no_big_data) {
         var uuid = ob;

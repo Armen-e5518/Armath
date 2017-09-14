@@ -610,9 +610,14 @@ em, i {
 				height: 260px;
 				background-color: #a2007d;
 			}
+			
 			.support-armath {
-				height: 260px;
+				height: auto;
 				background-color: #a2007d;
+			}
+			
+			.support-armath .description {
+			    height: 260px;
 			}
 			
 				.typlical-img {
@@ -634,22 +639,22 @@ em, i {
 
 				.featured-project .typlical-img {
 					height: 529px;
-					background:url('../img/about-company/ab1.jpg');
+					/*background:url('../img/about-company/ab1.jpg');*/
 				}
 
 				.online-webinar .typlical-img {
 					height: 260px;
-					background:url('../img/about-company/ab5.jpg');
+					/*background:url('../img/about-company/ab5.jpg');*/
 				}
 
 				.gallery .typlical-img {
 					height: 260px;
-					background:url('../img/about-company/ab2.jpg');
+					/*background:url('../img/about-company/ab2.jpg');*/
 				}
 
 				.labs-map .typlical-img {
 					height: 529px;
-					background:url('../img/about-company/ab6.jpg');
+					/*background:url('../img/about-company/ab6.jpg');*/
 				}
 					
 				.armrobotics .typlical-img {
@@ -691,10 +696,11 @@ em, i {
 						white-space: nowrap;
 						overflow: hidden;
 						text-overflow: ellipsis;
+						line-height: 26px;
 					}
 				
 				.inner-page .company-activities .description {
-					top: initial;
+					top: auto;
 				}
 					
 					.inner-page .company-activities .description .armath-btn {
@@ -742,11 +748,12 @@ em, i {
 				.featured-project .description {
 				    bottom: 15px;
 				        z-index: 1;
+					left:0;
 				}
 
 					.description .armath-btn {
 						position: absolute;
-    					bottom: 20px;
+    					        bottom: 20px;
 					}
 
 					.all-webinar {
@@ -771,7 +778,7 @@ em, i {
     width: 100%;
     background-repeat: no-repeat;
     min-height: 635px;
-    background-image: url('../img/news/news-bg.jpg');
+    /*background-image: url('../img/news/news-bg.jpg');*/
     margin-bottom: 17px;
     padding: 20px;
 }
@@ -884,6 +891,7 @@ em, i {
 			    display: -webkit-box;
 			    -webkit-line-clamp: 4;
 			    -webkit-box-orient: vertical;
+			        max-height: 83px;
 			}
 			
 			.story-body p:empty {
@@ -969,11 +977,17 @@ em, i {
 					}
 			
 			.gallery-items {
-				display:grid;
-				grid-template-columns:repeat(3, minmax(1px, auto));
-				grid-gap:18px;
+				display:flex;
+				/*grid-template-columns:repeat(3, minmax(1px, auto));
+				grid-gap:18px;*/
+				flex-wrap: wrap;
 				margin-bottom:47px;
 			}
+			
+				.gallery-items > * {
+				    width: 32%;
+				    margin: 8px;
+				}
 			
 				.gallery-items a {
 					display:block;
@@ -981,10 +995,15 @@ em, i {
 					background:#25cbd3;
 					position:relative;
 				}
+				
+				.video-item .video-js {
+				    width: 100%;
+				    height: 100%;
+				}
 			
 					.gallery-items a img {
 						width:100%;
-						height: 318px;
+						height: 100%;
 						max-height: 318px;
 						object-fit: cover;
 						object-position: center;
@@ -1587,7 +1606,7 @@ em, i {
 								}
 
 								.inner-page .post-right-side .company-activities .fa-angle-right {
-									margin-right:2px;
+									margin-right: 7px;
 								}
 							
 #id_video iframe {
@@ -2035,7 +2054,7 @@ footer {
 										
 										.sale-for-donation .product-title .check-mark {
 											position:absolute;
-											top:0;
+											bottom: -19px;
 											right:0;
 											background:none;
 										}
@@ -2135,6 +2154,10 @@ footer {
 		
 		.contact-us {
 		    grid-gap: 70px;
+		}
+		
+		.gallery-items > * {
+		    width: 31%;
 		}
 
 }
@@ -2244,6 +2267,10 @@ footer {
 		display:block;
 	}
 	
+	.support-armath .description {
+	    height: auto;
+	}
+	
 		.grid-tbl-row > div {
 			display: block !important;
 			width: 100% !important;
@@ -2258,11 +2285,7 @@ footer {
 	.featured-project {
 		margin-right: 0;
 	}
-	
-	.grid-tbl-row > div {
-		border-bottom: 0 !important;
-	}
-	
+		
 	.join-armath,
 	.online-webinar,
 	.gallery,
@@ -2280,6 +2303,7 @@ footer {
 	
 	.support-armath {
 		border-bottom: 0;
+		height: 260px;
 	}
 	
 	.contact-us, .donate-block {
@@ -2387,8 +2411,7 @@ footer {
 	}
 
 	.slide-info {
-	    min-height: 100%;
-	    margin-top: 100px;
+	    min-height: auto;
 	    padding: 0 8px;
 	}
 
@@ -2430,6 +2453,10 @@ footer {
 	.p-info {
 	    margin-top: 50px;
 	    font-size: 18px;
+	}
+	
+	.gallery-items > * {
+	    width: 47%;
 	}
 }
 
@@ -2540,7 +2567,13 @@ footer {
 	.story-body p {
 	    -webkit-line-clamp: 6;
 	    line-height: 19px;
-    	font-size: 14px;
+    	    font-size: 14px;
+	    max-height: 114px;
+	}
+	
+	.story-body {
+	    margin-left: 17px;
+	    margin-right: 25px;
 	}
 
 	.join-armath {
@@ -2606,7 +2639,6 @@ footer {
 	    font-size: 17px;
 	}
 	
-	
 	#id_give_gift {
 	    margin-left: 0;
 	}
@@ -2625,6 +2657,10 @@ footer {
 		
 	.donate-form .office-address {
 	    text-align: center;
+	}
+	
+	.gallery-items > * {
+	    width: 46%;
 	}
 
 }
@@ -2652,11 +2688,29 @@ footer {
 	    margin-bottom: 0;
 	}
 
-	.description .armath-btn{
+	.description .armath-btn,
+	.more-info {
 	    font-size: 13px;
 	    line-height: 29px;
 	    padding: 0 7px;
 	    margin-top: 10px;
+	}
+	
+	.description .armath-btn {
+	    left: 10px;
+	}
+	
+	.header .swiper-button-next, .header .swiper-button-prev,
+	.featured-project .swiper-button-next, .featured-project .swiper-button-prev {
+	    width: 40px;
+	}
+	
+	.slide-title {
+	    margin: 0 40px;
+	}
+
+	.inner-page .post-right-side .company-activities .fa-angle-right {
+		margin-bottom: 7px;
 	}
 
 	.all-webinar {
@@ -2699,7 +2753,15 @@ footer {
 	}
 
 	.slide-info {
-	    margin-top: 44px;
+	    margin-top: 75px;
+	}
+	
+	.more-info {
+	    bottom:0; 
+	}
+	
+	.swiper-slide h1 {
+	    font-size: 20px;
 	}
 
 	.company-activities ul li .typlical-img{
@@ -2732,6 +2794,10 @@ footer {
 	.contact-us, .donate-block {
 	    font-size: 16px;
 	    line-height: 25px;
+	}
+	
+	.gallery-items > * {
+	    width: 100%;
 	}
 }
 

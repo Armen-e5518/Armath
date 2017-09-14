@@ -94,19 +94,21 @@ function GetArmroboticsAllEventsPageData(leng) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                res.events.forEach(function (val) {
-                    $('#id_all_events').append(
-                        '<li class="open-game">' +
-                        '<div class="typlical-img" style="background: url(' + img + val.assets.imgs[0].uuid + ');"></div>' +
-                        '<div class="company-logo"><a href="#"></a></div>' +
-                        '<div class="description">' +
-                        '<h2>' + val.title[leng] + '</h2>' +
-                        '<i class="fa fa-angle-right"></i>' +
-                        '<a  href="contest.html#' + val.title['en-us'] + '"  uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
-                        '</div>' +
-                        '</li>'
-                    )
-                })
+                res.events.forEach(function (val, index) {
+                        var href = (index == 0) ? 'event-armrobotics.html' : "contest.html#" + val.title['en-us'];
+                        $('#id_all_events').append(
+                            '<li class="open-game">' +
+                            '<div class="typlical-img" style="background: url(' + img + val.assets.imgs[0].uuid + ');"></div>' +
+                            '<div class="company-logo"><a href="#"></a></div>' +
+                            '<div class="description">' +
+                            '<h2>' + val.title[leng] + '</h2>' +
+                            '<i class="fa fa-angle-right"></i>' +
+                            '<a  href="' + href + '"  uuid="' + val.uuid + '" class="contest armath-btn join-webinar">' + Config.SpecificNames.go_to_event_page[leng] + '</a>' +
+                            '</div>' +
+                            '</li>'
+                        )
+                    }
+                )
             }
         }
     });
