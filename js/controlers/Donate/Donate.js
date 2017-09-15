@@ -20,10 +20,12 @@ w3.includeHTML(function () {
         $('#id_amd').html(Config.SpecificNames.amd[Config.language]);
     }, 200)
     $('#id_states').change(function () {
+        $('#id_school').html('')
         var uuid = $(this).val();
         GetRegionsByState(Config.language, uuid)
     });
     $('#id_regions').change(function () {
+        $('#id_school').html('')
         var uuid = $(this).val();
         GetSchoolsByRegions(Config.language, uuid)
     });
@@ -34,6 +36,10 @@ w3.includeHTML(function () {
         currency = $("#id_currency option:selected").attr('data-id')
         GetGiftsByCurrency(currency);
         SetAmountValue()
+    });
+    $('#id_schools').change(function () {
+        var uuid = $(this).val();
+        GetSchoolsBySchoolId(Config.language, uuid)
     });
 
     $(document).on('change', '.product-title input', function () {
@@ -46,7 +52,6 @@ w3.includeHTML(function () {
         $(this).val('')
         $('.product-title input').prop('checked', false)
     });
-
 
     $('#id_give_gift').click(function () {
         $('#id_donation_gifts').show().addClass('show-m').removeClass('hide-m');
@@ -307,4 +312,90 @@ function SetAmountValue() {
     if (amount == 0) {
         $('#id_amount').val('');
     }
+}
+
+function GetSchoolsBySchoolId(leng, uuid) {
+    if (uuid) {
+        $.ajax({
+            type: Config.request_type,
+            url: Config.domain + Config.Path + Config.api + uuid,
+            dataType: 'json',
+            success: function (res) {
+                if (res && res.hasOwnProperty('lab')) {
+
+                    $.ajax({
+                        type: Config.request_type,
+                        url: Config.domain + Config.Path + Config.api + res.lab.uuid,
+                        dataType: 'json',
+                        success: function (res_l) {
+
+                            var coach,
+                                tel,
+                                programs = '',
+                                img,
+                                name;
+                            if (res_l) {
+                                name = res_l.name[leng];
+                                img = res_l.slides[0].assets.imgs[0].uuid;
+                                $.ajax({
+                                    type: Config.request_type,
+                                    url: Config.domain + Config.Path + Config.api + res_l.coaches[0].uuid,
+                                    dataType: 'json',
+                                    success: function (res_c) {
+                                        if (res_c) {
+                                            coach = res_c.name[leng];
+                                            tel = res_c.phone_number;
+                                            if (res_l.technical_equipments.length > 0) {
+                                                res_l.technical_equipments.forEach(function (val_p, index) {
+                                                    $.ajax({
+                                                        type: Config.request_type,
+                                                        url: Config.domain + Config.Path + Config.api + val_p.uuid,
+                                                        dataType: 'json',
+                                                        success: function (res_p) {
+                                                            if (res_p) {
+                                                                programs += '<li data-id="' + val_p.uuid + '">' + res_p.title[leng] + '</li>'
+                                                                if (res_l.technical_equipments.length - 1 == index) {
+                                                                    $('#id_school').html(
+                                                                        GetHtml(res_l.name[leng], 0, coach, tel, programs, name, img)
+                                                                    );
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                })
+                                            }
+                                        }
+                                    }
+                                });
+                            }
+                        }
+                    })
+
+                }
+
+                else {
+                    $('#id_school').html(Config.SpecificNames.no_lab_text[leng])
+                }
+            }
+        });
+    }
+}
+
+function GetHtml(name, id, coach, tel, programs, name, img) {
+    return '<div class="post-item" data-id="' + id + '">' +
+        '<img src="' + Config.img + img + '" alt="">' +
+        '<div>' +
+        '<h2>' + name + '</h2>' +
+        '<p>' +
+        // '<strong>Address:</strong> Cereteli str. 65<br>' +
+        '<strong>' + Config.SpecificNames.coach[Config.language] + ':</strong> ' + coach + ', <a href="tel:' + tel + '">' + Config.SpecificNames.tel[Config.language] + ': ' + tel + '</a><br>' +
+        // '<strong>Number of students:</strong> 68' +
+        '</p>' +
+        '<p>' +
+        '<strong>' + Config.SpecificNames.equipment_programs[Config.language] + '</strong>' +
+        '</p>' +
+        '<ul class="facility-options">' + programs +
+        '</ul>' +
+        '</div>' +
+        '</div>'
 }

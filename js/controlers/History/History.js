@@ -125,11 +125,12 @@ function GetUuidByHash(leng) {
         success: function (res) {
             if (res) {
                 res.history_items.forEach(function (val, index) {
-                    console.log(UrlReplace(val.title['en-us']))
                     if (hash == UrlReplace(val.title['en-us'])) {
-                        console.log('okkk')
                         HistoryPageConfig.history_page_data = val.uuid;
                         Run();
+                    } else if (res.history_items.length - 1 == index && !HistoryPageConfig.history_page_data) {
+                        var href = location.protocol + "//" + document.domain;
+                        window.location.href = href;
                     }
                 })
             }

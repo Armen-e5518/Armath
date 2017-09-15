@@ -178,5 +178,9 @@
   "o_number": {
     "en-us": "Order number",
     "hy-am": "Գործարքի համար"
+  },
+  "no_lab_text": {
+    "en-us": "This school does not yet have laboratory․",
+    "hy-am": "Այս դպրոցում Արմաթ լաբորատորիա դեռևս չկա։"
   }
 }

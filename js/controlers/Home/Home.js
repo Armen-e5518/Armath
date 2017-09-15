@@ -17,11 +17,6 @@ w3.includeHTML(function () {
     }, 200)
     $('#id_home').addClass('active-nav');
     $('#id_foo_home').addClass('active-footer');
-    $(document).on('click', '.news-href', function () {
-        localStorage.setItem('news-uuid', $(this).attr('news-uuid'));
-        var href = location.protocol + "//" + document.domain + '/news.html';
-        window.location.href = href;
-    })
 });
 
 function GetHomeData(leng) {
@@ -131,10 +126,10 @@ function GetLatestNewsData(leng) {
                                 $('#id_lastest_news_lists').append(
                                     '<div class="stories-info">' +
                                     '<div class="story-img">' +
-                                    '<a news-uuid = "' + val.uuid + '" class="news-href"  ><img src="' + Config.img + res1.assets.imgs[0].uuid + '" alt=""></a>' +
+                                    '<a href="news.html#' + UrlReplace(res1.title['en-us']) + '" class="news-href"  ><img src="' + Config.img + res1.assets.imgs[0].uuid + '" alt=""></a>' +
                                     '</div>' +
                                     '<div class="story-body">' +
-                                    '<h4><a news-uuid = "' + val.uuid + '" class="news-href" ><span class="news-date"></span> ' + res1.title[leng] + '</a></h4>' +
+                                    '<h4><a href="news.html#' + UrlReplace(res1.title['en-us']) + '" class="news-href" ><span class="news-date"></span> ' + res1.title[leng] + '</a></h4>' +
                                     '<p>' + res1.publication_date + ' </p>' +
                                     '<p class="newa-text">' + res1.text[leng] + '</p>' +
                                     '</div>' +
