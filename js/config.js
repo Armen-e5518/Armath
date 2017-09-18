@@ -1,16 +1,19 @@
 var Config = {
     // 'domain': location.protocol + "//" + document.domain,
-    'domain': 'https://metax.leviathan.am:7071',
-    'api': 'get?id=',
+    'domain': 'https://metax.leviathan.am:7073',
+    // 'api': 'get?id=',
+    'api': '/',
     // 'Path': '/data/Json_data/',
-    'Path': '/db/',
-    'img': 'https://metax.leviathan.am:7071/db/get?id=',
+    // 'Path': '/db/',
+    'Path': '',
+    // 'img': 'https://metax.leviathan.am:7073/db/get?id=',
+    'img': 'https://metax.leviathan.am:7073/',
     'language': 'en-us',
     'load': false,
     'request_type': 'GET',
     'SpecificNames': {},
-    'order_url': 'https://metax.leviathan.am:7071/payment/arca/status?orderId=',
-    'contact_url': 'https://metax.leviathan.am:7071/sendemail',
+    'order_url': 'https://metax.leviathan.am:7073/payment/arca/status?orderId=',
+    'contact_url': 'https://metax.leviathan.am:7073/sendemail',
     'title_url': 'fca58498-436c-4bed-b71c-8f34684ab9b5',
     'images' : "9704ecd1-95dc-4e95-b757-a3075fa1d0f8"
 };
@@ -53,3 +56,5 @@ function UrlReplace(url) {
     url = url.replaceAll('"', '-')
     return url.replaceAll(' ', '-')
 }
+
+

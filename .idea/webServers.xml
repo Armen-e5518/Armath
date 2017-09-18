@@ -5,7 +5,7 @@
       <webServer id="09e66d1f-6d71-49a0-bcd7-0f76f11ef3a5" name="armath" url="http://apps.am">
         <fileTransfer host="apps.am" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
