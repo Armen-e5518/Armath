@@ -4,7 +4,7 @@
   font-family: 'DejaVuSansCondensed';
   font-style: normal;
   font-weight: 400;
-  src: local('DejaVuSansCondensed'), local('DejaVuSansCondensed'), url('css/fonts/dejavu/DejaVuSansCondensed.ttf') format('truetype');
+  src: local('DejaVuSansCondensed'), local('DejaVuSansCondensed'), url('DejaVuSansCondensed.ttf') format('truetype');
 }
 
 html,
