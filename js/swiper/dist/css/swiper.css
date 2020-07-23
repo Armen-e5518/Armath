@@ -75,6 +75,7 @@
 .swiper-slide {
   -webkit-flex-shrink: 0;
   -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   flex-shrink: 0;
   width: 100%;
   height: 100%;
@@ -374,6 +375,7 @@ button.swiper-pagination-bullet {
 .swiper-container-flip .swiper-wrapper {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px;
+  perspective: 1200px;
 }
 /* Cube + Flip */
 .swiper-container-cube,
@@ -502,6 +504,7 @@ button.swiper-pagination-bullet {
   border-radius: 10px;
   position: relative;
   -ms-touch-action: none;
+  touch-action: none;
   background: rgba(0, 0, 0, 0.1);
 }
 .swiper-container-horizontal > .swiper-scrollbar {
